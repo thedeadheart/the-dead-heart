@@ -1,0 +1,3729 @@
+# phpMyAdmin MySQL-Dump
+# http://phpwizard.net/phpMyAdmin/
+#
+# Host: localhost Database : mkelly
+
+# --------------------------------------------------------
+#
+# Table structure for table 'songs'
+#
+
+CREATE TABLE songs (
+   id_name varchar(60) NOT NULL,
+   full_name varchar(60) NOT NULL,
+   writers varchar(60) NOT NULL,
+   orig_ver varchar(60) NOT NULL,
+   ver_details mediumtext,
+   prod_details mediumtext,
+   lyrics mediumtext,
+   tab varchar(60),
+   UNIQUE id_name (id_name)
+);
+
+#
+# Dumping data for table 'songs'
+#
+
+INSERT INTO songs VALUES( 'antartica', 'Antartica', '3/2/8/1', 'Blue Sky Mining', 'Blue Sky Mining (1990)
+', 'Produced by Warne Livesey and Midnight Oil.
+Engineered by David Nicholas, assisted by Brendan Morley.
+Recorded at Rhino Studios, Sydney, 1989', 'I\'m a snow plough, I must now plow on, I\'m a snow plough, I\'m a settlers son
+I\'m a storm cloud, rain myself all over the place
+I\'m a storm cloud, gonna wipe that smile right off your face
+There must be one place left in the world
+Where the mountains meet the sea
+There must be one place left in the world
+Where the water\'s real and clean
+
+I\'m a landslide, I\'m a downhill run, I\'m a landslide, open season\'s just begun
+There must be one place left in the world
+Where the skin says it can breathe
+There gotta be one place left in the world
+It\'s a solitude of distance and relief
+There gotta be one place left in the world
+
+I\'m a short fuse, I\'m a slow blues
+I\'m a landslide humming, I\'m a downhill running
+There must be one place left in the world, where we can be', 'blue_sky_mining/antartica.htm');
+INSERT INTO songs VALUES( 'back_on_the_borderline', 'Back On The Borderline', '6/1/2', 'Head Injuries', 'Head Injuries (1979)
+Back On The Borderline (1979)
+20,000 Watt RSL (1997)
+', 'Produced by Leszek J. Karski. Engineered by Peter J. Walker. Recorded at Trafalgar Studios, Sydney, Jul/Aug 1979.', 'From the bar to the bedroom I\'m swimming in the neon
+Lighted pictures of a redhead, plasticoated hot on
+And sometimes when that mirror shows
+The smile of disbelief
+Stained signature of nightmares
+They\'re stolen by the thief
+
+I\'m back on the borderline
+Yes I\'m back on the borderline
+
+By the end make a bet and only place is laminex
+Laugh a lot cry a lot salt and pepper supper sex
+And sometimes when that magic of the moment
+Fails the test
+In retrospect that diamond day
+Did not make second best
+And sometimes when a thousand voices
+Tell you that you\'re wrong
+A saint in any form
+Becomes a sinner all along', 'None');
+INSERT INTO songs VALUES( 'arctic_world', 'Arctic World', '3/1', 'Diesel And Dust', 'Diesel and Dust (1987)
+Dreamworld single (Australia - 1987)', 'Produced by Warne Livesey and Midnight Oil
+Engineered by Guy Gray
+Recorded at Alberts Studios, Sydney', 'I don\'t wanna grow anything in my heart
+I don\'t want to write all these things in the sand
+I don\'t want to listen and not understand
+I don\'t want to tramp up the footpath of stars
+Don\'t want to be an advocate
+Don\'t want to be a monument
+
+There is nothing that grows in your arctic world
+
+I don\'t want to breathe that Smithsonian air
+I don\'t want to listen when they toll the bell
+\'Cos I can\'t take another industrial feast
+On the ground, on my back, out there
+I want to meet the president
+Of a country without sense
+
+There is nothing that grows in his arctic world
+There is nothing that grows in your arctic world
+There is nothing that grows in this arctic world', 'diesel_and_dust/arctic_world.htm');
+INSERT INTO songs VALUES( 'cemetery_in_my_mind', 'Cemetery In My Mind', '7', 'Redneck Wonderland', 'Redneck Wonderland (1998)
+Cemetery In My Mind promo single (1998)
+Cemetery In My Mind single (1998)', 'Album version produced by Warne Livesey and Midnight Oil. Recorded at Sing Sing Studios, Melbourne. Assistant engineers - Dave Davis and Matt Voigt. Mixed by Warne Livesey and Brent Clark at Sing Sing, 301 Sydney and b.j.g. London. Assistants at b.j.g - Alex Clark and James Wagstaff.', 'Locked in the mall in a state of fright
+Looking for salvation in a car headlight
+But you can\'t have what you can\'t buy
+
+Tomorrow is better than yesterday,
+Tomorrow is better than today,
+Tomorrow is better than yesterday they say
+
+Cemetery in my mind
+Cemetery in my mind
+This must be my time
+
+Wake work drink sleep retire
+Tide comes up way too high
+You can fall but can you rise
+
+Cemetery in my mind,
+You can fall but can you rise
+There\'s no pulse no sign of life,
+Cemetery in my mind', 'redneck_wonderland/cemetery_in_my_mind.html');
+INSERT INTO songs VALUES( 'bakerman', 'Bakerman', '2', 'Red Sails In The Sunset', 'Red Sails In The Sunset (1984)', 'Produced by Nick Launay and Midnight Oil
+Engineered and Mixed by Nick Launay
+Assistant Engineers: Shigeo Miyamoto, Yoshiyuki Kaneko
+String and Brass Arrangemnets: Kazufumi Ohhama and James Moginie', 'Instrumental', 'None');
+INSERT INTO songs VALUES( 'the_dead_heart', 'The Dead Heart', '2/3/1', 'Diesel And Dust', 'Diesel And Dust (1987, 1989 - 1)
+The Dead Heart single (1987 - 1,2,3)
+Blue Sky Mine single (1990 - 1)
+The Green Disc promo (1990 - 3)
+The Midnight Oil Collection promo (1993 - 1)
+20,000 Watt RSL (1997 - 1)
+Blackfella/Whitefella video (1992 - 4,5)
+20,000 Watt RSL DVD/Video (1997 - 4,5)
+
+Remixes:
+Extended Version (aka Long Version)
+Short Version With Intro', '1) Album version produced by Warne Livesey and Midnight Oil. Final Mix -  Nick Launay. Engineered by Greg Henderson.
+
+2) Extended (or Long) Version on The Dead Heart single and The Green Disc promo.
+
+3) Short Version With Intro on The Dead Heart single.
+
+4) Promo video clip on Blackfella/Whitefella video and 20,000 Watt RSL DVD/Video directed by Ray Argall/Midnight Oil.
+
+5) Live version on Blackfella/Whitefella video and 20,000 Watt RSL DVD/Video directed by Rob Stewart and Des Horne for the ABC Documentary of the Blackfella/Whitefella tour.', 'We don\'t serve your country
+Don\'t serve your king
+Know your custom don\'t speak your tongue
+White man came took everyone
+
+We don\'t serve your country
+Don\'t serve your king
+White man listen to the songs we sing
+White man came took everything
+
+We carry in our hearts the true country
+And that cannot be stolen
+We follow in the steps of our ancestry
+And that cannot be broken
+
+We don\'t need protection
+Don\'t need your land
+Keep your promise on where we stand
+We will listen we\'ll understand
+
+Mining companies, pastoral companies
+Uranium companies
+Collected companies
+Got more right than people
+Got more say than people
+
+Forty thousand years can make a difference to the state of things
+The dead heart lives here', 'diesel_and_dust/the_dead_heart.htm');
+INSERT INTO songs VALUES( 'put_down_that_weapon', 'Put Down That Weapon', '3/2/1', 'Diesel And Dust', 'Diesel And Dust (1987 - 1)
+Put Down That Weapon single (1988 - 1)
+20,000 Watt RSL DVD/Video (1997 - 2)', '1) Album version produced by Warne Livesey and Midnight Oil. Engineered by Guy Gray. Recorded at Alberts Studios, Sydney.
+
+2) Promo video clip directed by Martin Stauce and John Wilkinson and Midnight Oil.', 'Under the waterline
+No place to retire
+To another time
+The eyes of the world now turn
+
+And if we think about it
+And if we talk about it
+And if the skies go dark with rain
+Can you tell me will our freedom remain
+
+Put down that weapon or we\'ll all be gone
+You can\'t hide nowhere with the torchlight on
+And it happens to be an emergency
+Some things aren\'t meant to be
+Some things don\'t come for free
+
+Above the waterline
+Point the finger yeah point the bone
+It\'s the harbour towns
+That the grey metal ships call home
+
+And if we think about it
+And if we talk about it
+And if the seas go boiling black
+Can you tell me what you\'ll do about that
+
+Put down that weapon or we\'ll all be gone
+I must know something to know it\'s so wrong
+And it happens to be an emergency
+Some things aren\'t meant to be
+Some things don\'t come for free
+
+They keep talking about it
+They keep talking...
+
+Put down that weapon or we\'ll all be gone
+You must be crazy if you think you\'re strong', 'diesel_and_dust/put_down_that_weapon.htm');
+INSERT INTO songs VALUES( 'say_your_prayers', 'Say Your Prayers', '3', 'Liberdade', 'Liberdade (East Timor benefit album) (1999)', 'Produced by Daniel Denholm and Midnight Oil
+Recorded and Mixed by Daniel Denholm
+Additional Engineering by Brent Clark
+Recorded at Festival Studios - November 1999
+Assisted by Matt Lovell
+Mixed at Alberts Studios - November 1999
+Assisted by Fabian Weston
+Brass arranged by Jim Moginie/Daniel Denholm
+Additional Musicians : Stewart Kirwan - Trumpet, Andrew Bickers - Tenor Sax, Anthony Kable - Trombone
+Mastered by Steve Smart @ Studios 301, Sydney', 'Don\'t want to live in a prison cell
+Don\'t want to live in smoking ruin
+Independance just don\'t come to you
+In the brief of a diplomat
+
+Say your prayers for the future
+Say your prayers for the past
+It might be round the corner
+It might be all we have
+Say your prayers
+
+Couldn\'t live with a compromise
+Couldn\'t live with hypocrisy
+Beaurocracy it doesn\'t have to win
+Break the cage of the beast within
+
+Say your prayers in the boardroom
+Say your prayers on the stairs
+It might be catastrophic
+It might be too damn bad
+Say your prayers
+
+I got the cure for the passion fatigue
+Spend a week with the Timorese
+Running scared from the military
+You can share, you can share your disease
+
+Now we won\'t live with an absent master
+Couldn\'t live on an island divided
+Don\'t want my kids to grow up in shame
+In a country with a different name
+Had to throw them out
+Had to break the chains,
+
+Say your prayers for the future
+Say your prayers for the past
+It might be round the corner
+It might be all we have
+Say your prayers
+
+I got the cure for the passion fatigue
+Spend a week with the Timorese
+Running scared from the military
+I come to you with a plaintive plea', 'None');
+INSERT INTO songs VALUES( 'powderworks', 'Powderworks', '2/3/8/6', 'Midnight Oil', 'Midnight Oil (1978 - 1)
+The Green Disc promo (1990 - 1)
+Scream In Blue - Live (1992 - 2)', '1) Album version produced by Keith Walker (Marlyn Productions) and Midnight Oil. Engineered by Keith Walker. Album recorded and mixed at Albert\'s Studios, Sydney, Sep 1978.
+
+2) Live version from Scream In Blue - Live recorded at the Capitol Theatre, Sydney, Nov 1982. Produced by Midnight Oil and Keith Walker. Engineered by Keith Walker and Ian Davies.
+Note that this version is credited to Hirst/Moginie/Rotsey/Garrett/James.', 'There\'s a shit storm a\'coming
+I feel it coming soon
+There\'s a time and a place
+And a moment in space
+When the fat boys call the tune
+There\'s a bubble a bouncing
+And it\'s bouncing my way
+There\'s two sticks in the powderworks
+I think it\'s gonna blow today
+
+There\'s a shit storm a\'coming
+Somebody\'s claiming some i.o.u.\'s
+Because the animal\'s back
+With the man intact
+They had a gun at my head
+And a knife at my back
+Don\'t wind me up too tight
+I\'ve been had by the balls all my life
+I\'m in no mood now
+To stop dead and talk it over
+
+I don\'t need no fire and brimstone warning
+I\'ve been a long time punching bag
+I won\'t run no race where there ain\'t no prize
+Take a look at my face
+Can\'t you see this ain\'t no lies
+
+There\'s a shit storm a coming
+They\'re getting in for one free bite
+I was taken by surprise
+By the glint in the eyes of a sweet campaign
+Smelling strongly of lies
+You\'re the original Mr. Clean
+But the closeups make you look awful mean
+You\'re just a con man raving saying nothing new', 'blue_album/powderworks.htm');
+INSERT INTO songs VALUES( 'armistice_day', 'Armistice Day', '2/3/8', 'Place Without A Postcard', 'Place Without A Postcard (1981)
+Armistice Day single (Australia - 1981)
+Armistice Day single (Australia - 1990)', 'Produced and recorded by Glyn Johns, Jun/Jul 1981. Assistant engineer Sean Fullen', 'You\'re watching people fighting, you\'re watching people losing
+On Armistice Day
+The watchers do the wincing, reporters so convincing
+But the TV never lies
+I went looking for a war, but the only guns I saw
+Never used in anger
+
+You\'re watching people fight, say they fight, oh say they lose
+On Armistice Day
+
+The fixers do the fixing, the locals do the lynching
+The papers deny
+I went looking for a headline, got talking to the backline
+They\'d never seen the action', 'None');
+INSERT INTO songs VALUES( 'basement_flat', 'Basement Flat', '8/1/3', 'Place Without A Postcard', 'Place Without A Postcard (1981)
+Forgotten Years single (Austria 1990)', 'Produced and recorded by Glyn Johns, Jun/Jul, 1981. Assistant engineer Sean Fullen.', 'Must be time for a second chance
+I can\'t escape this basement flat
+Writers cramp and claustrophobia
+
+Must be time for a better place
+My sink leaks and the rats have won the race
+Over and over
+
+What, can I do
+There must be some solution
+
+Must be time for a new idea
+Pack up my things and get away from here
+They\'re never gonna trace me
+People upstairs make so much noise
+Drive me mad with their electrical toys
+Louder and louder', 'None');
+INSERT INTO songs VALUES( 'bedlam_bridge', 'Bedlam Bridge', '2', 'Blue Sky Mining', 'Blue Sky Mining (1990)
+Bedlam Bridge single (Australia, Austria - 1990)
+20,000 Watt RSL DVD/video (1997)', 'Produced by Warne Livesey and Midnight Oil. Engineer - David Nicholas. Assistant Engineer - Brendan Morley.
+Recorded in Sydney, 1989 at Rhino
+Keyboards - Warne Livesey; French Horn - Jeremy Smith; String Leader - Philip Hart; Horn swells - Glad and Garf ', 'In this city with no footpath there\'s a building with no people
+There is crime and gun decisions
+There\'s a street of heat and hawkers, there\'s a house of hope drifters
+There\'s a gang that shoots then listens
+There\'s a place that knows no poverty, a town without pollution
+There\'s a soul with good intentions
+There are canyons full of movie stars, churches made of metal
+There are mountains made of muscle
+We have leaders who are anxious, we have captains not courageous
+Captains tumbling into madness
+But there\'s a main who makes no enemies, a body never breathless
+No ambition ever hopeless
+
+Up on bedlam bridge somebody is waiting
+Up on bedlam bridge I\'m shot to heaven
+Oh, up on bedalm bridge, waiting
+
+In these locked and shackled neighbourhoods, bridge and tunnel diplomats
+See the golden ghetto\'s creeper
+Crazy flags from history, songs for the White House gangsters
+Guns for hellgate railway sleepers
+But there\'s a main who makes no enemies, a body never breathless
+No ambition ever hopeless
+So how stands the city on this winters night?
+The city on the hill or so they said
+The snow is falling down around the armoury
+The city\'s closing in around my head
+
+Up on bedlam bridge...
+
+Drive, won\'t you drive the engines harder, drive
+Drive, won\'t you turn the engines over, drive', 'blue_sky_mining/bedlam_bridge.htm');
+INSERT INTO songs VALUES( 'beds_are_burning', 'Beds Are Burning', '2/3/1', 'Diesel And Dust', 'Beds Are Burning single (1987, 1989 - 1)
+Diesel and Dust (1987, 1989 - 1)
+Blue Sky Mine single (UK 1990 - 1)
+The Green Disc promo (1990 - 2)
+Scream In Blue - Live (1992 - 3)
+Truganini single (1993 - 3)
+The Midnight Oil Collection (1993 - 1)
+20,000 Watt RSL (1997 - 1)
+Blackfella/Whitefella (1992 - 4)
+20,000 Watt RSL DVD/video (1997 - 4,5)
+
+Remixes:
+Kintore East Mix
+Kintoris Mix
+Instrumental Ayers Rock Mix
+Luongo 7\" Mix
+Percapella Kangaroo Mix
+Tamarama Mix
+Yuendemu Percapella Mix', '1) Album version produced by Warne Livesey and Midnight Oil. Engineered by Guy Gray. Recorded at Alberts Studios, Sydney
+
+2) Tamarama Mix remixed and edited by John Luongo for \"The Office, Inc.\" Remix engineer - Gary Hellman. Assistant Engineer - John Magnusson.
+
+3) Live version from Scream In Blue - Live and Truganini single produced by Midnight Oil and Keith Walker. Engineered by Keith Walker and David Bates. Assistant Engineer - Kath Naughton.
+
+4) Promo video clip on Blackfella/Whitefella video and 20,000 Watt RSL DVD/Video recorded on the Blackfella/Whitefella tour of central Australia and Northern Territory in 1986.
+
+5) Promo video clip on 20,000 Watt RSL DVD/Video directed by Andrew de Groot and Midnight Oil.
+
+John Luongo probably also responsible for Luongo 7\" Mix', 'Out where the river broke
+The bloodwood and the desert oak
+Holden wrecks and boiling diesels
+Steam in forty five degrees
+
+The time has come
+To say fair\'s fair
+To pay the rent
+To pay our share
+The time has come 
+A fact\'s a fact
+It belongs to them
+Let\'s give it back
+
+How can we dance when our earth is turning
+How do we sleep when our beds are burning
+
+Four wheels scare the cockatoos
+From Kintore East to Yuendemu
+The western desert lives and breathes
+In forty five degrees', 'diesel_and_dust/beds_are_burning.htm');
+INSERT INTO songs VALUES( 'bells_and_horns_in_the_back_of_beyond', 'Bells And Horns In The Back Of Beyond', '7', 'Red Sails In The Sunset', 'Red Sails in The Sunset (1984)', 'Produced by Nick Launay and Midnight Oil
+Engineered and Mixed by Nick Launay
+Assistant Engineers: Shigeo Miyamoto, Yoshiyuki Kaneko
+Recorded/mixed at Victor Aoyama Studio, Tokyo June/August 1984', 'The Southern Aurora was late again
+As I waited at central to take you home
+Winking spinning sparkling lights on our flat earth
+You talk about the old groundling ways
+Where the suburbs summer pulse and play in wrinkled sand and
+never never never neverland
+I get home I see them drive down
+I look out and see those lines and lines and lines of swell and smiles
+Coolangatta, what\'s the matter?
+Paradise, it\'s a surfer\'s world and flashing lights and real estate
+With one last wave
+Ahhh, get up and run
+\'Cause there\'s a beach lies quiet near the open sea
+And a carpark lay stretched where the bindis used to be
+When will I be yours
+When will I be mine', 'None');
+INSERT INTO songs VALUES( 'best_of_both_worlds', 'Best Of Both Worlds', '2/3', 'Red Sails In The Sunset', 'When The Generals Talk single (1984)
+Red Sails In The Sunset (1984)
+Best Of Both Worlds single (1985)
+The Green Disc promo (1990)
+20,000 Watt RSL (1997)
+20,000 Watt RSL DVD/Video (1997)', 'Produced by Nick Launay and Midnight Oil. Engineered and Mixed by Nick Launay. Assistant Engineers - Shigeo Miyamoto, Yoshiyuki Kaneko. Recorded and mixed at Victor Aoyama Studio, Tokyo Jun/Aug, 1984. String and Brass Arrangements by Kazufumi Ohhama and James Moginie.', 'You say times are tough
+We\'ve got the best of both worlds here
+Things are rough
+We\'ve got the best of both worlds here
+Times are tough
+We\'ve got the best of both worlds
+
+The real world is not as calm as it appears to be from here
+The old world is not as safe with the new world closing in
+The great south land can be as great as the one it could have been
+The one it could have been
+
+The real world is not as calm as it appears to be from here
+The small world is not as strong and the testing ground is near
+The old world is not as strong as the one we could have seen
+The great south land can be as great as the one it could have been 
+The one it could have been
+
+We\'ve got the best of both worlds', 'None');
+INSERT INTO songs VALUES( 'blossom_and_blood', 'Blossom And Blood', '2/3', 'Species Deceases', 'Species Deceases EP (1985)
+The Dead Heart single (1987)
+Blue Sky Mine single (1990)', 'Produced by Midnight Oil and Francois Kevorkian.
+Engineered by David Price. Assisted by Tom Colley.
+Mixed by Midnight Oil and David Price.
+Recorded at Paradise Studios, Darlinghurst, September 1985.', 'You the mothers who sent your sons
+Wipe away your tears
+For those who fought and those who fell
+Become our sons as well.
+
+You the warriors with your words
+Throw away your spears
+You talk of times of peace for all
+And then prepare for war.
+All the people with dreams, all mothers with sons
+All people with dreams never woken at night by the sound of guns.
+Like a child that\'s born on a moonless night
+Like a child that\'s born, we parachute down to an unknown fight.
+
+This city of blossom and blood
+This city suffered more than it should
+These sidewalk silhouettes not washed away, not washed away.
+
+Whatever you\'ve done, whatever you\'ve done, whatever you\'ve done.
+
+There\'s a hope in the heart says never again.
+Whatever you say, whatever you say, whatever you say
+It\'s the price of peace to remember that day.', 'miscellaneous/blossom_and_blood.htm');
+INSERT INTO songs VALUES( 'blue_sky_mine', 'Blue Sky Mine', '7', 'Blue Sky Mining', 'Blue Sky Mine single (1990 - 1)
+Blue Sky Mining (1990 - 1)
+Forgotten Years single (1990 - 4)
+Black Rain Falls video (1990 - 2)
+The Green Disc promo (1990 - 4)
+The Midnight Oil Collection promo (1993 - 1)
+In The Valley single (1993 - 3)
+20,000 Watt RSL (1997 - 1)
+20,000 Watt RSL DVD/video (1997 - 5)
+
+Remixes:
+Food On The Table Mix', '1) Album version produced by Warne Livesey and Midnight Oil. Engineer - David Nicholas; Assistant Engineer - Brendan Morley. Recorded in Sydney, 1989 at Rhino Studios. Additional Keyboards by Warne Livesey
+
+2) Black Rain Falls version directed by Larry Jordan and produced by John Diaz for Calhoun Productions. Engineered by Dave Hewitt. Filmed outside Exxon building, New York, NY, May 30th 1990.
+
+3) In The Valley version recorded live at Ronnie Scott\'s, London, 23rd June, 1993. Produced by Mike Walter and Nick Launay.
+
+4) Food On The Table Remix by Nick Launay.
+
+5) Video from 20,000 Watt RSL filmed in 1990, and directed by Claudia Castle and Midnight Oil.', 'Hey, hey-hey hey
+There\'ll be food on the table tonight
+Hey, hey, hey hey
+There\'ll be pay in your pocket tonight
+
+My gut is wrenched out it is crunched up and broken
+A life that is led is no more than a token
+Who\'ll strike the flint upon the stone and tell me why
+If I yell out at night there\'s a reply of bruised silence
+The screen is no comfort I can\'t speak my sentence
+They blew the lights at heaven\'s gate and I don\'t know why
+
+But if I work all day at the blue sky mine
+(There\'ll be food on the table tonight)
+Still I walk up and down on the blue sky mine
+(There\'ll be pay in your pocket tonight)
+
+The candy store paupers lie to the share holders
+They\'re crossing their fingers they pay the truth makers
+The balance sheet is breaking up the sky
+So I\'m caught at the junction still waiting for medicine
+The sweat of my brow keeps on feeding the engine
+Hope the crumbs in my pocket can keep me for another night
+And if the blue sky mining company won\'t come to my rescue
+If the sugar refining company won\'t save me
+Who\'s gonna save me?
+
+But if I work all day...
+
+And some have sailed from a distant shore
+And the company takes what the company wants
+And nothing\'s as precious, as a hole in the ground
+
+Who\'s gonna save me?
+I pray that sense and reason brings us in
+Who\'s gonna save me?
+We\'ve got nothing to fear
+
+In the end the rain comes down
+Washes clean, the streets of a blue sky town', 'blue_sky_mining/blue_sky_mine.htm');
+INSERT INTO songs VALUES( 'brave_faces', 'Brave Faces', '3/1', 'Place Without A Postcard', 'Place Without A Postcard (1981 - 1)
+The Green Disc promo (1990 - 1)
+Scream In Blue - Live (1992 - 2)', '1) Album version produced and recorded by Glyn Johns. Assistant Engineer - Sean Fullen. Recorded Jun/Jul 1981.
+
+2) Live version from Scream In Blue - Live recorded at the Capitol Theatre, Sydney, Nov 1982. Produced by Midnight Oil and Keith Walker. Engineered by Keith Walker and Ian Davies.', 'I\'ve seen faces in the window
+I\'ve seen faces in the street
+They walk and talk of nothing
+I\'ve known many restless summers
+The sand dunes I imagine
+A place without a postcard
+Flower people were so beautiful
+But straight and loud\'s the way
+Good luck the beatnik spirit
+The talk of politicians
+The sentences of cynics
+Are the sentences of childhood
+
+They\'re all talking shit to me
+
+Out-talked by the mass media
+to pay the bills it lies
+And the lies we eat for breakfast
+Brave faces face the boardroom
+the oak stained walls fall silent
+They leave lined with defeat
+
+And they got those tears in their eyes
+Well it makes no sense to me
+
+Why don\'t they understand
+We\'re so ordinary too
+I saw the exits closing now
+Pain and passion\'s my point of view
+Well there\'s nothing like the truth
+
+I\'ve seen men that have been marked out
+Ruled out by grim assassins
+They fell hard on instant replay
+And I\'m never going there Well the place I see so much better
+Cos it makes no sense to me
+I saw the exits closing now
+Burning mountains, burning paper
+Burning all around and later', 'place_without_a_postcard/brave_faces.htm');
+INSERT INTO songs VALUES( 'bullroarer', 'Bullroarer', '2/3/1', 'Diesel And Dust', 'Diesel and Dust (1987, 1989)', 'Produced by Warne Livesey and Midnight Oil. Engineered by Guy Gray. Recorded at Alberts Studios, Sydney.', 'In the desert in the dry
+Before the breaking of the rain
+The temperature in the shade
+Had reached a hundred and ten again
+
+In the desert in the dry
+On the overland telegraph line
+Don\'t take the law into your own hands
+Don\'t go looking for a fight
+
+I\'ve heard the bullroarers
+
+In the desert in the dry
+Sun sits so high
+Long day\'s mile and the
+Radio crackles and the bones bleached white
+
+It\'s a knock-em-down storm
+See the tin roof shake
+Wild dog howls and the long grass
+Whistles and the tall trees break
+
+I\'ve seen the wild horses
+I\'ve heard the bullroarers
+I\'ve seen the wild horses
+
+Shifting sands and broken plans
+Lead me on to my homeland', 'diesel_and_dust/bullroarer.htm');
+INSERT INTO songs VALUES( 'burnie', 'Burnie', '3/1', 'Place Without A Postcard', 'Place Without A Postcard (1981 - 1)
+Scream In Blue - Live (1992 - 2)', '1) Album version produced and recorded by Glyn Johns, Jun/Jul, 1981. Assistant engineer Sean Fullen.
+
+2) Live version on Scream In Blue-Live - recording details unknown.', 'Brought up in a world of changes
+Part time cleaner in a holiday flat
+Stare out to sea at the ships at night
+No anaesthesia, I\'m gonna work on it day to day
+No zephyr no light relief it seems
+
+But maybe it\'s a dream
+I\'m lying back in a row of timber cases placed out
+On the dock with nightmare faces looking at me
+And I can see now, and I wanna be free now
+
+This is my home
+This is my sea
+Don\'t paint it with the future, of factories
+I want to stay, I feel okay
+There\'s nothing else as perfect
+I\'ll have my way
+
+Brought up in a world of changes
+Waste product, pedestrian, limb from limb
+Short changed by the surfing priest again
+Two children in the harbour
+They play their game stormwater drain
+Write their contract in the sand, it\'ll be gray for life
+
+But you can draw the blind
+But you can\'t stop the sun
+From shining on and on and getting you there
+Tide forever beckons you to leave
+But something holds you back
+It\'s not the promise of the swell or a girl
+Just a hope that someday someway it\'ll be okay
+So you stop and say
+
+This is my home
+This is my sea
+Don\'t paint it with the future of factories
+This is my life
+this is my right
+I\'ll make it what I want to
+I\'ll stay and I\'ll fight', 'place_without_a_postcard/burnie.htm');
+INSERT INTO songs VALUES( 'bushfire', 'Bushfire', '1/3', 'Earth And Sun And Moon', 'Truganini single (1993)
+Earth And Sun And Moon (1993)
+The Midnight Oil Collection promo (1993)', 'Produced by Nick Launay and Midnight Oil. Recorded by Brent Clark and Nick Launay. Mixed by Nick Launay.
+
+The version on the Truganini single is slightly different in that it doesn\'t start over the fade out of Truganini, as the album version does. Also the Truganini single has a longer and noisier fade-out on the album version.', 'In my shoes, in my shoes
+There is so much to remind me
+As the stars come out above me, home
+
+Cool wind, clear my head
+Bright sun grow my food
+Strong rain clear my heart
+Fill my land
+It\'s a new day
+
+I don\'t know why it is sold
+Don\'t know why it\'s so cold
+In this life that we live
+
+New day, new day, new day
+
+In my shoes, in my shoes
+There is so much to astound me
+As the whirlpool spins around me, home
+
+Bushfire, burn and grow
+Sunset watch and rest low
+Long night holding child close, feed my dream
+
+It\'s a new day
+
+I don\'t know why it is sold
+Don\'t know why it\'s so cold
+In this life that we live
+
+New day new day new day
+
+It\'s larger than life, darker than death
+We\'re gonna move those mountains aside
+
+Here come the messages', 'earth_and_sun_and_moon/bushfire.htm');
+INSERT INTO songs VALUES( 'barest_degree', 'Barest Degree', '7', 'Breathe', 'Barest Degree (1996)', 'Produced by Malcolm Burn and Grant Pudig at Darling Harbour Studios, Sydney on the Woodheap Mobile. Technical Assistance by Greg Cameron. Recorded on May/Jun 1996.
+Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996.
+Additional Hammond Organ and vocals by Malcolm Burn.', 'I am gone, can\'t waste more time
+I said, not quite joking
+The fire has gone the big trees stand
+The underground is smoking
+
+Remember nothing you\'ve been told
+Means anything to me
+And everything you hold is mine
+In the barest degree
+
+I walked up to the park
+The lion rock was weeping
+I walked on to the grave
+The lizard king was sleeping
+
+Remember nothing you\'ve been told...
+
+The day\'s draw long, too long to count
+Cushioned by the wasting
+Restless age, the rusted temple
+A place of my own making
+
+No matter what else you\'ve been told
+It\'s still all up to me
+And everything you own, is mine
+In the barest degree, in the barest degree', 'breathe/barest_degree.htm');
+INSERT INTO songs VALUES( 'blot', 'Blot', '7', 'Redneck Wonderland', 'Redneck Wonderland (1998)', 'Produced by Magoo and Midnight Oil. Recorded at Sing Sing Studios, Melbourne. Assistant engineers - Dave Davis and Matt Voigt. Mixed by Magoo at Sing Sing, 301 Sydney and b.j.g. London. Assistants at b.j.g - Alex, Clark and James Wagstaff.', 'Welcome stranger listen in
+The presumption of innocence was buried again
+Carve up-selloff
+Triumphalism gotta be a curse or even worse
+It\'s inherited it\'s recurring, oh God
+
+I have walked I have swum I\'ve hitchhiked and
+I\'ve run do you know what I mean
+I have sat with my beer in the EH drive in do you
+Know what I\'ve seen
+
+The triumphalist and narcissist are joined ear
+And hip and phone
+They\'re worshipping their chrome
+Carve up-selloff
+Some people speak with chainsaw tongue,
+Some just golden arches smile
+Some relish others suffering, some just run and hide
+
+I have dreamed I have schemed I have made
+Myself clean do you know what I mean
+I have sat I have strayed got caught up
+And I prayed do you know what I\'ve seen
+
+The story\'s just the same but the ending it can change
+He wants to build a monument it\'s everlasting in cement
+It\'s cellular recombinant he is not lite he will not die
+Carve up-selloff
+Gonna pick up all the pieces they\'re available from species
+
+
+With all the goat and all the sheep and all the 
+Human bits and pieces but he\'ll make you
+Sign the dna releases ... welcome ...
+In the year of the reign of the real citizen kane,
+Wilkommen, the squeeze is on, it\'s a falling down on thou & I ...', 'redneck_wonderland/blot.html');
+INSERT INTO songs VALUES( 'bring_on_the_change', 'Bring On The Change', '7', 'Breathe', 'Breathe (1996)', 'Produced by Malcolm Burn and Grant Pudig at Darling Harbour Studios, Sydney on the Woodheap Mobile. Technical Assistance by Greg Cameron. Recorded on May/Jun 1996. Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996.', 'Here comes the angel of death
+You may not remember her yet
+Concrete all over her face
+Child bride of the human race
+
+Until you see life in the forest
+Until you hear you’ve been abolished
+Forget everything that you think you’ve been promised
+Bring on the change
+
+Sunscreen all over your face
+Chatswood wasn’t built in a day
+Mysteries are in this game, I say
+Shine on, take me away
+
+Heads in the bank, hearts in the closet
+Soul’s out to lunch, will soon be upon us
+We believe everything that we see, let’s be honest
+And bring on the change
+
+Lift up your eyes, look to the heavens
+Could be a sign, or a seven-eleven
+Some day we’ll see everything they’ve been selling
+Bring on the change c’mon, c’mon
+Bring on the change, I say
+You gotta bring on the change', 'None');
+INSERT INTO songs VALUES( 'cold_cold_change', 'Cold Cold Change', '2/3', 'Head Injuries', 'Cold Cold Change single (1979 - 1)
+Head Injuries (1979 - 1)
+20,000 Watt RSL DVD/Video (1997 - 2)', '1) Produced by Leszek J. Karski. Engineered by Peter J. Walker. Recorded at Trafalgar Studios, Sydney, Jul/Aug, 1979. 
+
+2) Video from 20,000 Watt RSL filmed  at Channel 7, Australia.', 'Cold cold change, we were so excited
+But you came and went so soon
+Cold cold change, we were not invited
+We smiled all the while we were taken in
+
+Cold cold change, bringing in the winter
+Freezing up the water, closing up the mind
+One more danger, gonna have to deal with
+One last moment fading all the time
+
+But no lasting change, well we were turned around
+We jumped in the air to see over the wall
+No master plan, it\'s a bad design
+Significant time in spite of us all
+
+Cold cold change, we were so excited
+Waiting on the outside, waiting to begin
+Left us all angry and bewildered
+Laughing at the way we were taken in
+
+You better lock the door, turn it off (the light)
+We\'ll leave the nights alone, better keep me hoping
+That the change is over, the ice is gone
+And when the weather\'s warmer you can hear me shouting yeah', 'None');
+INSERT INTO songs VALUES( 'comfortable_place_on_the_couch', 'Comfortable Place On The Couch', '7', 'Redneck Wonderland', 'Redneck Wonderland (1998)', 'Produced by Magoo, Warne Livesey and Midnight Oil. Recorded at Sing Sing Studios, Melbourne. Assistant engineers - Dave Davis and Matt Voigt.
+Mixed by Warne Livesey at Sing Sing, 301 Sydney and b.j.g. London. Assistants at b.j.g - Alex Clark and James Wagstaff.
+Violin by Hope Csutoros.', 'Comfortable suburban home
+Too afraid to go out on your own
+Comfortable place on the couch
+Natures a stranger keep it out 
+Haul away
+
+So you got coastline for fence
+It could be your first line of defence
+You\'ll never be ready for this
+Ignorance is bliss haven\'t you heard 
+Haul away
+
+Give me your sermon on the mount
+Give me your final account
+Your house is so blissfully calm
+I\'ll bury you down at the farm 
+Haul away
+
+They say the truth is what you see
+I know the truth is what you feel', 'redneck_wonderland/comfortable_place_on_the_couch.html');
+INSERT INTO songs VALUES( 'common_ground', 'Common Ground', '7', 'Breathe', 'Breathe (1996)', 'Produced by Malcolm Burn and Grant Pudig at Darling Harbour Studios, Sydney on the Woodheap Mobile. Technical Assistance by Greg Cameron. Recorded on May/Jun 1996.
+Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996.
+Additional guitar and accordian by Malcolm Burn', 'These are not dispassionate words of the cool
+The headline still rules the editor’s a fool
+Shall we douse out the flames or will everybody fuse
+And leave us stranded here tomorrow
+I heard a calling out, a cry from the heart
+From the towns of cement and the beauty
+A whisper its turned howl, man he didn’t know
+He was standing waiting for tomorrow
+
+Nothing’s left, nothing’s found, there must be some common ground
+
+I could never figure the calendars flow
+Nor can I work out how the wild, wild wind blows
+But we’re ready from within and we’re starting to go
+Away from the place of no tomorrow
+
+Nothing’s left, nothing’s found, there must be some common ground
+Nothing’s left, (???)   I see there must be some common ground
+
+Oh the wrecking fields are a terrible place 
+With a sulphurous smell and a frightening pace
+And the Hook goes early and the critic is king 
+It’s hard to stay human and stand in the ring 
+
+There’s no time to be absent, a clown or a fool
+While Shylock is smiling we’re loaded like mules
+If we surrender ourself to industrial rules
+We’ll wake up in the wreckage of tomorrow
+Now
+
+Nothing’s left, nothing’s found, there must be some common ground
+Nothing’s left, something’s found, can we see some common ground', 'None');
+INSERT INTO songs VALUES( 'concrete', 'Concrete', '7', 'Redneck Wonderland', 'Redneck Wonderland (1998)', 'Produced by Warne Livesey and Midnight Oil. Recorded at Sing Sing Studios, Melbourne. Assistant engineers - Dave Davis and Matt Voigt.
+Mixed by Warne Livesey at Sing Sing, 301 Sydney and b.j.g. London. Assistants at b.j.g - Alex Clark and James Wagstaff', 'In the city the heart still whispers
+Flaking metal a silent witness
+There\'s chemical fields and cathode clouds
+The milky way is emasculated as exhaust fans
+And smart cards shrink wrap the coloured air
+And send it coughing to eternity
+We can see the bright light but we can\'t reach it
+We are not afraid enough to call
+Go back wrong way you cannot stay you cannot live here
+
+Concrete you don\'t free my soul
+
+In the city the sound is biting
+Cement fingers they are clutching
+The emissary of trash decorates the way
+No wild acres you can see, yearning to breathe
+Concrete you don\'t free my soul
+Blackened hands and heart of steel,
+No wish to consume, embellish, discard and expire
+
+Concrete you don\'t free my soul
+
+Concrete you don\'t free my soul', 'None');
+INSERT INTO songs VALUES( 'dont_wanna_be_the_one', 'Don\'t Wanna Be The One', '2/1/8/3', 'Place Without A Postcard', 'Don\'t Wanna Be The One single (1981)
+Place Without A Postcard (1981)
+The Green Disc promo (1990)
+Forgotten Years single (1990)
+King Of The Mountain single (1990)
+20,000 Watt RSL (1997)', 'Produced and recorded by Glyn Johns, Jun/Jul, 1981. Assistant engineer Sean Fullen', 'I\'m an innocent victim, I\'m just like you
+We end up in home units with a brick wall view
+I can\'t believe the perfect families on my colour TV
+If I don\'t make it to the top it\'ll never bother me
+
+And I don\'t wanna be the one
+I don\'t wanna be the one
+
+I\'m an innocent bystander caught in the path
+waiting out the back while the corporate attack
+Assaults the senses with relentless scenes of passion and delight
+I cut up all the options and went running for my life', 'None');
+INSERT INTO songs VALUES( 'dreamworld', 'Dreamworld', '3/1/2', 'Diesel And Dust', 'Diesel And Dust (1987, 1989 - 1)
+Dreamworld single (1987 - 1)
+King Of The Mountain single (1990 - 1)
+Scream In Blue - Live (1992 - 2)
+Truganini single (1993 - 2)
+20,000 Watt RSL (1997 - 1)
+Black Rain Falls video (1990 - 3)
+20,000 Watt RSL DVD/video (1997 - 4)', '1) Album version produced by Warne Livesey and Midnight Oil. Engineered by Guy Gray. Recorded at Alberts Studios, Sydney.
+
+2) Live version on Scream In Blue - Live and Truganini single recorded at Brisbane Boondall Centre in 1990. Produced by Keith Walker and Midnight Oil. Engineered by Keith Walker and Phil Draculus. Metropolis Mobile by Steve Pyle.
+
+3) Live version on Black Rain Falls recorded before the Exxon Buildings, 6th Avenue, New York, NY, on 30th May 1990. Directed by Larry Jordan. Produced by John Diaz for Calhoun Productions. Engineered by Dave Hewitt.
+
+4) Video clip from 20,000 Watt RSL DVD/video directed by Andrew de Groot, Paul Elliot and Midnight Oil.', 'The Breakfast Creek Hotel is up for sale
+The last square mile of terra firma gavelled in the mail
+So farewell to the Norfolk Island pines
+No amount of make believe can help this heart of mine
+
+End - your dreamworld is just about to end
+Fall - your dreamworld is just about to fall
+Your dreamworld will fall
+
+So shut that buckle and turn that key again
+Take me to a place they say the dreaming never ends
+Open wide drive that mystery road
+Walk through eden\'s garden and then wonder as you go
+
+Sign says honeymoon to rent
+Cloudland into dreamland turns
+The sun comes up and we all learn
+Those wheels must turn', 'diesel_and_dust/dreamworld.htm');
+INSERT INTO songs VALUES( 'drop_in_the_ocean', 'Drop In The Ocean', '7', 'Redneck Wonderland', 'Redneck Wonderland (1998)', 'Produced by Magoo, Warne Livesey and Midnight Oil. Recorded at Sing Sing Studios, Melbourne. Assistant engineers - Dave Davis and Matt Voigt.
+Mixed by Warne Livesey at Sing Sing, 301 Sydney and b.j.g. London. Assistants at b.j.g - Alex Clark and James Wagstaff.', 'Here comes the olive branch man
+He\'ll press it any way he can
+He tries so hard to understand
+
+Here comes the tired statesman
+Heavy lidded bearded nowhere left to land
+He makes the jigsaw fit
+With a hammer in his hand
+It\'s just a drop in the ocean
+
+Here comes the nightmare man
+He\'s got the numbers bottom line and sleight of hand
+He\'s smiling everywhere he can with feeling
+For every fallen soldier every grain of sand
+It\'s just a drop in the ocean', 'redneck_wonderland/drop_in_the_ocean.html');
+INSERT INTO songs VALUES( 'cemetery_in_my_mind_(true_believers_blind_version)', 'Cemetery In My Mind (True Believers Blind Version)', '7', 'Cemetery In My Mind', 'Cemetery In My Mind single (1998)', 'True Believers Blind Version on Cemetery In My Mind produced by Magoo and Midnight Oil. Mixed by Magoo. This is an alternative version to the original song by means of musical style and lyrics.', 'Not specified yet.', 'None');
+INSERT INTO songs VALUES( 'drums_of_heaven', 'Drums Of Heaven', '2/3/1', 'Earth And Sun And Moon', 'Truganini single (1993)
+Earth And Sun And Moon (1993)
+Drums Of Heaven promo (1993)', 'Produced by Nick Launay and Midnight Oil. Recorded by Brent Clark and Nick Launay. Mixed by Nick Launay.', 'By the time the luminous descent of the bright star unfolds
+And tablets of strange love are shattered and bruised
+By the time the oleander has fallen from bloom
+And the tears of the crocodile water the sun
+
+By the time you make up your mind
+If ever you do
+I hear the drums of heaven too
+
+By the time paradise alley is littered with rust
+And the arc of the dayglo is curtained in gloom
+By the time the kidney bone cities are crumbling to dust
+And the empires and all of the emirates burn
+
+Ice on the mountain
+Wind and the dust storm
+Sails in the desert
+It\'s old and exploding
+Seers and the prophets
+Dramas of heaven', 'earth_and_sun_and_moon/drums_of_heaven.htm');
+INSERT INTO songs VALUES( 'dust', 'Dust', '3/1/2', 'Midnight Oil', 'Run By Night (1978)
+Midnight Oil (1978)', 'Produced by Keith Walker (for Marlyn Productions) and Midnight Oil. Engineered by Keith Walker. Recorded and mixed at Albert\'s Studios, Sydney, Sep 1978.', 'It\'s 2am in Town Hall Station
+Black walls and sleeping drunks
+Are bad companions
+Ice is there
+Fear is there
+Everyone is nowhere there\'s too much of nothing
+Take me away
+
+It\' 9am in Town Hall Station
+Flashing faces and grey herds no comparison
+So sorry
+So straight
+Everyone is nowhere there\'s too much of nothing
+Take me away
+
+It\'s 2 am...', 'None');
+INSERT INTO songs VALUES( 'e-beat', 'E-Beat', '7', 'Breathe', 'Breathe (1996)', 'Produced by Malcolm Burn and Grant Pudig at Darling Harbour Studios, Sydney on the Woodheap Mobile. Technical Assistance by Greg Cameron. Recorded on May/Jun 1996. Mixed by Trina Shoemaker.
+Additional guitar and Tambourine by Malcolm Burn.', 'There is a place we\'re coming to
+It is not green it is not blue
+I hope that you understand
+
+The devil was a dancing on the old foreshore
+Hitting up on bright lights and the liquor stores
+Save me, please save me
+
+We got to prick that bubble in the shopping arcade
+Gonna make amends for the things we\'ve said
+I do hope that you understand
+
+Dirty washing on the line, footsteps in the sand
+Whose gonna lead us on to some promised land
+Save me
+
+The devil was a dancing on the old foreshore
+Hitting up on bright lights and the liquor stores
+Yeah tell me, please save me
+
+The land lives longer if we listen to the earth beat
+Lives go forward if we listen to the hearts speak
+Seasons won\'t falter, stars won\'t fade away
+I know
+
+Gonna find myself a place in the country
+Wake up and reach out and breathe real air
+Do you know how it feels clean tissue no scars
+
+Dirty washing on the line, footsteps in the sand
+Whose gonna lead us onto some kind of promised land
+Save me 
+
+Devil  was a dancing on the old foreshore
+Hitting up on bright lights and the cut price the liquor stores
+I say 
+
+The land lives longer if we listen to our hearts speak
+Lives go forward if we listen to the earth beat
+Seasons won\'t falter, stars won\'t fade away
+Fade away
+They won\'t fade away', 'breathe/e-beat.htm');
+INSERT INTO songs VALUES( 'earth_and_sun_and_moon', 'Earth And Sun And Moon', '3', 'Earth And Sun And Moon', 'Earth And Sun And Moon (1993)', 'Produced by Nick Launay and Midnight Oil. Recorded by Brent Clark and Nick Launay. Mixed by Nick Launay.', 'In the morning we will wake up and take to the air
+Look back at the planet - I\'m glued to my chair
+Southern half is burning as we climb through the sky
+Sea birds softly falling, smoke way up high
+
+There\'s the contours of the mountains, the deserts and plains
+And a hurricane is blowing, and it turns once again
+Now there\'s oil spills in the water where Columbus once sailed
+And there\'s history and mystery and it\'s rolling away
+
+I wish you could see this great mystery
+Earth and sun and moon, human tribe, thin blue line
+Earth and sun and moon will survive
+
+Sediment is flowing from river to sea
+Now where are the mighty nations, no lines to be seen
+An axe upon the broken ground the sigh of the trees
+And it\'s floating in the ether, it brings me to my knees
+
+Too messed up to care
+Anyone got a wing and a prayer
+In the blink of an eye
+Thank you and goodnight
+
+Earth and sun and moon, human tribe, one thin blue line
+Earth and sun and moon will survive, will survive, we will survive', 'earth_and_sun_and_moon/earth_and_sun_and_moon.htm');
+INSERT INTO songs VALUES( 'feeding_frenzy', 'Feeding Frenzy', '1/3', 'Earth And Sun And Moon', 'Earth And Sun And Moon (1993)', 'Produced by Nick Launay and Midnight Oil. Recorded by Brent Clark and Nick Launay. Mixed by Nick Launay.', 'Well I\'m as old as the hills
+And young as the day
+Nobody sees things, in quite the same way
+Computers and shovels, churches and brothels
+Mannequins and skeletons, cities and dustbowls
+
+Here we go here we go again
+Hear the clamour of the feeding pen
+New day new way all my friends can say
+
+Cyclone fences in the cybernetic orchard
+Miracle drugs, discount bulk purchase
+Sacred in the forest, fast food in the kiosk
+Cardboard dinners and the saints and the sinners
+
+I don\'t want to run and hide
+I\'ve seen it all from either side
+Truth and fiction must collide someday
+
+God knows, God knows, God knows it\'s been fun
+
+Ah, sweet sensation, the oldest temptation
+Now throughout the ages, we\'ve been a\' turning all those pages
+Now each generation you\'ve got to choose a new location
+Got to reach out, got to sync up, build up, get up, to a stronger foundation
+
+God knows, God knows, God knows it\'s been fun', 'None');
+INSERT INTO songs VALUES( 'forgotten_years', 'Forgotten Years', '2/3', 'Blue Sky Mining', 'Blue Sky Mining (1990 - 1)
+Forgotten Years promo (1990 - 1)
+Forgotten Years single (1990 - 1)
+Blue Sky Mine single (1990 - 1)
+The Midnight Oil Collection (1993 - 1)
+20,000 Watt RSL (1997 - 1)
+20,000 Watt RSL DVD/video (1997 - 2)', '1) Album version produced by Warne Livesey and Midnight Oil. Engineer - David Nicholas. Assistant Engineer - Brendan Morley.  Recorded in Sydney, 1989 at Rhino. Additional Keyboards - Warne Livesey. French Horn - Jeremy Smith. Horn swells by Glad and Garf.
+
+2) Video from 20,000 Watt RSL made in 1991 and directed by Claudia Castle and Midnight Oil', 'Few of the sins of the father, are visited upon the son
+Hearts have been hard, our hands have been clenched in a fist too long
+Our sons will never be soldiers, our daughters will never need guns
+These are the years between
+These are the years that were hard fought and won
+Contracts torn at the edges, old signatures stained with tears
+Seasons of war and peace, these should not be forgotten years
+Still it aches like tetanus, it reeks of politics
+How many dreams remain? This is a feeling too strong to contain
+
+The hardest years, the darkest years, the roarin\' years, the fallen years
+These should not be forgotten years
+The hardest years, the wildest years, the desperate and divided years
+We will remember, these should not be forgotten years
+
+Our shoreline was never invaded, our country was never in flames
+This is the calm we breathe, this is a feeling too strong to contain
+Still it aches like tetanus, it reeks of politics
+Signatures stained with tears, who can remember
+We\'ve got to remember
+
+The hardest...
+Forsaking aching breaking years, the time and tested heartbreak years
+These should not be forgotten years
+The blinded years, the binded years, the desperate and divided years
+These should not be forgotten years, remember', 'blue_sky_mining/forgotten_years.htm');
+INSERT INTO songs VALUES( 'gravelrash', 'Gravelrash', '7', 'Breathe', 'Underwater single (1996)
+Breathe (1996)', 'Produced by Malcolm Burn and Grant Pudig at Darling Harbour Studios, Sydney on the Woodheap Mobile. Technical Assistance by Greg Cameron. Recorded on May/Jun 1996. Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996.
+Additional bass and organ by Malcolm Burn.', 'Instrumental', 'None');
+INSERT INTO songs VALUES( 'gunbarrel_highway', 'Gunbarrel Highway', '7', 'Diesel And Dust', 'Beds Are Burning single (1987, 1989)
+Diesel And Dust[1] (1987, 1989)
+The Green Disc promo (1990)
+
+[1] Only some copies of Diesel and Dust actually have Gunbarrel Highway. Seems to be restricted to CD pressings outside of the US.', 'Produced by Warne Livesey and Midnight Oil. Engineered by Guy Gray. Recorded at Alberts Studios, Sydney.', 'I\'ll give you something to write home about
+And I\'ll take you somewhere, show you around
+We burnt all the cars that laid down and died
+We burnt all the trees to keep us alive
+Sat \'round the fire, sang like a choir
+With the ashes of civilisation in our eyes
+ I come alive, I read the signs on the Gunbarrel Highway
+
+Far off a dull radio beats for the young uninvolved
+The meaning\'s a football
+A stick and a can and a Kakadu man
+Will the speaker speak up or the talker talk down
+The world is no oyster and here in this town
+Shit falls like rain on a world that is brown
+
+I come alive, I read the signs on the Gunbarrel Highway
+I come alive, and the children will sing as the
+satellite swings down that highway
+
+Nothing could be longer than that corrugated road
+No ever follows where the road trains go
+And no where in the country do the dust storms blow so hard
+So hard
+
+I come alive, I read the signs on the Gunbarrel Highway
+I hear the sound, it\'s the wheels as they drive
+And the cultures collide on that highway
+Ah, it\'s a hard day, the children will sing as the
+Satellite swings down that highway', 'None');
+INSERT INTO songs VALUES( 'harrisburg', 'Harrisburg', '3/11', 'Red Sails In The Sunset', 'Red Sails In The Sunset (1984 - 1)
+20,000 Watt RSL DVD/video (1997 - 2)', '1) Album versions produced and recorded by Nick Launay and Midnight Oil. Engineered and mixed by Nick Launay. Assistant engineers - Shigeo Miyamoto, Yoshiyuki Kaneko. Recorded and mixed at Victor Aoyama Studio, Tokyo Jun-Aug, 1984. Some lines taken from the book \"The Great Prawn War and Other Stories\" by Denis Kevans.
+
+2) Live version on 20,000 Watt RSL recorded at Goat Island, Sydney, 1985, by 2JJ for the show Oils On The Water.', 'The empire rings
+The umpire\'s not laughing
+The President\'s resented,
+The Ambassador\'s a night club
+You cannot get it out
+It\'s stuff you cannot taste or see
+It\'s stuff you cannot smell
+It\'s stuff that\'s twenty times as hot
+As the hottest stuff in hell
+
+Harrisburg, oh Harrisburg
+The plant is melting down
+The people out in Harrisburg
+Are getting out of town
+And when the stuff gets in
+You cannot get it out
+
+The company said it would not blow
+The Government said it might
+Harrisburg, Oh Harrisburg
+I wonder who was right
+Who can leave it behind, 
+The curtains are drawn
+There\'s something I must say to you
+You cannot get it out', 'None');
+INSERT INTO songs VALUES( 'head_over_heels', 'Head Over Heels', '2/8/3', 'Midnight Oil', 'Midnight Oil (1978)', 'Produced by Keith Walker (Marlyn Productions) and Midnight Oil. Engineered by Keith Walker. Album recorded and mixed at Albert\'s Studios, Sydney, Sep 1978.', 'I\'m head over heels
+You know how it feels to be in love
+I\'m head over heels
+Holding back the chills in love
+I think I like the sound we\'re chasing
+I\'m giving it all and you\'re reciprocating
+
+I\'m head over heels
+Turning back the wheels of love
+We\'re stealing the show
+You\'re stealing my money and love
+You\'re all the same you part-time lovers
+When it starts to rain
+You\'re hiding under the covers
+
+It just don\'t add up
+This summer fever
+She turns the truth
+And I don\'t believe her
+Stories flying, love is dying
+In the end I can\'t understand her lying', 'None');
+INSERT INTO songs VALUES( 'helps_me_helps_you', 'Helps Me Helps You', '2/3', 'Red Sails In The Sunset', 'Red Sails In The Sunset (1984)', 'Album versions produced and recorded by Nick Launay and Midnight Oil. Engineered and mixed by Nick Launay. Assistant engineers - Shigeo Miyamoto, Yoshiyuki Kaneko. Recorded and mixed at Victor Aoyama Studio, Tokyo Jun-Aug, 1984.
+Didjeridu by Charles McMahon.
+', 'Look at all the toys I got
+Look at all the things I need
+Look at all the toys I got
+Look at all the mouths I feed
+
+Have I got a wonderful deal for you
+What belongs to me belongs to you
+I understand what you\'re going through
+I know the point to push you to
+
+My policy helps me helps you
+Generosity helps me helps you
+Conspiracy helps me helps you
+Put you trust in me I\'ll help you too
+
+Look at all the things I\'ve done
+Look at all the rights I wrong
+The means will justify the end
+For you to save and me to spend
+Cos I\'ve got a great idea you see
+What belongs to you belongs to me
+I know just what you wanna do
+I know how I can get there too
+
+Hypocrisy helps me helps you
+Democracy helps me helps you
+Ideology helps me helps you
+Put your trust in me I\'ll help you through', 'None');
+INSERT INTO songs VALUES( 'hercules', 'Hercules', '3/1/2', 'Species Deceases', 'Species Deceases EP (1985 - 1)
+Beds Are Burning single (1989 - 1)
+The Green Disc promo (1990 - 1)
+Scream In Blue - Live (1992 - 2)
+Truganini single (1993 - 2)
+The Midnight Oil Collection (1993 - 1)
+20,000 Watt RSL (1997 - 1)
+20,000 Watt RSL DVD/video (1997 - 3)', '1) EP version produced by Midnight Oil and Francois Kervorkian. Engineered by David Price. Assistant engineer - Tom Colley. Mixed by Midnight Oil and David Price. 
+
+2) Live version on Scream In Blue-Live and Truganini single. Recorded at the Brisbane Boondall Centre, 1990. Produced by Keith Walker and Midnight Oil. Engineered by Keith Walker and Phil Draculus. Metropolis Mobile by Steve Pyle.
+
+3) Live version on 20,000 Watt RSL video recorded in Canada, 1985.', 'My life is a valuable thing
+I wan\'t to keep it that way, I won\'t cry
+My life\'s such a valuable thing
+Some things don\'t fade away, I don\'t mind
+We give the best we can give
+We won\'t forget, we can\'t forgive
+Keep us radioactive free
+Strike a bell in Hiroshima park
+You know that we can\'t see in the dark
+We try and we try and we try...
+
+Who waits for the planes to come
+When everybody\'s got you on the run
+South Pacific carry on
+
+It seems to me that what we\'re saying
+Nobody really wants to talk about it
+This is no time to be wondering wjy
+I do the best I can do
+The human jungle and the global zoo
+I\'ll find my way it\'s a very special way
+
+Why wait for the planes to come
+When everybody\'s got us on the run
+South Pacific carry on
+Here come the hercules
+Here come the submarines
+Sinking south pacific dreams', 'miscellaneous/hercules.htm');
+INSERT INTO songs VALUES( 'home', 'Home', '7', 'Breathe', 'Breathe promo (1996)
+Breathe (1996)', 'Produced by Malcolm Burn and Grant Pudig at Darling Harbour Studios, Sydney on the Woodheap Mobile. Technical Assistance by Greg Cameron. Recorded on May/Jun 1996. Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996.
+Additional vocals by Emmylou Harris, djembe by Daryl Johnson, electric guitar by Buddy Miller, acoustic guitar by Malcolm Burn.', 'There is a place I was born
+It is a place I’ve never seen
+Don’t even know where it is
+Don’t even know my name
+
+Where is home, where is my home?
+I’m searching far and wide
+
+It’s a bastard song
+It is the feeling that everything’s wrong
+We are alive, we that have wings
+We have devices can do anything, I say
+
+Where is home, where is my home?
+I hear my spirit cry
+
+If you’re out of transmission, way out on the road
+If you’re out of commission I can, give you the code
+Darkness is coming and it’s in your command
+Time to be moving, time
+
+There is a town I was born
+Now there’s a place I’ve got to call home
+
+Where is home, where is my home?
+I’m searching far and wide, oh yeah
+Where is home, where is my home?
+I hear my spirit cry
+It’s in the clear blue sky', 'breathe/home.htm');
+INSERT INTO songs VALUES( 'if_ned_kelly_was_king', 'If Ned Kelly Was King', '3/1', 'Place Without A Postcard', 'Place Without A Postcard (1981)', 'Produced and recorded by Glyn Johns, Jun/Jul 1981. Assistant engineer Sean Fullen.', 'Hollow threats and a great adventure
+So much business, towns in the dirt
+Company cars and efficient Americans
+Three black boys sit in the corner
+White woman waiting to talk
+Lots of intention but no understanding
+
+If Ned Kelly was king
+He\'d make those robbers swing
+He\'d send them down
+
+Out in the dead heart, tourists and cameras
+Four wheel drives wreck, snapshots and slides
+Follow the brochures but nothings inside
+Heavy machinery loud in the outback
+Dreamtime developers they make all the sound
+Where will we be when they leave us a quarry?
+
+If Ned Kelly was king
+He\'d make those robbers swing
+He\'d send them down there
+He\'d make them stay
+And we can hope
+
+If Ned Kelly...
+
+If the quinella comes in today', 'None');
+INSERT INTO songs VALUES( 'im_the_cure', 'I\'m The Cure', '3', 'Bird Noises', 'Bird Noises EP (1980)', 'Produced by Leszek Karski. Engineered by Ross Cockle. Recorded at Music Farm, Byron Bay, 1980. Mixed by Leszek Karski at Studios 301, Sydney. Engineered by Christo.', 'Tell all your friends I\'m the cure
+Tell them again and again
+Watching the walls, spinning in doors
+I can bring you peace of mind
+Use me whenever you please
+Sweeter than sweet memories
+Everything\'s neat, avoiding the heat
+I can give you peace of mind
+
+All this pressure I can\'t handle
+
+Everything else becomes dim
+You\'re so much better than them
+Waiting around for something to happen
+Bring you this instant relief
+
+Kilo pascals in my finger
+God is hiding in this teacup', 'None');
+INSERT INTO songs VALUES( 'in_the_rain', 'In The Rain', '7', 'Breathe', 'Breathe (1996)', 'Produced by Malcolm Burn and Grant Pudig at Kingsway Studios, New Orleans. Recorded in Jun 1996. Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996.
+Additional piano by Ethan Allen.', 'Sorry I am for the hurt I caused
+Grieving I still do over careless words
+As I move freely to a place
+The debris I left behind comes back into my day
+
+Out of time disconnected  
+Plagued by senses sweet desire, out of time
+Out of time deluded 
+I plunged my hand into the mother load of love
+
+In the rain calling out his name, I call, yes I call
+In the rain falls on my shame it falls, yes it falls
+In the rain
+
+Life picked me up this morning and thrust me to the world
+Like a child I’m hurtled forward
+Dreaming things anew, sights I see sound true
+All the places, open faces gracing everything I view
+
+In the rain falls on my shame I call,yes I call 
+In the rain falling on my shame I call yes, I call 
+In the rain calling out his name, I fall, yes I fall
+In the rain', 'None');
+INSERT INTO songs VALUES( 'in_the_valley', 'In The Valley', '2/3/1', 'Earth And Sun And Moon', 'Earth And Sun And Moon (1993 - 1)
+In The Valley single (1993 - 1)
+20,000 Watt RSL DVD/video (1997 - 2)', '1) Album version produced by Nick Launay and Midnight Oil. Recorded by Brent Clark and Nick Launay. Mixed by Nick Launay. Additional violin by Wayne Goodwin.
+
+2) Promotional video on 20,000 Watt RSL video directed by Paul Elliott and Midnight Oil. Made in 1993.', 'My grandfather went down with the MonteVideo
+The rising sun sent him floating to his rest
+And his wife fled south to Sydney seeking out safe harbour
+A North Shore matron she became with some paying guests
+
+My father went down with the curse of big cities
+Traffic tolls and deadlines took him to his peace
+Now Bob Dyer glued us to our seats
+And lawns were always Victa neat
+Whilst Menzies fawned at royal fleet do you remember?
+
+In the valley I walk, I took some comfort there
+In the valley I walk, cold comfort I can hear you talk
+In the valley I walk, who will take me there?
+
+When my mother went down it was a stiff arm from Hades
+Life surprises and tears you like the southerly
+She always welcomed the spring always welcomed the stranger
+I don\'t see too many around like this
+Oh no, that\'s what I\'m looking for, yeah, what we\'re looking for
+
+In the valley I walk - who will take me there
+In the valley I walk - cold comfort I can hear you talk
+In the valley I walk - I took some comfort there
+In the valley I walk - oh rough justice I hear you talk
+In the valley I walk - to meet my watershed
+
+I hpoe virtue brings it\'s own reward
+And I hope the pen is mightier than any sword
+I hpoe the kids will take it slow
+I hope my country claims it\'s own
+
+In the valley I walk - I cried yes I cried I was down then I crawled
+Mercy\'s arms all around me when I was down there
+In the valley I walk - do you read me they can hear me in the valley', 'earth_and_sun_and_moon/in_the_valley.htm');
+INSERT INTO songs VALUES( 'instant_karma', 'Instant Karma', '10', 'Black Rain Falls', 'Black Rain Falls video (1990 - 1)
+King Of The Mountain single (1990 - 2)
+The Best Of The B-Sides promo (1997 - 2)', 'Both versions recorded live before the Exxon Building, 6th Avenue, New York, NY, May 30th. Engineered by Dave Hewitt. 
+
+1) Black Rain Falls version directed by Larry Jordan and produced by John Diaz for Calhoun Productions.
+
+2) The Best Of The B-Sides and King Of The Mountain versions are audio-only copies of the video track.', 'Not yet specified', 'None');
+INSERT INTO songs VALUES( 'is_it_now?', 'Is It Now?', '3/1', 'Head Injuries', 'Head Injuries (1979)
+Blue Sky Mine single (1990)', 'Produced by Leszek J. Karski. Engineered by Peter J. Walker. Recorded at Trafalgar Studios, Sydney, Jul/Aug 1979.', 'There\'s a man who walks the lonely field at midnight
+He wears a matching suit, steel tipped shoes and the diamonds
+And he holds the dying flame, the loaded dice and the answer
+He stalks the open road that leads form here to there
+You\'d better look out, watch out, beware
+There\'s no safety here
+Crouched by the fence, sweat dries cold on your every breath
+
+Where\'s the saviour that the critics dream about now
+He\'s telling jokes to all the saviours in the ward
+Be warned when it comes to that, to the point of indecision
+When you hesitate, he\'ll make his choice for you
+
+You better look out, beware
+There\'s no safety here (no, no, no safety)
+Crouched by the fence, sweat dried cold on your every breath
+His eyes, they turn red
+You think and recall what he said
+
+He puts a name to every face
+Table talk and wall to wall
+Winners win the game, and the losers win the war
+Resurrection, intersection, comic books and mass defection
+Vinyl floor and sliding doors, nothing more
+Lost the thread of conversation
+Sentence fails and engine roars
+No recall, blindfold to the stairs
+Is it now?
+Is it now?', 'None');
+INSERT INTO songs VALUES( 'jimmy_sharmans_boxers', 'Jimmy Sharman\'s Boxers', '2/3', 'Red Sails In The Sunset', 'Red Sails In The Sunset (1984)', 'Produced by Nick Launay and Midnight Oil. Engineered and Mixed by Nick Launay. Assistant Engineers - Shigeo Miyamoto, Yoshiyuki Kaneko. Recorded and mixed at Victor Aoyama Studio, Tokyo Jun-Aug 1984.', 'From the red dust north of Dalmore Downs
+Sharman\'s tents roll into town
+Twelve will face the auctioneer
+Sharman\'s Boxers stand their ground
+Their days are darker than your nights
+But they won\'t be the first to fall
+Children broken from their dreams
+But they won\'t be the first to fall
+
+Fighting in the spotlight
+Eye\'s turn blacker than their skin
+For Jimmy Sharman\'s boxers
+It\'s no better if you win
+Standing in the darkness
+Lined up waiting for the bell
+The days are wasted drinking
+At the first and last hotel
+
+Why are we fighting for this?
+Why are you paying for this?
+You pay to see me fall like shrapnel
+To the floor
+What is the reason for this?
+There is a reason for this?
+What is the reason they keep coming back for more?
+
+The blows now bring him to his knees
+But still the crowd calls out for more
+The drums are burning in his ears
+The man keeps counting out the score', 'red_sails_in_the_sunset/jimmy_sharmans_boxers.htm');
+INSERT INTO songs VALUES( 'king_of_the_mountain', 'King Of The Mountain', '2/3', 'Blue Sky Mining', 'Blue Sky Mining (1990 - 1)
+King Of The Mountain single (1990 - 1,2)
+King Of The Mountain promo (1990 - 3)
+The Green Disc promo (1990 - 1)
+20,000 Watt RSL (1997 - 4)
+Black Rain Falls video (1990 - 5)
+20,000 Watt RSL DVD/video (1997 - 5)
+
+Remixes:
+Mountain Mix
+Nix Mix
+7\" Remix', '1) Album version produced by Warne Livesey and Midnight Oil. Engineer - David Nicholas. Assistant Engineer - Brendan Morley. Recorded in Sydney, 1989 at Rhino. Additional Keyboards - Warne Livesey.
+
+2) Mountain Mix on King Of The Mountain single.
+
+3) 12\" Nix Mix on King Of The Mountain promo.
+
+4) 7\" Remix by Nick Launay.
+
+5) Promo video on Black Rain Falls and 20,000 Watt RSL videos directed by Larry Jordan.', 'Walking through the high dry grass, pushing my way through slow
+Yellow belly black snake, sleeping on a red rock
+Waiting for the stranger to go
+Sugar train stops at the crossing, cane cockies cursing below
+Bad storm coming, better run to the top of the mountain
+
+Mountain in the shadow of light, rain in the valley below
+Well you can say you\'re Peter, say you\'re Paul
+Don\'t put me up on your bedroom wall, call me the king of the mountain
+
+Blacksmith fires up the bellows, cane cutters burning the load
+Workers of the world, run to the top of the mountain
+
+Mountain in the...
+
+I can\'t take my hands from my face, there are some things we can\'t replace
+
+Mountain in the...
+
+Over liquid tarmac wastelands of cactus and heat
+Down cobblestone alleyways of washing day sheets
+Up ghost prairie mountains of sunset and space
+Down the road at a familiar place, across the wilderness
+Out further than the bush I will follow you', 'blue_sky_mining/king_of_the_mountain.htm');
+INSERT INTO songs VALUES( 'knifes_edge', 'Knife\'s Edge', '1/8/3', 'Bird Noises', 'Bird Noises EP (1980)
+US Forces single (1982)', 'Produced by Leszek Karski. Engineered by Ross Cockle. Recorded at Music Farm, Byron Bay, 1980. Mixed by Leszek Karski at Studios 301, Sydney. Engineered by Christo.
+Called \"Knife Edge\" on US Forces 12\" (UK.', 'On a knife edge razor day
+If you listen long enough they\'ve got nothing to say
+
+It\'s a time warp place don\'t change
+The rhythm of the night, the beating rain
+
+You move fast to get off of that merry-go-round
+
+There\'s one gun, probably more
+And the others are pointing at our backdoor
+
+At the best hotel of all
+Put my name on the wall, put my bed on the floor
+
+You get much less well it seems like more
+Heart\'s still sore
+
+Word crimes
+Bitter lies
+Bitter crimes
+Government Lies', 'None');
+INSERT INTO songs VALUES( 'koala_sprint', 'Koala Sprint', '1/3/8', 'Head Injuries', 'Head Injuries (1979)', 'Produced by Leszek J. Karski. Engineered by Peter J. Walker. Recorded at Trafalgar Studios, Sydney, Jul/Aug 1979.', 'And out from the echoes of the night
+Concrete caverns catch the sky and hold the stars to ransom
+A thousand dreams it\'s getting late
+Thousand runners standing still
+I can smell the sand and sea again
+I\'ve had enough away
+City times down down
+I\'ve got to go
+Lord don\'t let me wait
+Stay low
+\'Cause I\'m going up north again
+
+It\'s a long way from Chatswood to the top of the gulf
+I\'ll be hitching pacific when the morning sun\'s up
+It\'s mile after mile on the long coast road
+Smell of frangipani ocean sky blue
+
+But I\'m sick of seeing those beer can caravans
+I\'m getting even sicker of the thong drive-in
+I\'m feeling worse and worse at the chiko locallo
+And the pubs all close at ten
+
+Summer sun\'s got me stopping
+Summer sun\'s got me trying
+I\'m waiting round for those waves and days
+I hope it never ends
+
+Well there\'s a new world bricking in the Old World charm
+Suburbs highway pass cicada-coloured farms
+Buy a car, sell a car, lead a car away
+20 hours to Brisbane on night prowl play
+20 hours to Brisbane...where\'s Brisbane...', 'None');
+INSERT INTO songs VALUES( 'minutes_to_midnight', 'Minutes To Midnight', '3/1', 'Red Sails In The Sunset', 'Red Sails In The Sunset (1984)', 'Produced by Nick Launay and Midnight Oil. Engineered and Mixed by Nick Launay. Assistant Engineers - Shigeo Miyamoto, Yoshiyuki Kaneko. Recorded/mixed at Victor Aoyama Studio, Tokyo, Jun/Aug 1984.', 'Everybody say god is a good man
+Ah, clock on the world
+Driving a dump truck up to the sun
+A sigh in the human heart
+
+I look at the clock on the wall
+It says three minutes to midnight
+Faith is blind when we\'re so near
+Phar Lap floating in a jar
+Seas full of submarines, A.W.A.C.\'s like flies
+Truth gets harder to define
+Talking in tongues
+But the dancer\'s hand grips the rail
+And fingers will blister on the 88\'s
+Hope drains out of the side of the page
+
+But ear\'s can\'t hear
+What eyes don\'t see
+And you can\'t see me
+
+Everybody say God is a good man
+Everybody say 1,2,3
+Set up those gunsights in H.G. Wells backyard
+I.C.B.M\'s, S.S.20\'s they lie so dormant they got so many
+Remember your childhood
+Remember the journey
+Hope is what you say and do', 'red_sails_in_the_sunset/minutes_to_midnight.htm');
+INSERT INTO songs VALUES( 'kosciuszko', 'Kosciuszko', '2/3', 'Red Sails In The Sunset', 'Red Sails In The Sunset (1984)
+When The Generals Talk promo (1984)
+Best Of Both Worlds single (1984)
+The Dead Heart single (1987)
+The Green Disc promo (1990)
+20,000 Watt RSL (1997)', 'Produced by Nick Launay and Midnight Oil. Engineered and Mixed by Nick Launay. Assistant Engineers - Shigeo Miyamoto, Yoshiyuki Kaneko. Recorded and mixed at Victor Aoyama Studio, Tokyo Jun-Aug 1984.', 'Older than Kosciuszko
+Darwin down to Alice Springs
+Dealers in the clearinghouse
+The settlements explode
+High up in the homelands
+Miners drive across the land
+Encounter no resistance
+When the people block the road
+
+Older than Kosciuszko
+Dry white seasons years ago
+Darkness over Charleville
+The fires begin to grow
+
+No end to the hostility
+Now they want to be somewhere else
+No stranger to brutality
+Now they\'d like to be someone else
+
+Older than Kosciuszko
+Driven back to Alice Springs
+Endless storm and struggle
+Marks the spirit of the age
+High up in the homelands
+Celebration \'cross the land
+Builds up like a cyclone
+Now the fires begin to rage
+
+Call off the ultimatum
+No don\'t turn away
+Call off the ultimatum until yesterday
+Call off the ultimatum
+No don\'t turn away
+Bind up the brokenhearted
+No don\'t turn away
+Call off the ultimatum until yesterday', 'red_sails_in_the_sunset/kosciuszko.htm');
+INSERT INTO songs VALUES( 'kolele_mai', 'Kolele Mai', '9', 'All In The Family', 'All In The Family (????)
+My Country single (1993)', 'Unknown.', 'What is the reason?
+Who is the guilty one?
+Who is really to blame?
+
+What is the reason?
+Who is the guilty one?
+Who is really to blame?
+
+What is it that makes your corn not grow?
+What is it that makes your rice not flower?
+Why doesn\'t our corn grow?
+Why doesn\'t our rice flower?
+Who is the guilty one?
+
+What is the reason?
+What is the reason?
+Who is the guilty one?
+Who is really to blame?
+
+What is the cause of our hunger?
+What is the cause of our never ending sweat?
+What is the cause?
+Who is to blame?
+
+What is the reason?
+What is the reason?
+Who is the guilty one?
+Who is really to blame?
+
+Who is the guilty one?
+Who is really to blame?
+Who is the guilty one?
+Who is the guilty one?
+
+Who\'s really responsible?
+Responsible, responsible,
+Somebody\'s got to be responsible
+
+What is the reason?
+
+Some people sing a simple song,
+Are they to blame?
+This is the classic language of the people of Timor
+
+Who is really to blame?', 'None');
+INSERT INTO songs VALUES( 'loves_on_sale', 'Love\'s On Sale', '1/8', 'Place Without A Postcard', 'Place Without A Postcard (1981)', 'Produced and recorded by Glyn Johns, Jun/Jul 1981. Assistant engineer Sean Fullen.', 'Haul me up I\'m waiting
+Oh yeah yes I\'m waiting
+Waiting now they say for shopping day
+I\'ll pretend that I\'m a rich man
+And I\'ll carry it away
+Oh yeah it sounds real nice
+If you got money, then it\'s a steal
+Give me a dollar, I\'ll give you a deal
+
+Everybody says that love\'s on special and sale
+And everything you\'ve ever wanted you\'ve got to pay for
+It seems so easy and gettable, yes it\'s real
+
+If you\'ve got money, it\'s such a steal
+
+Everybody says that love is the number one
+But everytime you try to get some, you\'ve gotta buy it
+It\'s all so special, accessible, pretty and nice
+
+It\'s oh so wonderful, at a price
+
+You can rent a life today
+Why worry about the real thing
+Pay up now and plug in quick
+It\'s easy to co-ordinate
+Just credit card the right idea
+Why wait around and contemplate
+The hidden cost of what you\'ve got
+It\'s better not to', 'None');
+INSERT INTO songs VALUES( 'land', 'Land', '3/2/1/14/15/16', 'Land', 'Land single (1994 - 1,2)
+Alternative Route 94 (1994 - 1)', '1) Single version produced by Daniel Lanois. Performed by Crash Vegas, Hothouse Flowers, Damiel Lanois and band, Midnight Oil and The Tragically Hip. Recorded at The Beach Studio, Calgary, by Mark Howard. Assisted by Chuck Ferguson.
+
+2) Full length version, credits as for version 1 above.', 'They buried me up to my knees in the cold December ground
+The cold came up to get me
+Blinding me in my land
+
+Land
+In my land
+Land
+
+I was landed on this moment
+Then was given every chance
+To form a healing circle
+To doin the living dance of my land
+
+Land
+My land
+Land
+
+Water\'s not just a purity
+Water\'s not just the key
+It\'s the melody of panic
+Feeds the life of mine throughout our land
+
+Land
+Throughout our land
+Land
+
+But every action has an opposite reaction
+But every lie and equal and opposite lie
+And every day is an accident waiting to happen
+For every life there\'s ten more waiting in line
+
+But every action has an opposite reaction
+For every life there\'s ten more waiting in line
+
+Cutting all the tall trees down
+And I hope you understand
+By the time your children come of age
+They\'re gonna scream out, they\'re gonna moan
+They\'re gonna cry for their
+
+Land
+For their
+Land
+
+Land
+Land', 'None');
+INSERT INTO songs VALUES( 'lucky_country', 'Lucky Country', '3/1/8/2', 'Place Without A Postcard', 'Place Without A Postcard (1981 - 1)
+20,000 Watt RSL DVD/Video (1997 - 2)', '1) Album version produced and recorded by Glyn Johns, Jun/Jul 1981. Assistant engineer Sean Fullen.
+
+2) 20,000 Watt RSL version recorded live at the Capitol Theatre, Sydney, Nov 1982. Engineered by Keith Walker and Ian Davies.', 'Speed, and this
+There\'s a feeling I get when I look to the sun
+Love, it\'s so tough
+Cause it raises your hopes and then it makes you run
+
+We\'re all looking for a shorter day
+We\'re all looking for an easy way
+Even when the debts are dead and gone
+
+Down, the stairs
+And an eight mile drive waits for you to turn on
+Hear, the time clocks sing
+And the smoke in the distance reaches the eye line
+
+We\'re all working on a shorter day...
+
+No conversation as you go
+There\'s so much space the heat moves you
+Terracotta homes, backyard barbeque and eucalyptus smell
+It\'s fine on the clothes line
+It\'s fast food and slow life and red roof
+My silence, comic interruptions
+Surely there\'s some relief from atomic art
+And the fragile state of world events
+With clowns who love the kings and power and the mutant media babes
+Wanking on dreams and fashions and toilet paper flowers
+Don\'t talk to me in this backyard - it\'s clandestine, it\'s nuclear
+Smell of space and now forever I wanna go
+Straight down the exit eight mile attraction
+U-turn is up and the time clock sings lets go
+
+Lucky country
+Where the geckos are paid to live in the sun
+On and on there\'s a ribbon of road and a mile to spare
+Lucky country
+Lucky country', 'None');
+INSERT INTO songs VALUES( 'maralinga', 'Maralinga', '3/1', '10,9,8,7,6,5,4,3,2,1', '10,9,8,7,6,5,4,3,2,1 (1982)', 'Produced by Nick Launay and Midnight Oil. Engineered and mixed by Nick Launay. Assistant engineers - Howard Grey and Gavin McKillop. Recorded at The Town House, London, Sep 1982.', 'I come from a land of wide open spaces
+Where the world turns around us and we just follow suit
+There\'s heat in the air and peace reigns supreme
+Got white flags on the clothes lines and the deals are new
+
+In the wind, the ashes fly
+The poison crown, the charcoal ground
+
+And if you can\'t see the smile in me
+That\'s where I want to be
+
+There\'s only God, There\'s only Christ
+Think I\'ll lie down, for just a while
+
+So watch and check them out and listen as we learn
+Throw the pearls before the swine, ebb and flow and turning tide
+Yes we watch and catch them down no matter how they jump
+The pigs will have to come to ground,we\'ve got to make it happen now
+It\'s not really that new, try and make it happen now
+What are we to do, maybe there\'s a chance for you
+
+All around, an eerie sound
+Their dreams a cloud, their world in shrouds
+In the wind, the ashes fly
+Not much time, but time to try
+And if you can\'t see the smile in me, that\'s where I want to be
+I want to be here at the, I have to be here at the end', 'None');
+INSERT INTO songs VALUES( 'mountains_of_burma', 'Mountains Of Burma', '2', 'Blue Sky Mining', 'Blue Sky Mining (1990)', 'Produced by Warne Livesey and Midnight Oil. Engineer - David Nicholas. Assistant Engineer - Brendan Morley. Recorded in Sydney, 1989 at Rhino. Additional Keyboards - Warne Livesey. French Horn - Jeremy Smith. Horn swells by Glad and Garf.', 'The tucker box is empty now, the heart of Kelly\'s country cleared
+The gangers on the southern line, like the steam trains have disappeared
+Pelicans glide, miracles up in the sky
+We vote for the government, with axes in his eyes
+
+Mountains of Burma, the road to Mandalay
+In the mountains of Burma, light years away, mountains of Burma
+
+Will the sons of Solidarity, still march on May Day
+And will the sisters of the seventies, still fight for equal pay
+There\'s no on eon the Reeperbahn, no more blankets handed out for land
+We feed an economy, that\'s got blood on it\'s hands
+
+Mountains of Burma...
+
+Pack your bags full of guns and ammunition
+Bills fall due for the industrial revolution
+Scorch the earth till the earth surrenders
+
+Soldiers of armies, storm empty fields
+In a traveller\'s trance, on the way to the high frontier
+Sleepwalkers stumble, cable cars run aground
+Imaginary enemies, form high above the clouds
+In the Mountains of Burma...', 'blue_sky_mining/mountains_of_burma.htm');
+INSERT INTO songs VALUES( 'my_country', 'My Country', '2', 'Earth And Sun And Moon', 'Earth And Sun And Moon (1993 - 1)
+My Country single (1993 - 1,2,3,4)
+In The Valley single (1993 - 5)
+Outbreak Of Love video (1993 - 6)
+20,000 Watt RSL DVD/Video (1997 - 6)
+The Best Of The B-Sides promo (1997 - 5)
+
+Remixes:
+12\" Giant Leap Mix
+12\" Leap Of Logic Mix
+Radio Version', '1) Album version produced by Nick Launay and Midnight Oil. Recorded by Brent Clark and Nick Launay. Mixed by Nick Launay.
+
+2) 12\" Giant Leap Mix on My Country single. \"Special version\" of 1 above.
+
+3) 12\" Leap Of Logic Mix on My Country single. \"Special version\" of 1 above.
+
+4) Radio version on My Country single. Almost identical to 1 above, but with shorter intro, shorter bridge in middle of song, and shorter \"outro\".
+
+5) Live version recorded at Ronnie Scott\'s, London, 23rd June 1993. Produced by Mike Walter and Nick Launay.
+
+6) Promo video clip on Outbreak of love video single and 20,000 Watt RSL DVD/video directed by Claudia Castle.', 'Was it just a dream, were you so confused
+Was it just a giant leap of logic
+Was it the time of year, that makes a state of fear
+Methods were the motives for the action
+
+And did I hear you say
+My country right or wrong
+
+Did you save your face
+Did you breach your faith
+Women, there were children at the shelter
+Now who can stop the hail
+When human senses fail
+There was never any warning, no escape
+
+Did I hear you say
+My country right or wrong
+My country oh so strong
+My country going wrong
+My country right or wrong
+
+I hear you say the truth must take a beating
+The flag a camouflage for your deceiving
+I know, yes I know
+It\'s written on your soul
+I know, we all make mistakes
+
+This is not a case of blurred vision
+It\'s a case of black holes, pocket holes, soul holes
+
+And did I hear you say...', 'earth_and_sun_and_moon/my_country.htm');
+INSERT INTO songs VALUES( 'naked_flame', 'Naked Flame', '8/2/3', 'Head Injuries', 'Head Injuries (1979)', 'Produced by Leszek J. Karski. Engineered by Peter J. Walker. Recorded at Trafalgar Studios, Sydney, Jul/Aug, 1979', '\"This is a mad house,\" she goes straight for the palm
+\"You\'ll be lucky to make it till Tuesday\"
+
+I say \"You must be joking, the idea\'s absurd\"
+But the picture\'s hanging on her every word
+But she comes right back, her black velvet cat
+Has gone smiled all over the carpet
+He says \"I know my rights, I\'ve got nothing to say\"
+But he cried all night on the night \'n\' day
+
+I\'ve seen the naked flame
+And I\'m turning my eyes away
+
+\"Yes it\'s a mad house,\" the minister shouts
+But his words drown out in the crowd
+He says \"I open my mouth and some idiot speaks\"
+So he strikes the service for another two weeks
+Then the party\'s over, it\'s a free-for-all
+I\'m under the table, I got my foot in the door
+Well she\'s a natural leader, and she\'s bound to win
+She\'s just waiting for the burning to begin
+
+I\'ve seen the naked flame
+It\'s gonna burn me again
+I\'m dying down in the rain
+And I\'m turning my eyes away', 'None');
+INSERT INTO songs VALUES( 'no_reaction', 'No Reaction', '2/3/8', 'Head Injuries', 'Head Injuries (1979 - 1)
+The Green Disc promo (1990 - 1)
+Beds Are Burning - Live promo (1992 - 2)
+Sometimes - Live (1992 - 2)
+The Best Of The B-Sides promo (1997 - 2)', '1) Album version produced by Leszek J. Karski. Engineered by Peter J. Walker. Recorded at Trafalgar Studios, Sydney, Jul/Aug, 1979.
+
+2) Live version produced by Midnight Oil and Keith Walker. Location unspecified.', 'What do we want, we are going to be the winners or the losers?
+And who do we hear, do we listen to the beggars or the choosers?
+
+We\'re getting no reaction
+We haven\'t heard a word
+You\'re almost (but not quite)
+More than we deserve
+
+So what do we want, are we going to be the does or the talkers?
+And where do we go, can we separate the runners from the walkers?
+So what do we do, do we want to be the givers or the takers?
+And who do we hear, do we listen to the movers or the makers?
+
+So so what do we want, who do we hear?
+Where do we go and what can we do?
+And what would you say if it was all up to you?', 'None');
+INSERT INTO songs VALUES( 'no_time_for_games', 'No Time For Games', '2/3', 'Bird Noises', 'Bird Noises (1980 - 1)
+US Forces single (1982 - 1)
+Blue Sky Mine single (1990 - 1)
+The Green Disc promo (1990 - 1)
+20,000 Watt RSL DVD/video (1997 - 2)', '1) Bird Noises version produced by Leszek Karski. Engineered by Ross Cockle. Recorded at Music Farm, Byron Bay, 1980. Mixed by Leszek Karski at Studios 301, Sydney. Engineered by Christo.
+Erroneously called \"Some Kids\" on US Forces 12\" (UK)
+
+2) Live version on 20,000 Watt RSL DVD/video recorded at the Capitol Theatre, Sydney (26th or 27th Nov 1982)', 'The raising of children, the rearing of young
+Used to be simple but look what it\'s become
+The choice of career, the proper vocation
+Out of your hands, all for the needs of the nation
+
+No inhibitions with the modern child
+Wasted lessons or pleasure or pain
+Easy to follow your natural instinct
+Easy to follow, much too hard to learn
+
+Useless expressions and sporting aggression
+Don\'t waste my time, I can\'t wait for the end of the session
+What opportunity, the modern child?
+Waste passion and wasted mind
+
+Some kids got no time for playtime
+Some kids got no time for games
+Some kids got no time for playtime
+Some kids got no time for games', 'None');
+INSERT INTO songs VALUES( 'nothing_lost_-_nothing_gained', 'Nothing Lost - Nothing Gained', '3', 'Midnight Oil', 'Midnight Oil (1978)', 'Produced by Keith Walker (for Marlyn Productions) and Midnight Oil. Engineered by Keith Walker. Recorded and mixed at Albert\'s Studios, Sydney, Sep 1978.', 'In my world there are sorrows
+I\'d rather drown in happiness
+Come the morning, when the darkness through
+That story\'s bound to change
+
+And in my world
+And in my world
+It\'s all the same
+And nothing\'s ventured, nothing\'s gained
+And nothing\'s lost and nothing\'s changed
+
+Go and jump aboard the train of freedom
+It\'s a one way fare
+You can find out now that when the tunnel\'s through
+Your ticket\'s vanished, forgotten you
+
+And in my world...
+
+Turn up the TV, make the music loud
+Better to ignore the rabid dog baying at your door
+Draw the blind, change the channel if you dare
+Better to say, I don\'t care
+
+And in my world...
+
+You hear the bell, you know it\'s time to jump off
+Cause there\'s nothing at the platform\'s edge again
+It\'s too late
+
+It\'s over to you', 'None');
+INSERT INTO songs VALUES( 'now_or_never_land', 'Now Or Never Land', '1/3', 'Earth And Sun And Moon', 'Earth And Sun And Moon (1993)', 'Produced by Nick Launay and Midnight Oil. Recorded by Brent Clark and Nick Launay. Mixed by Nick Launay.', 'I grew tall in this lucky land
+And I thank God for that, but there\'s needles in the sand
+Ozone in the eucalypt and on the Steppes tonight
+There\'s pushing and a shoving on the throne tonight
+
+It\'s a rhythm of the sea
+Lost islands of hope
+It\'s a rhythm of the sea
+Who will discover you
+
+But I won\'t be down at heel cos my senses lead me here
+Dream a South-Pacific dream of now or never land
+It\'s now or never land
+
+Rises in rivers in power of the sun
+Rises in sea level, look out Mammon\'s bastard son
+Infidels are praying at the stock exchange
+Chrome camels are crashing on the smooth terrain
+
+It\'s the rhythm of the sea
+Lost islands of hope
+It\'s the rhythm of the sea
+Someone to carry you
+
+But I won\'t be down at heel cos my senses lead me here
+Dream a South-Pacific dream of now or never land
+Suitcase full of good ideas, history that\'s filled with tears
+Kill nostalgia, xenophobic fears
+It\'s now or never land
+
+Chant to end', 'None');
+INSERT INTO songs VALUES( 'one_country', 'One Country', '3/1', 'Blue Sky Mining', 'Blue Sky Mining (1990 - 1)
+One Country single (1990 - 1)
+20,000 Watt RSL (1997 - 1)
+20,000 Watt RSL DVD/Video (1997 - 2)', '1) Album version produced by Warne Livesey and Midnight Oil. Engineer - David Nicholas; Assistant Engineer - Brendan Morley. Recorded in Sydney, 1989 at Rhino Studios. Additional Keyboards by Warne Livesey. French Horn - Jeremy Smith. Horn swells by Glad and Garf.
+
+2) Promo video clip on 20,000 Watt RSL DVD/video directed by Ken Duncan.', 'Who\'d like to change the world, who wants to shoot the curl
+Who gets to work for bread, who wants to get ahead
+Who hands out equal rights, who starts and ends that fight
+And not not rant and rave, or end up a slave
+Who can make hard won gains, fall like the summer rain
+Now every man must be, what his life can be
+
+So don\'t call, me, the tune, I will walk away
+
+Who want\'s to please everyone, who says it all can be done
+Still sit up on that fence, no-one I\'ve heard of yet
+Don\'t call me baby, don\'t talk in maybes
+Don\'t talk like has-beens, sing it like it should be
+Who laughs at the nagging doubt, lying on a neon shroud
+Just gotta touch someone, I want to be
+
+So don\'t...
+(One country one, country one country)
+
+Who wants to sit around, turn it up turn it down
+Only a man can be, what his life can be
+One vision, one people, one landmass, we are defenceless, we have a lifeline
+One ocean, one policy, seabed lies, one passion, one movement, one instant
+One difference, one lifetime, one understanding
+Transgression, redemption, one island, our placemat, one firmament
+One element, one moment, one fusion, yes and one time', 'blue_sky_mining/one_country.htm');
+INSERT INTO songs VALUES( 'one_too_many_times', 'One Too Many Times', '7', 'Breathe', 'Breathe (1996)
+Surf\'s Up Tonight single (1996)', '1) Album version produced by Malcolm Burn and Grant Pudig at Kingsway Studios, New Orleans. Recorded in Jun 1996. Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996. Additional vocal and harmonica by Malcolm Burn.
+
+2) Live version from Surf\'s Up Tonight single recorded at WXRT radio station, Chicago Metro.', 'She was the golden summer wine
+And now she’s black and blue resigned
+He took advantage like the spider, helpless
+One too many times
+
+You had to go ahead and sing
+You had to steal that diamond ring
+Upon the headstone so inscribed, they cried
+One too many times
+
+We are so human, we’re so small
+We’re always coming back for more
+A second helping third and fourth, it’s gone
+One too many times
+One too many times', 'breathe/one_too_many_times.htm');
+INSERT INTO songs VALUES( 'only_the_strong', 'Only The Strong', '2/3', '10,9,8,7,6,5,4,3,2,1', '10,9,8,7,6,5,4,3,2,1 (1982 - 1)
+Scream In Blue - Live (1992 - 2)
+Truganini single (1993 - 2)', '1) Album version produced by Nick Launay and Midnight Oil. Engineered and mixed by Nick Launay. Assistant engineers - Howard Grey and Gavin McKillop. Recorded at the \'Town House\' London, Sep 1982.
+
+2) Live version from Scream in Blue - Live and Truganini single recorded live at the Capitol Theatre, Sydney, Nov 1982. Produced by Midnight Oil and Keith Walker. Engineered by Keith Walker and Ian Davies.', 'When I\'m locked in my room
+I just want to scream
+And I know what they mean
+(One more day of eating and sleeping)
+
+Speak to me, speak to me
+I\'m not spoken for, I\'m ready to talk
+Look at me, look at me
+I\'ve been broken up and shaken down
+Speak to me, speak to me
+I\'m at the edge of myself I\'m dying to talk
+Look at me, won\'t you look at me
+Back once more at the point of no return
+
+When I\'m locked in my room
+I just want to scream
+And I know what they mean
+Only the strong', 'None');
+INSERT INTO songs VALUES( 'outbreak_of_love', 'Outbreak Of Love', '2', 'Earth And Sun And Moon', 'Earth And Sun And Moon (1993 - 1)
+Outbreak Of Love single (1993 - 1, 2)
+Outbreak Of Love video single (1993 - 3)
+20,000 Watt RSL DVD/Video (1997 - 3)', '1) Produced by Nick Launay and Midnight Oil. Recorded by Brent Clark and Nick Launay. Mixed by Nick Launay.
+
+2) Radio edit. Credits as for version 1.
+
+3) Directed by Sally Bongers, Paul Elliott and Midnight Oil.', 'The world is crashing down on me tonight
+The walls are closing in on me tonight
+
+Cos I know this is the end of the beginning of the outbreak of love
+
+The stars come falling down on me tonight
+
+Sharks are coming up to feed
+I believe it\'s time to move
+Diver\'s coming up to breathe
+But I\'m not in the mood
+No I\'m not in the mood', 'earth_and_sun_and_moon/outbreak_of_love.htm');
+INSERT INTO songs VALUES( 'outside_world', 'Outside World', '3', '10,9,8,7,6,5,4,3,2,1', '10,9,8,7,6,5,4,3,2,1 (1982 - 1)
+Read About It single (1982 - 1)
+US Forces single (1982 - 2)', '1) Album version produced by Nick Launay and Midnight Oil. Engineered and mixed by Nick Launay. Assistant engineers - Howard Grey and Gavin McKillop. Recorded at the \'Town House\' London, Sep 1982.
+
+2) Instrumental version. Credits as for version 1.', 'There\'s a wind on the eastern side
+Ghost gums dance in the moonlit night
+Mopoke mourns the racketeers
+The bosses they can sense your mood
+All in place to a hand that rules
+They all want to deal you out
+
+I can see the outside world
+Everything\'s inviting in the outside world
+Leaving all my problems in the outside world
+
+It\'s the summer of another year
+A little world weary a little more to fear
+Hold those cards tight to your chest
+Maybe someday you could be a man
+Living quietly in a caravan
+Not the Lismore road tonight', 'None');
+INSERT INTO songs VALUES( 'pictures', 'Pictures', '2/3/8/1/5', 'Species Deceases', 'Species Deceases EP (1985 - 1)
+The Dead Heart single (1987 - 1)
+20,000 Watt RSL DVD/Video (1997 - 2)', '1) EP version produced by Midnight Oil and Francois Kervorkian. Engineered by David Price. Assistant engineer - Tom Colley. Mixed by Midnight Oil and David Price.
+
+2) Promo video clip directed by John Whitteron, Tony Stevens, Midnight Oil.', 'I just want to see that clear clear ight
+Don\'t want to be a member of a species that\'s deceasing
+Keep on making those promises that they aren\'t keeping
+
+Oh I was a talking to the people next door
+Said they don\'t want to die in a nuclear war
+Now we went walking down the old north road
+We got a common cause we got a heavy heavy load
+
+Watching pictures of the world
+Watching pictures as they pass me by
+Don\'t stop at that light
+Don\'t go out at night
+My artificial heart
+Expensive spare parts
+
+I\'ve been a sailor on the sea I\'ve been a flyer in the air
+I\'ve seen a whole lot of bleeding hearts out there
+They don\'t talk so much I tell you they still care
+
+They can\'t go on living like this they can\'t go on
+
+Don\'t sit around in silence you don\'t need a licence
+It\'s moving in a hurrythere\'s no need to worry
+We\'re really going to change it the critical mass approaches
+I can almost hear it', 'None');
+INSERT INTO songs VALUES( 'power_and_the_passion', 'Power And The Passion', '2/3/1', '10,9,8,7,6,5,4,3,2,1', '10,9,8,7,6,5,4,3,2,1 (1982 - 1)
+Power And The Passion single (1982 - 1,2,3)
+Best Of Both Worlds single (1984 - 1)
+Beds Are Burning single (1987 - 1)
+Forgotten Years single (1990 - 4)
+One Country single (1991 - 4)
+The Green Disc promo (1990 - 4)
+20,000 Watt RSL (1997 - 1)
+20,000 Watt RSL DVD/Video (1997 - 5)
+
+Alternative versions:
+Glitch Baby Glitch (separate entry)
+
+Remixes:
+Dub version
+Edit version
+Extended version/Special Extended Version/Remix', '1) Album version produced by Nick Launay and Midnight Oil. Engineered and mixed by Nick Launay. Assistant engineers - Howard Grey and Gavin McKillop. Recorded at the \'Town House\' London, Sep 1982.
+
+2) Dub version is a remixed version of the version 1.
+
+3) Edit version is a cut down version of version 1.
+
+4) Extended version is a remix by Francois Kervorkian and Dominic Maita at RPM Sound Studios. Assisted by by Mike Krowiak. Produced by Nick Launay and Midnight Oil.
+
+5) Promo video clip directed by Ray Argall and Midnight Oil.', 'People, wasting away in paradise
+Going backward, once in a while
+Moving ahead, falling behind
+What do you believe, what do you believe
+What do you believe is true
+Nothing they say makes a difference this way
+Nothing they say will do
+
+Take all the trouble that you can afford
+At least you won\'t have time to be bored
+
+Oh the power and the passion, oh the temper of the time
+Oh the power and the passion
+Sometimes you\'ve got to take the hardest line
+
+Sunburnt faces around, with skin so brown
+Smiling zinc cream and crowds, Sundays the beach never a cloud
+Breathing eucalypt, pushing panel vans
+Stuff and munch junk food
+Laughing at the truth, cos Gough was tough til he hit the rough
+Uncle Sam and John were quite enough
+
+Too much of sunshine too much of sky
+It\'s enough to make you want to cry
+
+Oh the power...
+
+I see buildings, clothing the sky, in paradise
+Sydney, nights are warm
+Daytime telly, blue rinse dawn
+Dad\'s so bad he lives in the pub, it\'s a underarms and football clubs
+Flat chat, Pine Gap, in every home a Big Mac
+And no one goes outback, that\'s that
+You take what you get and get what you please
+It\'s better to die on your feet than to live on your knees
+
+Oh the power...', '10987654321/power_and_the_passion.htm');
+INSERT INTO songs VALUES( 'profiteers', 'Profiteers', '2/3/8', 'Head Injuries', 'Head Injuries (1978)', 'Produced by Leszek J. Karski. Engineered by Peter J. Walker. Recorded at Trafalgar Studios, Sydney, Jul/Aug, 1979.', 'Look up on the ledge, there\'s a bomber diving on the golden street
+Down below the crowd is falling, bullets under feet
+
+Don\'t tell me, don\'t tell me, hey don\'t tell me
+We\'re under the beat of a brand-new marching order
+Ears to be ground there\'s a party planned for the new recruits
+Hurricane lamps are burning, teargas fills the route, yeah', 'None');
+INSERT INTO songs VALUES( 'progress', 'Progress', '3/1', 'Species Deceases', 'Species Deceases (1985 - 1)
+The Dead Heart (1987 - 1)
+Bedlam Bridge (1990 - 2)
+Black Rain Falls (1990 - 3)
+Scream In Blue - Live (1992 - 2)
+The Best Of The B-Sides promo (1997 - 2)', '1) EP version produced by Midnight Oil and Francois Kervorkian. Engineered by David Price. Assistant engineer - Tom Colley. Mixed by Midnight Oil and David Price.
+
+2) Live version on Bedlam Bridge and Scream In Blue - Live recorded live outside the Exxon Building, 6th Avenue, N.Y., 30th May 1990. Produced by Midnight Oil and Keith Walker. Engineered by Dave Hewitt.
+
+3) Live version on Black Rain Falls video is same as version 2. Video directed by Larry Jordan. Produced by John Diaz for Calhoun Productions.', 'Say yes to a real life ambition, say yes to our hopes and our plans
+Forget about your indecision, let\'s get the beast off our land
+A tree that can grow no longer, a beach that has got no sand
+I would pay out a king\'s ransom, if we could just understand
+Got your last meal, filled up with pesticide
+Hamburger chain third world infanticide
+Got robot car your jobs will disappear
+It\'s the politics of a brand new year
+Manhattanization is coming, open your eyes if you dare
+Carry us on to the crossroads, come to your senses and care
+
+16 million, I can\'t hear you at all
+
+Some say that\'s progress
+I say that\'s cruel
+
+You may be safe in your hemisphere
+But there\'s so much junk in the stratosphere
+We got our eyes on the firmament, hands on the armaments
+Heads full of arguments, and words for our monuments
+
+I won\'t deny it, can we survive?
+
+Some say that\'s progress
+I say that\'s cruel.', 'miscellaneous/progress.htm');
+INSERT INTO songs VALUES( 'quinella_holiday', 'Quinella Holiday', '1/3', 'Place Without A Postcard', 'Place Without A Postcard (1981)', 'Produced and recorded by Glyn Johns, Jun/Jul 1981. Assistant engineer Sean Fullen', 'The bar was crowded in the arvo din
+And the voices got higher and higher
+For the man at the back with the tickets in his hat
+He would have to do more than aspire to
+A place with some light on the sand near a beach
+A place near some green running water
+Place on the hill with a view of the sea
+And the cooking was done by his daughter
+
+If the quinella comes in today
+
+
+The day is late and the race is run
+A full weeks wages and the lots been done
+\'Cos the meeting is over and the crowd has thinned
+In the game of chance the dice has rolled it\'s spin
+Another long week, lady luck makes it plain
+His dreams and his hopes are dashed in vain
+In the final shout as they call his name
+His tickets lie like scattered leaves out on that asphalt plain
+
+Looking around for the moment that\'s right
+Lottery life well the numbers are tight
+As they try one more pull on the handle too late
+He thinks of what could be it sticks in his throat
+
+If the quinella...', 'None');
+INSERT INTO songs VALUES( 'read_about_it', 'Read About It', '2/3/1', '10,9,8,7,6,5,4,3,2,1', 'Read About It single (1982 - 1)
+10,9,8,7,6,5,4,3,2,1 (1982 - 1)
+Power And The Passion (1982 - 1)
+Dreamworld single (1987 - 1)
+Scream In Blue - Live (1992 - 2)
+Truganini single (1993 - 2)
+The Midnight Oil Collection promo (1993 - 1)
+20,000 Watt RSL DVD/Video (1997 - 3)', '1) Album version produced by Nick Launay and Midnight Oil. Engineered and mixed by Nick Launay. Assistant engineers - Howard Grey and Gavin McKillop. Recorded at the \'Town House\' London, Sep 1982.
+
+2) Live version on Scream In Blue - Live and Truganini single recorded at Brisbane Boondall Centre in 1990. Produced by Keith Walker and Midnight Oil. Engineered by Keith Walker and Phil Draculus. Metropolis Mobile by Steve Pyle.
+
+3) Promo video clip on 20,000 Watt RSL DVD/Video directed by Ray Argall and Midnight Oil.', 'The rich get richer, the poor get the picture
+The bombs never hit you when you\'re down so low
+Some got pollution, some revolution
+There must be some solution but I just don\'t know
+The bosses want decisions, the workers need ambitions
+There won\'t be no collisions when they move so slow
+Nothing ever happens, nothing really matters
+No one ever tells me so what am I to know
+
+You wouldn\'t read about it, read about it
+Just another incredible scene, there\'s no doubt about it
+
+Hammer and the sickle, the news is at a trickle
+The commissars are fickle but the stockpile grows
+Bombers keep acoming, engines softly humming
+The stars and stripes are running for their own big show
+Another little flare up, storm brewed in a tea cup
+Imagine any mix up and the lot would go
+Nothing ever happens...
+
+You wouldn\'t read about it, read about it
+One unjust ridiculous steal, ain\'t no doubt about it
+You wouldn\'t read about it, read about it
+Just another particular deal, there\'s no doubt about it', '10987654321/read_about_it.htm');
+INSERT INTO songs VALUES( 'redneck_wonderland', 'Redneck Wonderland', '7', 'Redneck Wonderland', 'Redneck Wonderland single (1998)
+Redneck Wonderland (1998)', 'Produced by Warne Livesey and Midnight Oil. Recorded at Electric Avenue, Sydney. Mixed by Warne Livesey at Sing Sing, 301 Sydney and b.j.g. London. Assistants at b.j.g - Alex Clark and James Wagstaff.', 'I don\'t want to run I don\'t want to stay
+Cos everything that\'s near and dear is old and in the way
+Emergency has gone, apathy rolling on
+Time to take a stand 
+Redneck wonderland
+
+Got you in my sights, spotlit by the fence
+If it\'s love you\'re faking it\'s just common sense
+Brick and tile for miles, rolling in the aisles
+Rifle in my hand 
+Redneck wonderland
+
+Well the streets are clean, nothing gets away
+I can see the beauty treatment draining from your face
+It is vision free, it\'s poor bugger me
+Something less than grand 
+Redneck wonderland', 'redneck_wonderland/redneck_wonderland.html');
+INSERT INTO songs VALUES( 'renaissance_man', 'Renaissance Man', '3/8/1', 'Earth And Sun And Moon', 'Earth And Sun And Moon (1993)', 'Produced by Nick Launay and Midnight Oil. Recorded by Brent Clark and Nick Launay. Mixed by Nick Launay.', 'Well I told you about the forest and trees and the chlorophyll green
+Yes I told you the birds will endure flutter wings dance on leaves
+Hold onto dreams, hold onto dreams tonight
+
+Well I told you about the high pressure cell coming down on the breeze
+And I know that the things you can\'t see they are hard to believe
+Hold onto dreams, hold onto dreams tonight
+
+A new world order has been formed
+Between the cheque book and the dawn
+A new renaissance man is born
+
+Renaissance man are you ready
+Renaissance man
+Renaissance man are you ready
+See what a world that you can make
+
+Well I heard about the spirit of life is it flickering still
+Yes I heard that the dark bellied angel\'s come running up the hill
+Hold onto dreams, hold onto dreams tonight
+
+Smash and grab the women and child
+All the souls are growing wild
+Stripped so bare well the universe stares
+It\'s so close to home that we got to share with you
+So many genuine things surround you
+Wild weather man well it still confounds you
+Cast away the greed and death machine and bytes
+And abacus and lights and hold onto your dreams tonight
+
+So you found a hard won friend
+To hold your hand and hold your head
+A new renaissance to defend
+Hold onto dreams, hold onto dreams tonight
+
+Where are we going to be, in 3033
+What\'s spinning round your brain
+Are you a renaissance man or are you a renaissance woman
+If you jump out an angel will give you wings', 'None');
+INSERT INTO songs VALUES( 'return_to_sender', 'Return To Sender', '7', 'Redneck Wonderland', 'Redneck Wonderland (1998)', 'Produced by Warne Livesey, Magoo and Midnight Oil. Recorded at Sing Sing Studios, Melbourne. Assistant engineers - Dave Davis and Matt Voigt. Mixed by Warne Livesey at Sing Sing, 301 Sydney and b.j.g. London. Assistants at b.j.g - Alex Clark and James Wagstaff.', 'Well I want to return to my sender
+Well I want to return
+There is so much that I can\'t remember
+But there\'s so much to choose
+
+We are laying the tracks for the company
+Across all space and all time
+Any insinkerator will remind you
+What can happen to you
+
+There\'s a billboard as high as a mountain
+Neon lights up the hill
+Cast no shadow and leave no traces
+We are grist for the mill
+
+Hold me control me into the arms we fall
+Sugar the future sale of the century
+
+Trying to turn the world around
+Trying to turn the world around
+I\'ve come to turn your world around.', 'None');
+INSERT INTO songs VALUES( 'river_runs_red', 'River Runs Red', '2/3', 'Blue Sky Mining', 'Blue Sky Mining (1990 - 1)
+Black Rain Falls (1990 - 2)
+One Country (1991 - 1)
+20,000 Watt RSL DVD/Video (1997 - 2)', '1) Album version produced by Warne Livesey and Midnight Oil. Engineer - David Nicholas; Assistant Engineer - Brendan Morley. Recorded in Sydney, 1989 at Rhino Studios. Additional Keyboards by Warne Livesey.
+
+2) Video clip on Black Rain Falls and 20,000 Watt RSL recorded live in front of the Exxon Building, 6th Avenue, N.Y., 30th may 1990. Directed by Larry Jordan and produced by John Diaz for Calhoun Productions.', 'So you cut all the tall trees down, you poisoned the sky and the sea
+You\'ve taken what\'s good from the ground
+But you\'ve left precious little for me
+You remember the flood and the fall, we remember the light on the hill
+There should be enough for us all, but the dollar is driving us still
+
+River runs red, black rain falls, dust in my hand
+River runs red, black rain falls, on my bleeding land
+
+So we came and we conquered and found
+Riches of commons and kings
+Who strangled and wrestled the ground
+But they never put back anything
+Now I\'m trapped like a dog in a cage
+Wherever the truth is pursued
+It must be the curse of the age
+What\'s taken is never renewed', 'blue_sky_mining/river_runs_red.htm');
+INSERT INTO songs VALUES( 'run_by_night', 'Run By Night', '3/2/8', 'Midnight Oil', 'Run By Night (1978)
+Midnight Oil (1978)', 'Produced by Keith Walker (for Marlyn Productions) and Midnight Oil. Engineered by Keith Walker. Recorded and mixed at Albert\'s Studios, Sydney, Sep 1978.', 'I\'m on the whiskey flying, and I\'ll run by night
+I\'m on the whiskey running, and I\'ll run by night
+I\'m on the winter cycle, shut my eyes to the bite
+I\'m on the winter cycle, shake my fist at the bite
+I\'m on the whiskey flying, and I\'ll run by night
+I\'m on the phone to summer, so I\'ll see you on the flight
+My friends are at a party, playing games with the light
+I hate to say I\'m wrong, I just know I\'m right
+
+We all run by night
+
+I\'m on the whiskey flying, and I\'ll run by night
+I\'m on the glaze a burning, and it burns in the light
+I\'m on a turning circle, turn my face from the bite
+I\'m on a turning circle, hear me screaming at the bite
+
+I\'m on the edge of danger, and I\'ll run by night
+I\'m on the phone to summer, so I;ll see you on the flight
+My friends are at a party, playing games with the light
+I hate to say I\'m wrong, I just know I\'m right
+
+We all run by night', 'None');
+INSERT INTO songs VALUES( 'safety_chain_blues', 'Safety Chain Blues', '7', 'Redneck Wonderland', 'Redneck Wonderland (1998)', 'Produced by Magoo and Midnight Oil. Recorded at Sing Sing Studios, Melbourne. Assistant engineers  - Dave Davis and Matt Voigt. Mixed by Warne Livesey at Sing Sing, 301 Sydney and b.j.g. London. Assistants at b.j.g - Alex Clark and James Wagstaff. String arrangement by Robin Casinader. Cello by Helen Mountford.', 'Hanging on like hell to the safety chain
+Lifebuoy crash lands in a vale of tears
+All the lovers are in retreat
+Out on the edge of the nervous street
+
+So deaf to the call of the wild
+Deaf to the first born\'s whispering plea
+Expanding frame the city is in heat
+Burning at the edges of the lonely street
+
+But I want to hold your precious head
+I will not leave you nor pretend
+I\'m going to hold you to the end
+
+Hey mama didn\'t know we\'d end up here
+The snapshot is all tiles and red walls
+Down at the squatter\'s camps they cannot compete
+The shepherd has been bound up by his hands and his feet
+
+Make love make peace make haste it\'s a slow release
+Great changes gonna carry you
+Make love make peace make haste it\'s a slow release
+Great changes gonna carry you', 'redneck_wonderland/safety_chain_blues.html');
+INSERT INTO songs VALUES( 'scream_in_blue', 'Scream In Blue', '8/3/1', '10,9,8,7,6,5,4,3,2,1', '10,9,8,7,6,5,4,3,2,1 (1982 - 1)
+Scream In Blue - Live (1992 - 2)', '1) Album version produced by Nick Launay and Midnight Oil. Engineered and mixed by Nick Launay. Assistant engineers - Howard Grey and Gavin McKillop. Recorded at the \'Town House\' London, Sep 1982.
+
+2) Live version on Scream In Blue - Live produced by Midnight Oil and Keith Walker. Recorded at the Hordern Pavillion, Sydney at the \"Stop The Drop\" anti-nuclear benefit gig, 15th Jun 1984. Engineered by Dave Nicolas and \"Rocket\" on the Jands Mobile. This is only the instrumental first part of the full Scream In Blue track.', 'Come to me now, be careful of what you say
+Don\'t make a sound, there\'s noise enough in this
+Come with me now, let night move into day
+Let sheets keep secrets that no one else could know
+I could kill for this one time and not be caught
+She said to me this is the one and I know
+Come to me now, this is the final hour
+When I\'m dreaming I dream in blue
+When I\'m dreaming I dream of you
+When I\'m screaming I scream in blue', 'None');
+INSERT INTO songs VALUES( 'section_5_(bus_to_bondi)', 'Section 5 (Bus To Bondi)', '8/2/1/3', 'Head Injuries', 'Head Injuries (1979)
+Back On The Borderline single (1980)', 'Produced by Leszek J. Karski. Engineered by Peter J. Walker. Recorded at Trafalgar Studios, Sydney, Jul/Aug 1979.', 'Push start that car tomorrow
+I\'ll take it to the tip yard
+Well I\'ll leave it as a metal wreck
+For cats to sleep
+
+Then I\'ll catch the bus to Bondi
+Swim the beach and wonder
+Who can wear the fashion when
+The place is oh so hot
+
+I\'m just part of this play
+I\'m making an inroad on the one and only
+I\'m just part of this play
+I\'ve finally decided I\'m here to stay
+
+Then I\'ll stop the small talk
+Then I\'ll stop the games
+I\'ll show them that the plans
+I\'ve made aren\'t wrong, what\'s wrong?
+Then I\'ll shop at New World
+Fill it up with real toys
+Initiate a face-lift for the captains to corrupt', 'None');
+INSERT INTO songs VALUES( 'seeing_is_believing', 'Seeing Is Believing', '7', 'Redneck Wonderland', 'Redneck Wonderland (1998)', 'Produced by Warne Livesey, Magoo and Midnight Oil. Recorded at Sing Sing Studios, Melbourne. Assistant engineers - Dave Davis and Matt Voigt. Mixed by Warne Livesey at Sing Sing, 301 Sydney and b.j.g. London. Assistants at b.j.g - Alex Clark and James Wagstaff.', 'I was asleep with both eyes open
+Dream freeze sprinklers in the sun
+Beer soaked mansions block the sky,
+Dingos howl and white flags fly
+The future\'s put on hold and you\'re still young
+
+But I know seeing is believing
+I can\'t believe what I\'m seeing
+
+I was crying with both eyes open
+But now all is quiet on dripfeed lottery night
+Curse the dugong, free the jet ski,
+Suckling babies at the eski
+Invite the looters back the price is right.', 'redneck_wonderland/seeing_is_believing.html');
+INSERT INTO songs VALUES( 'sell_my_soul', 'Sell My Soul', '3/1', 'Diesel And Dust', 'Diesel And Dust (1987, 1989 - 1)
+Scream In Blue - Live (1992 - 2)', '1) Album version produced by Warne Livesey and Midnight Oil. Engineered by Guy Gray. Recorded at Alberts Studios, Sydney.
+
+2) Live version on Scream In Blue - Live produced by Midnight Oil and Keith Walker. Recorded at the Brisbane Boondall Centre, Oct 1990. Engineered by Keith Walker and Phil Draculus. Steve Pyle - Metropolis Mobile.', 'Let\'s begin, I am ready, let\'s begin
+Sell my soul to him
+Shed my skin, I just wanna shed my skin
+I don\'t wanna sell my soul to him
+Mechanize, city bursts and farmers die
+They cry
+Sleep face down in a goods train heading south in the rain
+
+In this world I often think you understand me
+In these words I often think you\'d recognise me
+\'Cos I just wanna swim with the fish in the sea
+And I want faith to heal so that I can be clean
+
+Celebrate, I just want to celebrate
+I\'m not going to sell my soul to him
+When you look right in', 'diesel_and_dust/sell_my_soul.htm');
+INSERT INTO songs VALUES( 'shakers_and_movers', 'Shakers And Movers', '3/1', 'Blue Sky Mining', 'Blue Sky Mining (1990)
+Forgotten Years (1990)', 'Produced by Warne Livesey and Midnight Oil. Engineer - David Nicholas; Assistant Engineer - Brendan Morley. Recorded in Sydney, 1989 at Rhino Studios. Additional Keyboards by Warne Livesey.', 'Won\'t you come on down the line, away from barren ground
+The harlot and the autocrat, are they driving you further down
+The season\'s rhymes, they anchor me, against the raging tide
+Take you to the last wild place, skin and the stars they embrace
+A caveman could a saint become, on a hospital ward on the Somme
+We can dive into distant amoebas, our wings could melt in the sun
+
+I can shake, I can move, but I live can\'t without your love
+I can break, Over you, but I live without your love
+
+Our poet Henry Lawson, he named them, the lay\'em out brigade
+Here they come, there they go, oh great god of development
+Don\'t really know you yet
+Coastline hosed down washed away, economics now there\'s nothing left
+Tomorrow\'s child takes concrete footsteps
+And theyll drink champagne or be damned
+
+And the storm is breaking now, yes the storm is crashing down', 'blue_sky_mining/shakers_and_movers.htm');
+INSERT INTO songs VALUES( 'shipyards_of_new_zealand', 'Shipyards Of New Zealand', '3/1', 'Red Sails In The Sunset', 'Red Sails In The Sunset (1984)', 'Produced by Nick Launay and Midnight Oil. Engineered and Mixed by Nick Launay. Assistant Engineers - Shigeo Miyamoto and Yoshiyuki Kaneko. Recorded and mixed at Victor Aoyama Studio, Tokyo Jun/Aug, 1984.', 'Thought one day I\'d make my fortune
+Like the ancient cavalcades
+From the shipyards of New Zealand
+Chasing history I left home
+Moving west into the sunset
+Became the sunset of our lives
+I was factory made and settled
+Safe from storm and broken earth
+
+There\'s so much to do every day
+Dreams keep on disappearing
+We cling to the walls of our heart
+Keeps us from coming undone
+
+Now danger lurks behind the spreader
+And Charlton Heston casts the first stone
+User interference birthmarks
+Clever, not very wise
+
+Let the lamplights keep on shining now
+While those searchlights in skies they are turning
+We climb to the top of the heap
+I wish I could fly
+
+I can\'t get lost
+I can\'t get confused
+Something\'s misplaced
+Maybe for good', 'None');
+INSERT INTO songs VALUES( 'short_memory', 'Short Memory', '2/3/1', '10,9,8,7,6,5,4,3,2,1', '10,9,8,7,6,5,4,3,2,1 (1982 - 1)
+Dreamworld single (1987 - 1)
+Put Down That Weapon single (1987 - 1)
+King Of The Mountain (1990 - 1)
+20,000 Watt RSL DVD/Video (1997 - 2)', '1) Album version produced by Nick Launay and Midnight Oil. Engineered and mixed by Nick Launay. Assistant engineers - Howard Grey and Gavin McKillop. Recorded at the \'Town House\' London, Sep 1982.
+
+2) Live version on 20,000 Watt RSL DVD/Video recorded at the Sydney Entertainment Centre, 18th Sep 1983. Directed by John Duigan, Ray Argall and Midnight Oil.', 'Conquistador of Mexico, the Zulu and the Navaho
+The Belgians in the Congo short memory
+Plantation in Virginia, the Raj in British India
+The deadline in South Africa short memory
+The story of El Salvador, the silence of Hiroshima
+Destruction of Cambodia short memory
+
+Short memory, must have a, short memory
+
+The sight of hotels by the Nile, the designated Hilton style
+With running water specially bought short memory
+A smallish man Afghanistan, a watch dog in a nervous land
+They\'re only there to lend a hand short memory
+Wake up in sweat at dead of night
+And in the tents new rifles hey short memory
+
+If you read the history books you\'ll see the same things happen again and again
+Repeat repeat short memory they\'ve all got it
+When are we going to play it again
+Got a short, got a short, got a short, got a short
+They\'ve got a short must have a short they\'ve got a short aah
+Short memory, they\'ve got a', '10987654321/short_memory.htm');
+INSERT INTO songs VALUES( 'sins_of_omission', 'Sins Of Omission', '13/7', 'Breathe', 'Breathe promo (1996 - 1)
+Breathe (1996 - 1)
+20,000 Watt RSL DVD/Video (1997 - 2)', '1) Album version produced by Malcolm Burn and Grant Pudig at Kingsway Studios, New Orleans. Recorded in Jun 1996. Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996. Additional bass and electri guitar by Malcolm Burn.
+
+2) Live version on 20,000 Watt RSL DVD/video recorded at The Palace, Melbourne, Sep 1996. Directed by Maurice Todman.', 'On the fringes of torso and lips
+Straining to hear the voice of gospel choir
+Pummelled plains and beaten fields
+We’re never broken in spirit within
+
+But I feel like we’re coming around
+Yes, I feel like we’re coming around
+Tell me
+
+Cloud burst teeming, insect wave and bite
+Yes it’s true, we are not alone
+TV silence it’s a narrow entrance
+It’s a sometimes leading into future time
+
+But I feel like we’re coming around
+Yes, I feel like we’re coming around
+I feel like we’re coming around
+
+Sins of omission, no love
+Sins of omission
+
+I heard it once before in shepherd’s isolation
+Over the horizon in blue and white now, now
+Now overcome you can outrun it
+When the roarings cease and the right stuff weaves and fits into your life
+
+And I feel like we’re coming around
+Yes I feel like I’m coming around, tell me
+
+Sins of omission, no love
+Sins', 'None');
+INSERT INTO songs VALUES( 'sleep', 'Sleep', '3/2/1', 'Red Sails In The Sunset', 'Red Sails In The Sunset (1984 - 1)
+The Midnight Oil Collection promo (1993 - 1)
+20,000 Watt RSL DVD/Video (1997 - 2)', '1) Produced by Nick Launay and Midnight Oil. Engineered and Mixed by Nick Launay. Assistant Engineers - Shigeo Miyamoto, Yoshiyuki Kaneko. Recorded and mixed at Victor Aoyama Studio, Tokyo Jun/Aug, 1984.
+
+2) Live video clip on 20,000 Watt RSL DVD/Video recorded at The Spectrum in Montreal, Canada. Recorded for Much Music Television, 1st Oct 1985.', 'So you\'ve got the blues
+The evening wore out your shoes
+To a shuffling beat
+It\'s a colourful crowd
+Spraycan information
+Cover the lonely station
+Checkpoint for the state of the nation
+
+On the missionbeat beat
+The radio drug
+Wayward destinations
+Secondhand sensation
+In the back of the cell
+The plug and the cord
+Shoulder dislocation
+Bruised in isolation
+
+In the eye of the storm
+Writing on walls
+Cross my heart confusion
+Looking for a new solution
+
+It\'s the heat of the land
+Swallowing sweat
+Say those dreams can shake me
+Dawn come down and save me
+
+Take this heart
+Break this heart
+Wrap it up and let me sleep', 'red_sails_in_the_sunset/sleep.htm');
+INSERT INTO songs VALUES( 'somebodys_trying_to_tell_me_something', 'Somebody\'s Trying To Tell Me Something', '2/8/3/1/5', '10,9,8,7,6,5,4,3,2,1', '10,9,8,7,6,5,4,3,2,1 (1982)', 'Album version produced by Nick Launay and Midnight Oil. Engineered and mixed by Nick Launay. Assistant engineers - Howard Grey and Gavin McKillop. Recorded at the \'Town House\' London, Sep 1982.', 'Breaking me down - lunatic noises
+Breaking me down - desperate voices
+Breaking me down - phone is blistering
+Breaking me down - death by listening
+
+Somebody\'s out there, Somebody\'s waiting
+Somebody\'s trying to tell me something
+Somebody\'s trying to talk to me
+
+Cracking me up - silence threatening
+Cracking me up - storm is deafening
+Cracking me up - pressure brought to bear
+Cracking me up - now I\'m getting there', 'None');
+INSERT INTO songs VALUES( 'someone_else_to_blame', 'Someone Else To Blame', '2/3/5', 'Place Without A Postcard', 'Place Without A Postcard (1981)', 'Produced and recorded by Glyn Johns, Jun/Jul 1981. Assistant engineer Sean Fullen.', 'Tell for yourself, watch me sweat, watch me crawl
+Stretch me on the table, up against the wall
+You can see for yourself, but you better not say
+You\'re working four more hours every other day
+
+See me suffer see me pain
+Must be someone else to blame
+See me suffer see me pain
+
+There\'s more trouble at the dockyard
+Party\'s shouting at the union
+Short fuses on their anger
+Workers in confusion
+Then there\'s the vandals of the right
+They stalk the streets at night
+Got someone else to fight
+Got someone else to blame
+
+See me suffer...
+
+You can speak for yourself
+Before the moment is lost
+But I don\'t wanna shout cos I\' m counting the cost
+I\'m counting the cost
+
+See me suffer...', 'None');
+INSERT INTO songs VALUES( 'sometimes', 'Sometimes', '3/1/2', 'Diesel And Dust', 'Diesel And Dust (1987, 1989 - 1)
+Sometimes - Live single (1992 - 2)
+Scream In Blue - Live (1992 - 2)
+The Midnight Oil Collection (1993 - 3)
+Black Rain Falls video (1990 - 4)
+20,000 Watt RSL DVD/Video (1997 - 4)', '1) Album version produced by Warne Livesey and Midnight Oil. Engineered by Guy Gray. Recorded at Alberts Studios, Sydney.
+
+2) Live version on Sometimes - Live single and Scream In Blue - Live produced by Midnight Oil and Keith Walker. Recorded for the Our Common Future show, in Darlinghurst, Jun 1989. Engineered by Keith Walker and David Bates. 
+
+3) Live version on The Midnight Oil Collection promo. Details unknown. Possibly the same recording as for version 2 above.
+
+4) Live version on Black Rain Falls video and 20,000 Watt RSL DVD/Video recorded in front of the Exxon Building, 6th Avenue N.Y., 30th May, 1990. Directed by Larry Jordan and produced by John Diaz for Calhoun Productions.', 'I know that the sunset empire shudders and shakes
+I know there\'s a floodgate and a raging river
+I say the silence of the ribbons of iron and steel
+I say hear the punch drunk huddle drive hammer and steel
+
+Sometimes you\'re beaten to the call
+Sometimes you\'re taken to the wall
+But you don\'t give in
+
+I know that the cannibals wear smart suits and ties
+I know they arm wrestle on the altar
+I say don\'t leave your heart in a hard place
+
+Sometimes you\'re shaken to the core
+Sometimes the face is gonna fall
+But you don\'t give in', 'diesel_and_dust/sometimes.htm');
+INSERT INTO songs VALUES( 'stand_in_line', 'Stand In Line', '2/3/8/1', 'Head Injuries', 'Head Injuries (1979 - 1)
+Armistice Day single (1982 - 1)
+The Green Disc promo (1990 - 2)
+20,000 Watt RSL DVD/Video (1997 - 3)', '1) Album version produced by Leszek J. Karski. Engineered by Peter J. Walker. Recorded at Trafalgar Studios, Sydney, Jul/Aug 1979.
+
+2) Live version on The Green Disc promo recorded for \"The Last 2JJ Concert\", Sydney, 18th Jan, 1981. Production details unspecified.
+
+3) Live version on 20,000 Watt RSL recorded at \"Oils On The Water\" (2JJJ 10th Birthday show), on Goat Island, Sydney Harbour, 12th Jan 1985', 'Oh get down, getting down, so much money in the ground
+For the people who don\'t deserve it now
+It\'s a circus we\'re the clowns as the giant ones disown
+Every bit of something we call home
+
+Said it\'s a pity \'bout the middle class Holden mass
+We get a bit to play around with doesn\'t really matter
+They kid us with their dole, kid us with the dope
+But generally speaking, nobody\'s got a hope
+
+We\'re playing the music of the middle-aged queens
+Getting fatter and fatter and splitting their jeans
+It\'s all the same, we\'re out in the cold
+The good ones died, the others just got old
+Everything\'s set, everything\'s fine
+You just got to stand in line
+Oh everything\'s set, everything\'s fine
+You just got to stand in line
+
+Getting down, getting down, we have to make it now
+Everybody\'s beaten, everybody\'s down, oh everybody\'s down
+So goodbye to the creeps who are making it
+Goodbye to the let it happen stand
+I\'m moving out got no doubt they\'ve forgettn twist \'n\' shout
+They never ever listen to the man', 'head_injuries/stand_in_line.htm');
+INSERT INTO songs VALUES( 'star_of_hope', 'Star Of Hope', '7', 'Breathe', 'Breathe promo (1996 - 1)
+Breathe (1996 - 1)
+Surf\'s Up Tonight single (1996 - 2)', '1) Album version produced by Malcolm Burn and Grant Pudig at Darling Harbour Studios, Sydney on the Woodheap Mobile. Technical Assistance by Greg Cameron. Recorded on May/Jun 1996. Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996. Additional tambourine by Malcolm Burn.
+
+2) Live version on Surf\'s Up Tonight single recorded and engineered by Keith Walker. Recorded at The Palace, St. Kilda, Sep 1996.', 'Hope you’re a God, your turn to pray
+Hope you\'ve a God, it\'s your turn to pray
+Light on the hill so far away
+The light on the hill is so far away
+Boy, where are you now
+With skin so brown, get out of town
+
+Star of Hope, star of Glory
+Shine upon this half made man
+To himself, he begs, steals or borrows
+But you won\'t be seeing him again
+
+Hope you\'ve a God it\'s your turn to pray
+Hope you\'ve a God it\'s your turn to pray
+Light on the hill is so far away
+Sign on the hill says it\'s the judgment day
+
+Howl, where are you now
+Words fly around, get out of town
+
+Star of Hope, star of Glory
+Shine upon this half made man
+Blinded by, a new tomorrow
+You wont be seeing him again
+
+Howl, where are you now
+Where skin\'s so brown, get out of town
+
+Star of Hope, star of Glory
+Shining on this a frying pan
+To yourself if there\'s some tomorrow
+You wont be needing me again
+
+Star of Hope, star of Glory
+Shine upon me if you can
+To myself, beg, steal and borrow
+You wont be seeing me again', 'None');
+INSERT INTO songs VALUES( 'stars_of_warburton', 'Stars Of Warburton', '3/1', 'Blue Sky Mining', 'Blue Sky Mining (1990 - 1)
+Scream In Blue - Live (1992 - 2)
+Truganini single (1993 - 2)', '1) Album version produced by Warne Livesey and Midnight Oil. Engineer - David Nicholas; Assistant Engineer - Brendan Morley. Recorded in Sydney, 1989 at Rhino Studios. Additional Keyboards by Warne Livesey.
+
+2) Live version on Scream In Blue - Live and Truganini single produced and engineered by Midnight Oil and Keith Walker. Engineered by Keith Walker and Phil Draculus. Metropolis Mobile - Steve Pyle.', 'I, I was, I was shaken down in a toy town
+He, He\'s out there
+You know it\'s Kennedy\'s shadow from White Cross to Michigan
+ATM\'s, are in the air, oh yeah machines they are spinning out everywhere
+
+The speaker is speaking
+Can you hear the sound
+The listener is listening as he hits the ground
+The medium or the message but there\'s no one around
+
+I couldn\'t believe
+I couldn\'t believe the stars of Warburton were waiting for me
+
+We were dancing, we were dancing on the plain
+We\'re looking through the window didn\'t see any buffalo there
+We got our pipe dreams, they went up in smoke dreams
+Burn it clean in the climate control, of your hypermark malls
+Don\'t wanna talk about Elvis Presley
+Don\'t wanna see his white shoes walking around
+And around and around over here
+The press baron\'s acting up the mainframes are down
+Newspapers crawling around on the ground
+The medium or the message still there\'s no one around
+
+I couldn\'t believe
+I couldn\'t believe the stars of Warburton were waiting for me
+
+Over the hills and mountains we go, so far, so far away
+For the ring of the axe on the ironbark, for the smell of the wallaby stew
+From the golden reefs to the sandstone cliffs
+Came the sheep of the Mallee plain
+The wind blew the soil to the Orient, we\'ll be shouting to the skies again
+
+I couldn\'t believe
+I couldn\'t believe the stars of Warburton were waiting for me
+I couldn\'t believe
+I couldn\'t believe the stars of Warburton were living in me 
+Raining down on me, were washing down on me', 'None');
+INSERT INTO songs VALUES( 'surfing_with_a_spoon', 'Surfing With A Spoon', '2/3/8/1', 'Midnight Oil', 'Midnight Oil (1978)', 'Produced by Keith Walker (for Marlyn Productions) and Midnight Oil. Engineered by Keith Walker. Recorded and mixed at Albert\'s Studios, Sydney, Sep 1978.', 'Well you knew from the start
+That a one way loving wouldn\'t last
+You think I\'m moving slowly girl
+I tell you, you\'re moving way too fast
+
+Working in the city from 9 to 5
+Traffic on the highway gonna blow my mind
+Surfing with a spoon all the rest of the time
+Oh yeah, all the rest of time
+
+You better find your way without me
+\'Cause I\'m heading for the coast in june
+Don\'t talk about me when I\'m gone
+You know I couldn\'t leave too soon
+
+Working...
+
+I\'m back in town, you\'re still around
+I guess I\'ll have to stay away
+I\'m going up north where the weather\'s fine
+And I\'m living it from day to day
+
+Working...', 'blue_album/surfing_with_a_spoon.htm');
+INSERT INTO songs VALUES( 'surfs_up_tonight', 'Surf\'s Up Tonight', '7', 'Breathe', 'Breathe promo (1996 - 1)
+Breathe (1996 - 1)
+Surf\'s Up Tonight single (1996 - 1)
+20,000 Watt RSL (1997 - 1)
+20,000 Watt RSL DVD/Video (1997 - 2)', '1) Album version produced by Malcolm Burn and Grant Pudig at Darling Harbour Studios, Sydney on the Woodheap Mobile. Technical Assistance by Greg Cameron. Recorded on May/Jun 1996. Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996. Additional tambouring and vocals by Malcolm Burn.
+
+2) Live video clip on 20,000 Watt RSL DVD/Video recorded at The Palace, Melbourne, Sep 1996. Directed by Maurice Todman.', 'Wherever the wind blows
+When it blows over the sea
+The moon’s sitting high
+Waves will rise 
+Water shapes
+Waves will take you, take you there
+
+Surf\'s up tonight 
+
+Summers on hold
+It will go running away
+You’ve gotta move now
+Get inside
+Take that dive
+Get inside today
+
+Surf\'s up tonight
+Now I was lonely 
+And you were too
+I met you down at the waterline
+
+Now there’s something we can do
+Now there’s something left to do
+Oh yeah
+
+Surf\'s up tonight
+
+Wherever you are
+When you’re coming over land
+There’s a place where you can throw it away
+There’s a place you can forget
+You get wet, it’s free
+You get high, you’re alive
+
+Surf’s up tonight
+Come on up tonight
+Surf’s up tonight', 'breathe/surfs_up_tonight.htm');
+INSERT INTO songs VALUES( 'tell_me_the_truth', 'Tell Me The Truth', '1/3', 'Earth And Sun And Moon', 'Earth And Sun And Moon (1993 - 1)
+ALternative NRG (1993 - 2)', '1) Album version produced by Nick Launay and Midnight Oil. Recorded by Brent Clark and Nick Launay. Mixed by Nick Launay.
+
+2) Acoustic version on Alternative NRG album (various artists). Recorded on a solar-powered recording truck. Details unknown.', 'I believe we\'re crossing the great ravine
+Still yearning half way a stranger
+I believe in our multiplicty
+Still part-blind no reason for anger
+I believe we pull up our roots and retreat
+A new crop of aerials in Dacca and Canberra
+
+Why don\'t you tell me the truth about you
+
+Vaseline, you smeared it across every scene
+Anchor-man drowns in a sea of sensation
+Tyranny, crushing the young bird\'s seed
+Hallowe\'en\'s mate, short fuse of the banker
+
+We\'re all spores but we\'re never eunuchs
+Love\'s on the loose deflect the short tunic
+And the cameras ruse
+There\'s no judgement in ignorance I say
+
+Some people tell me stories, wasting all my time
+Some trying not receiving someone ', 'earth_and_sun_and_moon/tell_me_the_truth.htm');
+INSERT INTO songs VALUES( 'the_great_gibber_plain', 'The Great Gibber Plain', '7', 'Redneck Wonderland', 'Redneck Wonderland single (1998 - 2)
+Redneck Wonderland (1998 - 1)
+
+Remixes:
+Ambient Version', '1) Album version produced by Magoo and Midnight Oil. Additional production by Warne Livesey. Recorded at Sing Sing Studios, Melbourne. Assistant engineers - Dave Davis and Matt Voigt. Mixed by Magoo at Sing Sing, 301 Sydney and b.j.g. London. Assistants at b.j.g - Alex Clark and James Wagstaff.
+
+2) Ambient version on Redneck Wonderland single produced by Magoo and Midnight Oil.', 'From the great gibber plain
+To the Indian ocean
+From the stones at my feet
+To my sawn off emotions
+Already gone
+We\'ve already been
+We\'re free free
+To secede
+
+From Gallipoli\'s cliffs
+To the banks of the Thames
+For those that are nameless
+Does memory remain
+How can we forget
+What\'s already been
+We\'re free so free
+To secede
+
+Like crimson turning to gold yeah
+Like crimson turning to gold
+
+Caught in the detail of losses and gains
+You cannot abandon something so tame
+It\'s already gone already been
+We\'re free free so free
+To secede', 'redneck_wonderland/the_great_gibber_plain.html');
+INSERT INTO songs VALUES( 'time_to_heal', 'Time To Heal', '7', 'Breathe', 'Breathe (1996)', 'Produced by Malcolm Burn and Grant Pudig at Darling Harbour Studios, Sydney on the Woodheap Mobile. Technical Assistance by Greg Cameron. Recorded on May/Jun 1996. Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996. Additional organ by Malcolm Burn.', 'In the cities and the towns
+The word is coming down
+No more doubt, no more pain
+There\'s been a dragging of the chain
+Now there\'s a price we gotta pay
+No way out, no way round
+
+Where is the town that we lived in, brother?
+Where is the sound of the church bells, sister?
+Now is the time to heal
+
+You keep running from the wheel
+But there’s nothing left to feel
+Empty heart down and out
+Now the writer’s can’t explain
+Why we’re playing up again
+No way out, no way down
+
+Where is the hope of a clean tomorrow?
+Hope only offers when justice is coming
+Now is the time to heal
+
+Where is the ground, the beloved country?
+Women and men who have fallen silent
+Where are the words that can speak forgiveness?
+Now is the time
+Now is the time
+Now is the time to heal', 'breathe/time_to_heal.htm');
+INSERT INTO songs VALUES( 'tin_legs_and_tin_mines', 'Tin Legs And Tin Mines', '8/3/1', '10,9,8,7,6,5,4,3,2,1', '10,9,8,7,6,5,4,3,2,1 (1982)
+Power And The Passion (1983)', 'Produced by Nick Launay and Midnight Oil. Engineered and mixed by Nick Launay. Assistant engineers - Howard Grey and Gavin McKillop. Recorded at the \'Town House\' London, Sep 1982.', 'I\'m gonna wait for the moment to come
+I\'m gonna wait till we all stop from running
+Boxed in like candles, polar bear pride
+Turning to terror as the script is read out
+Unwilling actors, accomplished protractors will shout
+
+I\'m gonna wait till we reach the sky
+Tin legs and tin mines, anyone cries
+Cry in the hope that there\'ll be tomorrow
+Waiting around there must be a time
+Time to start thinking and working it out
+Come with me now, come with me now, we\'ll be laughing
+Who\'s running the world today?
+
+I\'m gonna wait till they knock on my door
+I\'m gonna wait till they dig up the floor boards
+Poland in Disneyland, wet dream control
+Super computer, the new contraband
+I\'m gonna wait, we must make a stand
+Come with me now, stand with me now one more time', 'None');
+INSERT INTO songs VALUES( 'truganini', 'Truganini', '2/3', 'Earth And Sun And Moon', 'Truganini single (1993 - 1)
+Truganini promo (1993 - 1)
+Truganini remixes (1993 - 2,3)
+Earth And Sun And Moon (1993 - 1)
+The Midnight Oil Collection promo (1993 - 1)
+My Country single (1993 - 2,3)
+Outbreak Of Love video (1993 - 4)
+
+Remixes:
+Long Mix (or Long Road Train Mix)
+Short Mix (or Short Road Train Mix)', '1) Album version produced by Nick Launay and Midnight Oil. Recorded by Brent Clark and Nick Launay. Mixed by Nick Launay. 
+
+2) Short Mix on Truganini remixes and My Country single special mix of version 1 above.
+
+3) Long Mix on Truganini remixes and My Country single special mix of version 1 above.
+
+4) Promo video clip. American version.
+
+The album version on Truganini single slightly different from album version - has shorter intro and outro.', 'There\'s a road train going nowhere
+Roads are cut, lines are down
+We\'ll be staying at the Roma Bar
+Till that monsoon passes on
+
+The backbone of this country\'s broken
+The land is cracked and the land is sore
+Farmers are hanging on by their fingertips
+We cursed and stumbled across that shore
+
+I hear much support for the monarchy
+I hear the Union Jack\'s to remain
+I see Namatjira in custody
+I see Truganini\'s in chains
+
+And the world it won\'t stand still
+
+Blue collar work it don\'t get you nowhere
+You just go round and round in debt
+Somebody\'s got you on that treadmill, mate
+And I hope you\'re not beaten yet
+
+I hear much support for the monarchy
+I see the Union Jack in flames, let it burn
+I see Namatjira with dignity
+I see Truganini\'s in chains', 'earth_and_sun_and_moon/truganini.htm');
+INSERT INTO songs VALUES( 'underwater', 'Underwater', '7', 'Breathe', 'Underwater single (1996 - 1)
+Breathe promo (1996 - 2)
+Breathe (1996 - 1)', '1) Album version produced by Malcolm Burn and Grant Pudig at Darling Harbour Studios, Sydney on the Woodheap Mobile. Technical Assistance by Greg Cameron. Recorded on May/Jun 1996. Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996. Additional bass by Malcolm Burn. Additional vocals by Trina Shoemaker.
+
+2) Breathe promo version has a slightly chopped intro. Otherwise, as version 1 above.', 'Scanning at the blue bended headlands
+White flurry scudded, a dark silhouette flashes by, in the wet
+It is glistening flesh
+In the deep marine, in the deep marine
+There is room for make believe out in the ocean
+There is room for make believe out on the land
+In the wet, in the dream, if its flashing then seen
+In the deep marine, in the deep marine
+
+Looking to the white framed headland
+Green pockets dropping, a bright cockatoo
+Circles up in the breeze, in the realm you can\'t reach
+In the deep marine, in the deep marine
+There is room for make believe out in the ocean
+There is room for make believe out on the land
+In the west, crashes by, its a green silhouette
+In the deep marine, in the deep marine
+
+No one can make her, no one can break her down
+Underwater, over land
+No one can make her, no one can break her
+Underwater, over land
+No one can make her, no one can break her 
+She is what she is and no one can bring her down, bring her down
+
+Looking to the white framed headland
+Green pockets dropping a bright cockatoo
+Circles up in the breeze, in the realm you can\'t reach
+In the deep marine, in the deep marine
+There is room for make believe out in the ocean
+There is room for make believe out on the land
+In the wet, flashes by, its a green silhouette
+In the deep marine, in the deep marine
+
+No one can make her, no one can break her
+Underwater, overland
+No one can break her, no one can fake her
+She it what she is and no one can bring her down, bring her down
+
+Underwater, overland
+
+No one can squeeze her, no one can freeze her now
+No one can make her, no one can break her down
+No one can seize her, no one can freeze her
+She is what she is and you\'ve got to see it', 'breathe/underwater.htm');
+INSERT INTO songs VALUES( 'us_forces', 'US Forces', '3/1', '10,9,8,7,6,5,4,3,2,1', '10,9,8,7,6,5,4,3,2,1 (1982 - 1)
+US Forces (1982 - 1)
+Power And The Passion (1983 - 1)
+20,000 Watt RSL (1997 - 1)
+20,000 Watt RSL DVD/Video (1997 - 2)', '1) Album version produced by Nick Launay and Midnight Oil. Engineered and mixed by Nick Launay. Assistant engineers - Howard Grey and Gavin McKillop. Recorded at the \'Town House\' London, Sep 1982.
+
+2) Promo video clip directed by Tony Stevens and Midnight Oil.', 'US Forces give the nod, it\'s a setback for your country
+Bombs and trenches all in rows, bombs and threats still ask for more
+Divided world the CIA, who controls the issue
+You leave us with no time to talk, you can write your assessment
+
+Sing me songs of no denying, seems to me too many trying
+Waiting for the next big thing
+
+Will you know it when you see it, high risk children dogs of war
+Now market movements call the shots, business deals in parking lots
+Waiting for the meat of tomorrow
+
+Sing me songs...
+
+Everyone is too stoned to start emission
+People too scared to go to prison
+We\'re unable to make decision
+Political party line don\'t cross that floor
+Lt. Ron Hubbard can\'t save your life
+Superboy takes a plutonium wife
+In the shadow of Ban The Bomb we live
+
+Sing me songs...', '10987654321/us_forces.htm');
+INSERT INTO songs VALUES( 'used_and_abused', 'Used And Abused', '2/3', 'Midnight Oil', 'Midnight Oil (1978 - 1)
+Cold Cold Change (1979 - 1)
+Beds Are Burning - Live promo (1992 - 2)
+Sometimes - Live (1992 - 2)
+20,000 Watt RSL DVD/Video (1997 - 3)
+The Best Of The B-Sides promo (1997 - 2)', '1) Album version produced by Keith Walker (Marlyn Productions) and Midnight Oil. Engineered by Keith Walker. Album recorded and mixed at Albert\'s Studios, Sydney, Sep 1978.
+
+2) Live version on Beds Are Burning - Live promo, Sometimes - Live single and The Best Of The B-Sides promo produced by Midnight Oil and Keith Walker.
+
+3) Promo video clip on 20,000 Watt RSL DVD/Video made for Channel 7, Sydney.', 'I was taken downtown for my part in the demonstration
+I was used and abused with the light in my eye at the station
+I said
+No no You got the wrong man
+No no Don\'t pick on me again
+No no I\'m going home to my
+Family and friends
+
+I\'m too busy making a living to make any money
+And the living ain\'t easy and the money disappears in a hurry, now
+I said
+No no I should\'ve stayed at school
+No no They\'re treating me so cruel
+No no I\'m breaking all the rules
+Breaking all the rules
+
+No no
+
+I was talking to the man he said we\'re gonna make a deal
+I was fooled into thinking the paper in my pocket was real
+I said
+No no You\'ve been taken again
+No no You\'re losing all your friends
+No no It\'s just a matter of sense
+It\'s just a matter of sense', 'None');
+INSERT INTO songs VALUES( 'warakurna', 'Warakurna', '3', 'Diesel And Dust', 'Diesel And Dust (1987, 1989)
+Building Bridges (????)', 'Produced by Warne Livesey and Midnight Oil. Engineered by Guy Gray. Recorded at Alberts Studios, Sydney.', 'There is enough for everyone
+In Redfern as there is in Alice
+This is not the Buckingham Palace
+This the crown land
+This is the brown land
+This is not our land
+
+Some folks live in water tanks
+Some folks live in red brick flats
+
+There is enough, the law is carved in granite
+It\'s been shaped by wind and rain
+White law could be wrong
+Black law could be strong
+
+Warakurna, cars will roll
+Don\'t drink by the water hole
+Court fines on the shopfront wall
+Beat the grog and save your soul
+
+Some people laugh, some never learn
+This land must change or land must burn
+Some people sleep, some people yearn
+This land must change or land must burn
+
+Diesel and dust is what we breathe
+This land don\'t change and we don\'t leave
+Some people live, some never die
+This land don\'t change this land must lie
+Some people leave, always return
+This land must change or land must burn
+
+Warakurna, camels roam
+Fires are warm and dogs are cold
+Not since Lassiter was here
+Black man\'s got a lot to fear
+
+Some people laugh, some never learn
+This land must change or land must burn
+Some people leave, always return
+This land must change or land must burn', 'diesel_and_dust/warakurna.htm');
+INSERT INTO songs VALUES( 'wedding_cake_island', 'Wedding Cake Island', '8/3', 'Bird Noises', 'Bird Noises (1980)
+Power And The Passion single (1982)
+Blue Sky Mine single (1990)', 'Produced by Leszek Karski. Engineered by Ross Cockle. Recorded at Music Farm, Byron Bay, 1980. Mixed by Leszek Karski at Studios 301, Sydney. Engineered by Christo.', 'Instrumental', 'None');
+INSERT INTO songs VALUES( 'what_goes_on', 'What Goes On', '7', 'Redneck Wonderland', '20,000 Watt RSL (1997)
+What Goes On promo (1997)
+Redneck Wonderland (1998)', 'Produced by Magoo and Midnight Oil. Recorded at Sing Sing Studios, Melbourne. Assistant engineers - Dave Davis and Matt Voigt. Mixed by Magoo at Sing Sing, 301 Sydney and b.j.g. London. Assistants at b.j.g - Alex Clark and James Wagstaff.', 'One things for sure that it\'s still the same
+That young folk die from some noble aim
+And they live so fast and they die so young
+And we just keep wondering what the hell went wrong
+Cos they live so fast but they die so young
+And we just keep wondering ... what goes on what goes on
+
+It\'s such a shame such a useless shame
+That they have to play such a hopeless game
+And it makes me shake makes me shake with rage
+For a wasted life for nothing gained
+Cos they live so fast but they die so young
+And we just keep wondering ... what goes on
+
+You got everything to live for
+We got everything to live for
+Ain\'t nothing I want to die for no nothing at all
+But they live so fast but they die so young
+And we just keep wonderingOne things for sure that it\'s still the same
+That young folk die from some noble aim
+And they live so fast and they die so young
+And we just keep wondering what the hell went wrong
+Cos they live so fast but they die so young
+And we just keep wondering ... what goes on what goes on
+
+It\'s such a shame such a useless shame
+That they have to play such a hopeless game
+And it makes me shake makes me shake with rage
+For a wasted life for nothing gained
+Cos they live so fast but they die so young
+And we just keep wondering ... what goes on
+
+You got everything to live for
+We got everything to live for
+Ain\'t nothing I want to die for no nothing at all
+But they live so fast but they die so young
+And we just keep wondering', 'redneck_wonderland/what_goes_on.html');
+INSERT INTO songs VALUES( 'when_the_generals_talk', 'When The Generals Talk', '2/3/1', 'Red Sails In The Sunset', 'When The Generals Talk promo (1984)
+Red Sails In The Sunset (1984)', 'Produced by Nick Launay and Midnight Oil. Engineered and Mixed by Nick Launay. Assistant Engineers - Shigeo Miyamoto, Yoshiyuki Kaneko. Recorded and mixed at Victor Aoyama Studio, Tokyo Jun/Aug, 1984.', 'Up there on the platform
+He is speaking to the people
+The people are responding
+With clapping and a\'cheering
+But the meaning of the message
+Not revealed to those assembled
+They\'re taken for a ride
+Taken In his stride
+
+When the Generals talk
+You better listen to him
+When the Generals talk
+You better do what he say
+
+There\'s a rumour in the ranking
+Someone\'s talking insurrection
+So the General has a purge
+\'Cos he wants to win elections
+With the certain satisfaction
+That the people are appeased
+Long live the revoluton
+The General\'s very pleased
+
+Sitting on the fence both ears to the ground
+The fat cats still push the thin cats around', 'None');
+INSERT INTO songs VALUES( 'white_skin_black_heart', 'White Skin Black Heart', '7', '20,000 Watt RSL', 'White Skin Black Heart (1997 - 1,2)
+20,000 Watt RSL (1997 - 1)
+Redneck Wonderland (1998 - 3)
+20,000 Watt RSL DVD/Video (1997 - 4)
+
+Remixes:
+Rusty Wheel Mix', '1) Album version produced by Magoo and Midnight Oil. Recorded at Sing Sing Studios, Melbourne. Assistant engineer - Dave Davis. Mixed at 301 Studios, Sydney. Assisted by Louis Mitchell. Engineered by Magoo.
+
+2) Rusty Wheel Mix on White Skin Black Heart single remixed by Mark Ovenden at Timelock Studios, Sydney. Assisted by Liza Balner.
+
+3) Remixed version on Redneck Wonderland mixed by Warne Livesey.
+
+4) Promo video clip on 20,000 Watt RSL DVD/Video directed by Andrew Lancaster and Midnight Oil.', 'What are you gonna do now,
+Now that you started
+What are you gonna do now, now that it\'s done
+The words got out there they\'re floating around
+And coming right back down
+Are you going to leave us lying here, dealing
+With the consequences of a bad sound
+
+What are you gonna do now, now that it\'s spoken
+Words have a habit of not fading away
+Our memory\'s clear conscience gets opened like a wound
+If you can\'t conceive of better lines and better
+Times then let silence bury you
+In the end you will be condemned
+
+You see the boston strangler on the freedom road
+You think the suffragettes got sunk a long long time ago
+You spewed it out your spite was insecure
+It was like bile from the heights on the toilet floor
+You were a nazi drunk ... you hadthe rednecks roaring for blood
+And then they wanted more, your life was so small
+You couldn\'t get enough you made a start ...
+You didn\'t have to start ... white skin black heart
+White skin black heart', 'redneck_wonderland/white_skin_black_heart.html');
+INSERT INTO songs VALUES( 'who_can_stand_in_the_way', 'Who Can Stand In The Way', '3/1', 'Red Sails In The Sunset', 'When The Generals Talk promo (1984)
+Red Sails In The Sunset (1984)
+Dreamworld single (1987)', 'Produced by Nick Launay and Midnight Oil. Engineered and Mixed by Nick Launay. Assistant Engineers - Shigeo Miyamoto, Yoshiyuki Kaneko. Recorded and mixed at Victor Aoyama Studio, Tokyo Jun/Aug, 1984.', 'Well oh well I feel I\'m in decay
+John Laws is on the air again
+It\'s heavy traffic, jacarandas, eye in the sky and foot on ground
+I see a million sand speck\'d ants in mortal combat hand to hand
+
+And I feel that I
+Yes I feel that I
+Seem to live this life long distance
+gaze at the things surround me
+People rolling in and out
+Those circles and tides confound me
+
+And there\'s just one thing
+Yes there\'s just one thing
+
+Who can stand in the way
+When there\'s a dollar to be made?
+
+I was hanging round off Dobroyd Point
+When the first fleet chain sailed in
+Looked into the clearest blue
+The scurvy smell, the convicts cry
+
+And we just carried on,
+Yes we just carried on
+
+Now choppers strafe the supermarket sky
+and people wonder why
+Chopping down tons of trees
+Got seas of print not a soul can read say
+Why do I drown you build brick boxes
+One by one now they block my sun
+But it\'s metal on metal
+It\'s the dance of TV
+If Christ were here he\'d camera check
+He\'d cry so loud the planes would stop
+He\'d cry so loud the earth would shake
+And men would fall in tinsel town
+
+There\'s just one thing
+Yes there\'s just one thing...
+
+Who can stand in the way
+When there\'s a dollar to be made?
+
+Precious moments, precious few
+When that dollar\'s more than me and you
+It\'s the joy of forgetting,
+Such a joy to forget
+But we killed all our firstborn
+And we slashed and we burned
+And we sold off the paddocks
+And we raped and we gouged
+On the wings of a six-pack
+Will we ever learn?', 'None');
+INSERT INTO songs VALUES( 'whoah', 'Whoah', '3/1', 'Diesel And Dust', 'The Dead Heart single (1988)
+Diesel And Dust (1987, 1989)', 'Produced by Warne Livesey and Midnight Oil. Engineered by Guy Gray. Recorded at Alberts Studios, Sydney.', 'The lord is my temple
+God is by my side
+You pay rates on that temple
+Build materials at the side
+He gives reasons
+To get through the day
+He doesn\'t have rinse action
+He just says
+
+Whoah - oh
+Don\'t wanna see you back here again
+
+Girls are not smiling
+The stars have gone out
+The man with the landslide
+Got his head in the ground
+Like an unopened letter
+Left under the door
+He says I am the answer you\'re looking for
+
+Whoah - oh
+Don\'t wanna see you back here again
+
+Above we dream in the Androporosphere
+Who maintains the drunken machinery
+Before we dream of a time
+When those men come from West Point', 'diesel_and_dust/whoah.htm');
+INSERT INTO songs VALUES( 'written_in_the_heart', 'Written In The Heart', '2/3/8', 'Place Without A Postcard', 'Don\'t Wanne Be The One single (1981 - 1)
+Place Without A Postcard (1981 - 1)
+Beds Are Burning - Live promo (1992 - 2)
+Sometimes - Live single (1992 - 2)', '1) Album version produced and recorded by Glyn Johns, Jun/Jul, 1981. Assistant engineer Sean Fullen.
+
+2) Live version on Beds Are Burning - Live promo and Sometimes - Live single produced by Midnight Oil and Keith Walker.', 'The God forsaken rifleman stands rigid at the bar
+The kids discover victims in the rubble and the tar
+They\'re married to ambition to the slogans of the war
+Slogans that used to be scrawled on the wall
+Are written in the heart
+
+A woman bows to Mecca and she struggles to her feet
+It\'s better since the president took shooting off the street
+She pictures all the poverty the cursed Holy War
+The pictures that used to be scrawled on the wall
+Are written in the heart
+
+The elders make a promise and they forge it in the fire
+The general\'s car is sabotaged, four bullets in the tire
+With the burning of the words there goes the scorching of the earth
+The words that used to be scrawled on the wall
+Are written in the heart', 'None');
+INSERT INTO songs VALUES( 'you_may_not_be_released', 'You May Not Be Released', '3', 'Blue Sky Mine', 'Blue Sky Mine single (1990)
+Forgotten Years single (1990)
+The Best Of The B-Sides promo (1997)
+
+Also appeared on early pressings of Blue Sky Mining in Australia.', 'Produced by Midnight Oil.', 'I understand things aren\'t often planned
+Under the bridge
+Pushed to the edge
+That\'s the way the story often ends
+
+There\'s always love
+You must understand
+You may not be released
+You must understand
+You may not be released
+
+Do you believe it
+So many things are talked about
+But not much is done
+Living in these times
+The rock is a heart
+Yeah, the rock ain\'t no stone
+Stones \'ll be thrown
+You can\'t guess who but you know
+< there\'s another Pete track overlayed here
+but I can\'t understand it >
+There\'s always love
+
+You must understand
+You may not be released
+You must understand
+You may not be released
+Well I say, Well I say you must understand
+You may not be released', 'None');
+INSERT INTO songs VALUES( 'glitch_baby_glitch', 'Glitch Baby Glitch', '2/1/3', 'Power And The Passion', 'Power And The Passion single (1982)
+My Country single (1993)
+
+This is a renamed special version of Power And The Passion.', 'Produced by Nick Launay and Midnight Oil. Remixed by Nick Launay.', 'Unspecified', 'None');
+INSERT INTO songs VALUES( 'wharf_rat', 'Wharf Rat', '18/19', 'Deadicated', 'Deadicated - A Tribute To The Grateful Dead (1991)
+Sometimes - Live single (1992)
+The Best Of The B-Sides promo (1997)', 'Produced by Ralph Sall and Midnight Oil. Programming by Ralph Sall. Engineered by Thom Cadley. Assisted by Lee Anthony. Recorded at The Hit Factory, New York.', 'Old man down
+Way down down,
+Down by the docks of the city
+
+Blind and dirty,
+Asking for a dime,
+A dime for a cup of coffee,
+I got no dime but I got some time to hear his story
+
+My name is August West,
+And I love my Pearly Baker best
+More than my wine,
+More than my wine--
+More than my maker,
+Though he\'s no friend of mine
+
+Everyone saying
+I\'ve come to no good
+I knew I would -- Pearly, believe them
+
+Half of my life,
+I spent doing time for some other fucker\'s crime,
+The other half found me stumbling round drunk on burgundy wine
+
+But I\'ll get back on my feet someday,
+The good Lord willing, if He says I may
+I know that the life I\'m livin\'s no good,
+I\'ll get a new start, lead the life I should.
+
+I\'ll get up and fly away,
+I\'ll get up and fly away,
+Fly away
+
+Pearly\'s been true,
+True to me, true to my dying days,
+I said to him,
+I said to him, I\'m sure she\'s been
+I said to him, I\'m sure she\'s been true to you
+
+Got up and wandered,
+Wandered downtown, nowhere to go but just hang around
+
+I gotta girl,
+Named Bonnie Lee,
+I know that girl\'s been true to me
+I know she\'s been, I\'m sure she\'s been true to me', 'None');
+INSERT INTO songs VALUES( 'ships_of_freedom', 'Ships Of Freedom', '2', 'My Country', 'My Country single (1993)
+In The Valley single (1993)
+Outbreak Of Love single (1993)
+The Best Of The B-Sides promo (1997)', 'Produced by Nick Launay and Midnight Oil', 'Jets fly low at the General Gordon Hotel at St. Peter\'s
+Trains are slow, but there must be some common ground between us
+Factory\'s cold, the first shift doesn\'t break till 11:30
+Streets are old, the houses clean, children seldom dirty
+
+Don\'t turn back the ships of freedom
+Back to the South China Sea
+Can you imagine the first taste of freedom for the refugee?
+
+Don\'t turn back the ships of freedom
+Back to the South China Sea
+Can you imagine the first taste of freedom for the refugee?', 'miscellaneous/ships_of_freedom.htm');
+INSERT INTO songs VALUES( 'peace,_love_and_understanding', 'Peace, Love And Understanding', '17', 'Put Down That Weapon', 'Put Down That Weapon single (1987)', 'Unspecified', 'As I walk through this wicked world
+Searching for light in the darkness of insanity
+I ask myself \"Is all hope lost?\"
+\"Is there only pain and hatred and misery?\"
+
+And each time I feel like this inside
+There\'s one thing I wanna know,
+What\'s so funny \'bout peace, love and understanding? Oh
+What\'s so funny \'bout peace, love and understanding?
+
+And as I walk on through troubled times
+My spirit gets so downhearted sometimes
+So where are the strong? And who are the trusted?
+And where is the harmony? Sweet harmony
+
+\'Cause each time I feel it slippin\' away
+It just makes me wanna cry,
+What\'s so funny \'bout peace, love and understanding? Oh
+What\'s so funny \'bout peace, love and understanding?
+
+So where are the strong? And who are the trusted?
+And where is the harmony? Sweet harmony
+
+\'Cause each time I feel it slippin\' away
+It just makes me wanna cry,
+What\'s so funny \'bout peace, love and understanding? Oh
+What\'s so funny \'bout peace, love and understanding? Oh
+What\'s so funny \'bout peace, love and understanding?', 'None');
+INSERT INTO songs VALUES( 'heaven_and_earth', 'Heaven And Earth', '7', 'Cemetery In My Mind', 'Cemetery In My Mind single (1998)', 'Produced by Magoo and Midnight Oil. Mixed by Magoo.', 'Unspecified', 'None');
+INSERT INTO songs VALUES( 'devilfish_shuffle', 'Devilfish Shuffle', '7', 'Cemetery In My Mind', 'Cemetery In My Mind single (1998)', 'Produced by Magoo and Midnight Oil. Mixed by Magoo.', 'Instrumental', 'None');
+INSERT INTO songs VALUES( 'frontier...what_frontier?', 'Frontier...What Frontier?', '7', 'White Skin Black Heart', 'White Skin Black Heart single (1997)
+Redneck Wonderland single (1998)', 'Recorded and programmed by Midnight Oil and Vince Pizzinga. Mixed by Jim Moginie. Made at 301. Narrative on Frontier...What Frontier? taken from the ABC documentary \"Frontier\" used with permission.', 'Unspecified', 'None');
+INSERT INTO songs VALUES( 'i_see_you', 'I See You', '7', 'Underwater', 'Underwater single (1996)
+Surf\'s Up Tonight single (1996)', 'Produced by Malcolm Burn. Recorded by Malcolm Burn and Grant Pudig at Darling Harbour Studios, Sydney on the Woodheap Mobile. Technical Assistance by Greg Cameron. Recorded on May/Jun 1996. Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996. ', 'Unspecified', 'None');
+INSERT INTO songs VALUES( 'smash_the_wobbleboard', 'Smash The Wobbleboard', '7', 'Underwater', 'Underwater single (1996)', 'Produced by Malcolm Burn. Recorded by Malcolm Burn and Grant Pudig at Darling Harbour Studios, Sydney on the Woodheap Mobile. Technical Assistance by Greg Cameron. Recorded on May/Jun 1996. Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996.', 'Unspecified', 'None');
+INSERT INTO songs VALUES( 'kingdom_of_flaunt', 'Kingdom Of Flaunt', '7', 'Underwater', 'Underwater single (1996)', 'Produced by Malcolm Burn. Recorded by Malcolm Burn and Grant Pudig at Darling Harbour Studios, Sydney on the Woodheap Mobile. Technical Assistance by Greg Cameron. Recorded on May/Jun 1996. Mixed by Malcolm Burn at Darling Harbour and Kingsway Studios, New Orleans, Jun 1996.', 'Instrumental', 'None');
+INSERT INTO songs VALUES( 'pub_with_no_beer', 'Pub With No Beer', '20', 'Redneck Wonderland single', 'Redneck Wonderland single (1998)
+Slim Dusty tribute album (1998)', 'Unspecified', 'Unspecified', 'None');
+
+# --------------------------------------------------------
+#
+# Table structure for table 'stats'
+#
+
+CREATE TABLE stats (
+   visits int(5) DEFAULT '0' NOT NULL,
+   searches int(5) DEFAULT '0' NOT NULL,
+   views int(5) DEFAULT '0' NOT NULL
+);
+
+#
+# Dumping data for table 'stats'
+#
+
+INSERT INTO stats VALUES( '127', '78', '563');
+
+# --------------------------------------------------------
+#
+# Table structure for table 'users'
+#
+
+CREATE TABLE users (
+   username varchar(16) NOT NULL,
+   password varchar(16) NOT NULL,
+   PRIMARY KEY (username),
+   UNIQUE username (username)
+);
+
+#
+# Dumping data for table 'users'
+#
+
+INSERT INTO users VALUES( 'mkelly', '691b670b33b8b5a4');
+
+# --------------------------------------------------------
+#
+# Table structure for table 'visual_disc'
+#
+
+CREATE TABLE visual_disc (
+   main_ver varchar(60) NOT NULL,
+   discog_url varchar(100) NOT NULL,
+   PRIMARY KEY (main_ver),
+   KEY main_ver (main_ver),
+   UNIQUE main_ver_2 (main_ver)
+);
+
+#
+# Dumping data for table 'visual_disc'
+#
+
+INSERT INTO visual_disc VALUES( '10,9,8,7,6,5,4,3,2,1', '10987654321/10987654321.htm');
+INSERT INTO visual_disc VALUES( 'Bird Noises', 'bird_noises.htm');
+INSERT INTO visual_disc VALUES( 'Black Rain Falls', 'black_rain_falls.htm');
+INSERT INTO visual_disc VALUES( 'Blue Sky Mining', 'blue_sky_mining/blue_sky_mining.htm');
+INSERT INTO visual_disc VALUES( 'Breathe', 'breathe/breathe.htm');
+INSERT INTO visual_disc VALUES( 'Diesel And Dust', 'diesel_and_dust/diesel_and_dust.htm');
+INSERT INTO visual_disc VALUES( 'Earth And Sun And Moon', 'earth_and_sun_and_moon/earth_and_sun_and_moon.htm');
+INSERT INTO visual_disc VALUES( 'Head Injuries', 'head_injuries/head_injuries.html');
+INSERT INTO visual_disc VALUES( 'Midnight Oil', 'blue_album/blue_album.htm');
+INSERT INTO visual_disc VALUES( 'Place Without A Postcard', 'place_without_a_postcard/place_without_a_postcard.htm');
+INSERT INTO visual_disc VALUES( 'Red Sails In The Sunset', 'red_sails_in_the_sunset/red_sails_in_the_sunset.htm');
+INSERT INTO visual_disc VALUES( 'Redneck Wonderland', 'redneck_wonderland/redneck_wonderland.html');
+INSERT INTO visual_disc VALUES( 'Species Deceases', 'species_deceases.htm');
+INSERT INTO visual_disc VALUES( '20,000 Watt RSL', '20000_watt_rsl/rsl.htm');
+
+# --------------------------------------------------------
+#
+# Table structure for table 'writers'
+#
+
+CREATE TABLE writers (
+   writer_id int(3) DEFAULT '0' NOT NULL auto_increment,
+   writer_name varchar(20) NOT NULL,
+   PRIMARY KEY (writer_id),
+   KEY writer_id (writer_id),
+   UNIQUE writer_id_2 (writer_id, writer_name)
+);
+
+#
+# Dumping data for table 'writers'
+#
+
+INSERT INTO writers VALUES( '1', 'Garrett');
+INSERT INTO writers VALUES( '2', 'Hirst');
+INSERT INTO writers VALUES( '3', 'Moginie');
+INSERT INTO writers VALUES( '4', 'Hillman');
+INSERT INTO writers VALUES( '5', 'Gifford');
+INSERT INTO writers VALUES( '6', 'James');
+INSERT INTO writers VALUES( '7', 'Midnight Oil');
+INSERT INTO writers VALUES( '8', 'Rotsey');
+INSERT INTO writers VALUES( '9', 'DaCosta');
+INSERT INTO writers VALUES( '10', 'Lennon');
+INSERT INTO writers VALUES( '11', 'Kevans');
+INSERT INTO writers VALUES( '12', 'Unspecified');
+INSERT INTO writers VALUES( '13', 'Burn');
+INSERT INTO writers VALUES( '14', 'Downie');
+INSERT INTO writers VALUES( '15', 'Lanois');
+INSERT INTO writers VALUES( '16', 'The Tragically Hip');
+INSERT INTO writers VALUES( '17', 'Lowe');
+INSERT INTO writers VALUES( '18', 'Garcia');
+INSERT INTO writers VALUES( '19', 'Hunter');
+INSERT INTO writers VALUES( '20', 'Dusty');

@@ -1,0 +1,4 @@
+<h3>Mecca</h3>
+<p><em>"A woman bows to <b>Mecca</b> and she struggles to her feet"</em> - Written In The Heart (Place Without A Postcard)<br>
+Mecca is the most holy city of Islam being the birthplace of the prophet Muhammad. Devout Muslims throughout the world turn toward Mecca in prayer five times each day. The city is located in the sandy, narrow valley of the Wadi and is surrounded by the Sirat Mountains. It has a dry climate with high temperatures and low rainfall, but is subject to seasonal flash floods. Mecca's economy is largely based on income from pilgrimages. Locals work as guides or are involved in housing or feeding the pilgrims.<br>
+Co-ordinates: 21.27N 39.49E</p>

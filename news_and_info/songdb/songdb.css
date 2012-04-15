@@ -1,0 +1,81 @@
+td  {
+	font-family : Arial;
+	font-size : 11pt;
+}
+
+h1  {
+	font-family : Arial;
+	font-size : 28pt;
+	font-weight : bold;
+	color : White;
+	font-style : italic;
+}
+
+h3  {
+	font-family : Arial;
+	font-size : 16pt;
+	font-style : italic;
+	font-weight : normal;
+}
+
+h4  {
+	font-family : Arial;
+	font-size : 18pt;
+}
+
+h6  {
+	font-family : Arial;
+	font-size : 9pt;
+}
+
+.nav  {
+	text-decoration : none;
+	font-size : 12pt;
+	font-family : Arial;
+	font-weight : bold;
+	font-style : normal;
+	color : White;
+}
+
+body  {
+	font-family : Arial;
+	color : White;
+}
+
+.top  {
+	background-color : #000000;
+	color : #FFFFFF;
+	font-weight : bold;
+	font-family : Arial;
+	font-style : italic;
+	font-size : 12pt;
+}
+
+.bot  {
+	background-color : #5F5632;
+	color : #FFFFFF;
+	font-size : 12pt;
+	font-family : Arial;
+	font-weight : normal;
+	font-style : normal;
+}
+
+p  {
+	font-family : Arial;
+	font-style : normal;
+	font-weight : normal;
+	color : #FFFFFF;
+	font-size : 12pt;
+}
+
+b  {
+	font-weight : bold;
+}
+
+h2  {
+	font-family : Arial;
+	font-size : 22pt;
+	font-weight : bold;
+	color : White;
+	font-style : italic;
+}

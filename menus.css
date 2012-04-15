@@ -1,0 +1,34 @@
+P  {
+	font-family : Arial;
+	font-weight : normal;
+}
+
+H1  {}
+
+H2  {
+	font-family : Arial;
+	font-size : 20pt;
+	font-style : italic;
+	font-weight : normal;
+}
+
+H3  {}
+
+A  {}
+
+A:Visited  {}
+
+A:Active  {}
+
+A:Hover  {}
+
+BODY  {}
+
+.small  {
+	font-family : Arial;
+	font-size : 10pt;
+}
+
+B  {
+	font-weight : bold;
+}

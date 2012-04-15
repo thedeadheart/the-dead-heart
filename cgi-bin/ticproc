@@ -1,0 +1,63 @@
+#!/usr/bin/perl -w
+
+use CGI;
+use strict;
+
+my $query = CGI::new();
+
+my $songname = $query->param("songname");
+my $opinion = $query->param("opinion");
+my $name = $query->param("name");
+my $prev_page = $ENV{'HTTP_REFERER'};
+my $mailprog = '/usr/lib/sendmail';
+my $address = 'mkelly';
+
+if (!$name) {$name = "Anonymous"};
+
+
+print <<HEADER;
+Content-type: text/html
+
+<!--MKelly2000-->
+<!--The Dead Heart www.deadheart.org.uk-->
+<HTML><HEAD><TITLE>Submission Received</TITLE>
+<LINK REL=stylesheet HREF="/opinion/talk_in_circles/circles.css" TYPE="text/css">
+</HEAD>
+<body bgcolor="#ffffff" topmargin=0 leftmargin=0 marginwidth=0 marginheight=0>
+<table width=100% cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td bgcolor=#000000 background="/opinion/talk_in_circles/water.gif">
+	<h1>Talk In Circles - Submission</h1>
+</td>
+</tr>
+<tr>
+<td bgcolor=#000000 background="/opinion/talk_in_circles/water-fade.gif" cellpadding="6">
+	<p><br><a href="/main_page.php" class="backref">TDH</A> - <a href="/opinion/">Opinion</A> - <a href="$prev_page">Previous Page</a><br></p>
+</td>
+</tr>
+</table>
+HEADER
+
+if (!$opinion) {
+	print $query->p("You need to return to the <a href=\"$prev_page\">form</a> and submit an opinion regarding \"$songname.\"");
+}
+else {
+
+print $query->p("$name wrote:-<br><em>$opinion</em>");
+
+print $query->p("The above information has been transmitted to the Dead Heart. It will be collated and published as soon as possible.<br>Thanks for the submission.");
+print "</body></html>";
+
+open (MAIL, "|$mailprog $address");
+print MAIL "From: www-mail\@deadheart.org.uk\n";
+print MAIL "To: $address\n";
+print MAIL "Subject: New TIC submission";
+print MAIL "\n";
+print MAIL "The following opinion was sent by $name...\n";
+print MAIL "...about $songname\n\n";
+print MAIL "$opinion\n";
+close MAIL;
+
+}
+
+

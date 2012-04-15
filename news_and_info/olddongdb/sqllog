@@ -1,0 +1,407 @@
+update songs set writers = '3', orig_ver = 'Liberdade', ver_details = 'Liberdade (East Timor benefit album) (1999)
+Say Your Prayers promo (1999)
+Capricornia (US 2002)', prod_details = 'Produced by Daniel Denholm and Midnight Oil
+Recorded and Mixed by Daniel Denholm
+Additional Engineering by Brent Clark
+Recorded at Festival Studios - November 1999
+Assisted by Matt Lovell
+Mixed at Alberts Studios - November 1999
+Assisted by Fabian Weston
+Brass arranged by Jim Moginie/Daniel Denholm
+Additional Musicians : Stewart Kirwan - Trumpet, Andrew Bickers - Tenor Sax, Anthony Kable - Trombone
+Mastered by Steve Smart @ Studios 301, Sydney', lyrics = 'Don\'t want to live in a prison cell
+Don\'t want to live in smoking room
+Independance just won\'t come to you
+In the brief of a diplomat
+
+Say your prayers for the future
+Say your prayers for the past
+It might be round the corner
+It might be all we have
+Say your prayers
+
+Couldn\'t live with a compromise
+Couldn\'t live with hypocrisy
+Beaurocracy it doesn\'t have to win
+Breaks the cage of the beast within
+
+Say your prayers in the boardroom
+Say your prayers on the stairs
+It might be catastrophic
+It might be too damn bad
+Say your prayers
+
+I got the cure for compassion fatigue
+Spend a week with the Timorese
+Running scared from the military
+You can share, you can share your disease
+
+Now we won\'t live with an absent master
+Couldn\'t live on an island divided
+Don\'t want my kids to grow up in shame
+In a country with a different name
+Had to throw them out
+Had to break the chains
+
+Say your prayers for the future
+Say your prayers for the past
+It might be round the corner
+It might be all we have
+Say your prayers
+
+I got the cure for the passion fatigue
+Spend a week with the Timorese
+Running scared from the military
+I come to you with a plaintive plea', tab = 'None' where id_name = 'say_your_prayers';
+insert into songs values ('golden_age','Golden Age','3/2/1','Golden Age','Golden Age (2002)
+Capricornia (2002)','Produced and recorded by Warne Livesey at Festival Studios, Pyrmont, Sydney. Assisted by Evan McHugh. Mixed by Warne Livesey at 301 Studios, Alexandria, Sydney. Assisted by Nicholas Cervonaro. Mastered by Bob Ludwig at Gateway Studios, Portland, Maine.','All the screens are filled with heroes and losers
+But the sky\'s still filled with stars
+This junky palace might be on fire
+Til the winners lose desire
+Let it go let it go
+
+So tell me what you see
+Tell me what you hear
+If it\'s the same as me it\'s the golden age
+
+Big brother tries to stitch and bend
+But channel surfers find new friends
+See freedom\'s silhouette increase
+Its time to claim that sweet release
+Let it go let it go
+
+I can see a purple patch of jacaranda
+Framed in eucalypt from this wooden floored verandah
+Heading past the watermark
+Heading for the hills
+Heading for the edge of time
+Heading for the thrills of the golden age
+
+Now tell me what you see
+And tell me what you hear
+If it\'s the same as me it\'s the golden age
+
+Now everybody\'s talking \'bout the golden age','None');
+insert into songs values ('too_much_sunshine','Too Much Sunshine','3','Capricornia','Golden Age (2002)
+Capricornia (2002)','Produced and recorded by Warne Livesey at Festival Studios, Pyrmont, Sydney. Assisted by Evan McHugh. Mixed by Warne Livesey at 301 Studios, Alexandria, Sydney. Assisted by Nicholas Cervonaro. Mastered by Bob Ludwig at Gateway Studios, Portland, Maine.','Haven\'t had so much fun since my daddy took the V 8 away
+Light a spark in the dark take a mark
+It\'s resurrection day
+It\'s a breeze Timorese APEC speak
+Wear batik seen not heard
+
+Well we do the same things that we always do
+Nothing changes but the colour changes hue
+I don\'t come to bury you
+The trouble is with you
+
+We got too much sunshine
+We got too much sunshine
+
+Have you ever built your house
+In a town called Pissitaway
+You were dreaming of marinas
+With a crown you were king for a day
+Saw a man with a reason any season
+Got a bird in his hand
+
+Well we do the same things that we always do
+Nothing changes but the channel changes view
+Well the trouble with you has been
+You can sleep but you can\'t dream
+
+We got too much sunshine','None');
+update songs set writers = '3/2/1', orig_ver = 'Capricornia', ver_details = 'Golden Age (2002)
+Capricornia (2002)', prod_details = 'Produced and recorded by Warne Livesey at Festival Studios, Pyrmont, Sydney. Assisted by Evan McHugh. Mixed by Warne Livesey at 301 Studios, Alexandria, Sydney. Assisted by Nicholas Cervonaro. Mastered by Bob Ludwig at Gateway Studios, Portland, Maine.', lyrics = 'All the screens are filled with heroes and losers
+But the sky\'s still filled with stars
+This junky palace might be on fire
+Til the winners lose desire
+Let it go let it go
+
+So tell me what you see
+Tell me what you hear
+If it\'s the same as me it\'s the golden age
+
+Big brother tries to stitch and bend
+But channel surfers find new friends
+See freedom\'s silhouette increase
+Its time to claim that sweet release
+Let it go let it go
+
+I can see a purple patch of jacaranda
+Framed in eucalypt from this wooden floored verandah
+Heading past the watermark
+Heading for the hills
+Heading for the edge of time
+Heading for the thrills of the golden age
+
+Now tell me what you see
+And tell me what you hear
+If it\'s the same as me it\'s the golden age
+
+Now everybody\'s talking \'bout the golden age', tab = 'None' where id_name = 'golden_age';
+update songs set writers = '3', orig_ver = 'Capricornia', ver_details = 'Golden Age (2002)
+Capricornia (2002)', prod_details = 'Produced and recorded by Warne Livesey at Festival Studios, Pyrmont, Sydney. Assisted by Evan McHugh. Mixed by Warne Livesey at 301 Studios, Alexandria, Sydney. Assisted by Nicholas Cervonaro. Mastered by Bob Ludwig at Gateway Studios, Portland, Maine.', lyrics = 'Haven\'t had so much fun since my daddy took the V8 away
+Light a spark in the dark take a mark
+It\'s resurrection day
+It\'s a breeze Timorese APEC speak
+Wear batik seen not heard
+
+Well we do the same things that we always do
+Nothing changes but the colour changes hue
+I don\'t come to bury you
+The trouble is with you
+
+We got too much sunshine
+We got too much sunshine
+
+Have you ever built your house
+In a town called Pissitaway
+You were dreaming of marinas
+With a crown you were king for a day
+Saw a man with a reason any season
+Got a bird in his hand
+
+Well we do the same things that we always do
+Nothing changes but the channel changes view
+Well the trouble with you has been
+You can sleep but you can\'t dream
+
+We got too much sunshine', tab = 'None' where id_name = 'too_much_sunshine';
+insert into songs values ('capricornia','Capricornia','3/2','Capricornia','Capricornia (2002)','Produced and recorded by Warne Livesey at Festival Studios, Pyrmont, Sydney. Assisted by Evan McHugh. Mixed by Warne Livesey at 301 Studios, Alexandria, Sydney. Assisted by Nicholas Cervonaro. Mastered by Bob Ludwig at Gateway Studios, Portland, Maine.','Capricornia don\'t walk away
+Show me to the back of your hand
+Capricornia don\'t leave me here
+Dying in the back of your land
+
+In the evening things all fall apart
+They crawl away dying in the bushes alone
+In the morning well I see myself
+See myself as a Christ like figure walking
+
+In the evening things all fall apart
+They crawl away
+Drowning in the setting sun
+In the morning well I see myself
+I see myself as a father mother brother sister
+
+Capricornia don\'t walk away
+Show me to the back of your hand
+Capricornia don\'t fade away
+Show me to the back of your hand
+Capricornia it\'s a free ride
+Capricornia','None');
+insert into songs values ('luritja_way','Luritja Way','3/2','Capricornia','Capricornia (2002)
+Luritja Way (2002)','Produced and recorded by Warne Livesey at Festival Studios, Pyrmont, Sydney. Assisted by Evan McHugh. Mixed by Warne Livesey at 301 Studios, Alexandria, Sydney. Assisted by Nicholas Cervonaro. Mastered by Bob Ludwig at Gateway Studios, Portland, Maine.','There\'s no highway to Luritja way
+I listen I listen for it now
+
+There\'s no turnoff to Luritja way
+One moment one moment for me please
+
+I\'m reaching out for you across a thousand years
+I\'m reaching out for you
+
+Joining the dots at Luritja way
+There is something hanging in the breeze
+
+Empty space at Luritja way
+No richer one picture of discontent
+
+I\'m reaching out for you in a valley full of tears
+I\'m reaching out for you
+
+And I don\'t want to go home
+Gasoline junkies dance stoned
+It\'s better than drinking alone
+
+Oh guiding light you will shine you\'ll pick me up
+You\'ll hold me up
+Oh guiding light you will shine
+You will shine on me in eternity
+
+Love is bought and sold
+Wobbegong tooth of gold
+No one gets to get old
+
+I\'m reaching out for you cos I still believe in you','None');
+insert into songs values ('tone_poem','Tone Poem','3/1','Capricornia','Capricornia (2002)','Produced and recorded by Warne Livesey at Festival Studios, Pyrmont, Sydney. Assisted by Evan McHugh. Mixed by Warne Livesey at 301 Studios, Alexandria, Sydney. Assisted by Nicholas Cervonaro. Mastered by Bob Ludwig at Gateway Studios, Portland, Maine.','Like a heat wave breaking as you smell warm rain
+We can fade away or start over again
+In a high five season in a cut-price land
+The southern cross don\'t shine on that invisible hand
+
+Where will you live when the fields are falling
+Where will you live when the feedlots calling
+Everybody standing in a tree tops saying
+Where will you live where will you live
+Everybody doesn\'t have to beg or borrow
+We are going to move into a new tomorrow
+Where will you live where will you live
+
+Invisible hand clutching at the throat
+Statistical sham an emperor\'s rags its sad
+Because equality\'s the only plea green fields are burning
+The reefs on fire and bellies are swollen they\'re hurting
+A willing victim I don\'t think so
+We won\'t be pinned against the wall
+There is no slogan that can feed you
+
+Where will you live when the fields are falling
+Where will you live when the feedlots calling
+Everybody\'s standing in a tree tops saying
+Where will you live where will you live
+Tearing up your ticket for the new titanic
+Heat haze refugee no-one panic
+
+Where will we go when the water comes over
+Where will you live where will you live
+Take a big breath don\'t have to drown sorrow
+Take a deep breath for a new tomorrow
+
+The bow will break the cradle fall
+We won\'t be jammed up against the wall','None');
+insert into songs values ('a_crocodile_cries','A Crocodile Cries','3','Capricornia','Capricornia (2002)','Produced and recorded by Warne Livesey at Festival Studios, Pyrmont, Sydney. Assisted by Evan McHugh. Mixed by Warne Livesey at 301 Studios, Alexandria, Sydney. Assisted by Nicholas Cervonaro. Mastered by Bob Ludwig at Gateway Studios, Portland, Maine.','Instrumental','None');
+insert into songs values ('mosquito_march','Mosquito March','3/1','Capricornia','Capricornia (2002)','Produced and recorded by Warne Livesey at Festival Studios, Pyrmont, Sydney. Assisted by Evan McHugh. Mixed by Warne Livesey at 301 Studios, Alexandria, Sydney. Assisted by Nicholas Cervonaro. Mastered by Bob Ludwig at Gateway Studios, Portland, Maine.','When they march
+When they march over fields
+Over fields of green
+Walking in the wilderness
+No future to the question
+You might get a simple answer
+
+Walking in the wilderness
+You\'re naked now just skin and sand
+You\'ll get a simple answer
+
+See the king see the king of happiness
+See the king of happiness in the light
+The light you can see him crawl
+See the king of happiness
+
+Walking in the wilderness
+No future to the question
+You might get a simple answer
+
+Walking in the wilderness the endless distance
+You don\'t need to get a simple answer
+
+Past the point of no return
+You\'re like a dog without a bone
+So get a simple answer
+Get a simple answer','None');
+insert into songs values ('been_away_too_long','Been Away Too Long','3/1','Capricornia','Capricornia (2002)','Produced and recorded by Warne Livesey at Festival Studios, Pyrmont, Sydney. Assisted by Evan McHugh. Mixed by Warne Livesey at 301 Studios, Alexandria, Sydney. Assisted by Nicholas Cervonaro. Mastered by Bob Ludwig at Gateway Studios, Portland, Maine.','Fresh air soft landing
+So good to be home
+This bruised world\'s got its beauty
+It\'s where I belong
+
+The sight of those green curves
+Quickens my heart
+Break the grip of Leviathan
+Now I\'m ready to start
+
+Have I been away too long
+Have I been away too long
+Have I been away too long
+I just can\'t wait
+
+Saw big smoke umbrella
+Blue lights up close
+Exploiters of psyche
+Stealing the code
+
+I imagine completeness
+No spin cycle deceit
+Time and tide keep on rolling
+Now the worlds at my feet','None');
+insert into songs values ('under_the_overpass','Under The Overpass','3/2','Capricornia','Capricornia','Produced and recorded by Warne Livesey at Festival Studios, Pyrmont, Sydney. Assisted by Evan McHugh. Mixed by Warne Livesey at 301 Studios, Alexandria, Sydney. Assisted by Nicholas Cervonaro. Mastered by Bob Ludwig at Gateway Studios, Portland, Maine.','Oh the news will travel slowly
+Over broken glass
+And you\'ve probably heard this story
+Under the overpass
+
+Got no time to weep for something
+You\'ll never get back
+Are you feeling cold and lonely
+Under the overpass
+
+Hallelujah Hallelujah
+Under the overpass
+
+Dingo cry in the middle of the night
+Snakeskin crawl under desert sunlight
+I wish and I hope
+Someone\'s there to drink from the soak
+In the town where I hit the ground
+In the town with the full nelson sound
+
+Oh the news will travel slowly
+Over broken glass
+And you\'ve probably heard this story
+Under the overpass
+
+Got no time to weep for something
+You\'ll never get back
+Are you feeling sad and lonely
+Under the overpass
+
+Hallelujah hallelujah
+Under the overpass','None');
+insert into songs values ('world_that_i_see','World That I See','3/2','Capricornia','Capricornia (2002)','Produced and recorded by Warne Livesey at Festival Studios, Pyrmont, Sydney. Assisted by Evan McHugh. Mixed by Warne Livesey at 301 Studios, Alexandria, Sydney. Assisted by Nicholas Cervonaro. Mastered by Bob Ludwig at Gateway Studios, Portland, Maine.','In a country that we call home
+In a land that\'s skin and bone
+There\'s a place that\'s hardly known
+
+Mountains appearing with the sun
+Rivers of light they westward run
+Night is draining from the firmament
+
+Railway fettler broken down
+On a branch line somewhere south
+Off the map and off the world
+
+There is no end to the world that I see
+There is no end to the world that I see
+
+As we swing from star to star
+We\'re not going very far
+The land is hard and gives no quarter
+
+The O\'Cannon garrison falls down
+You cannot hear the church bell sound
+The sun beats down and gives no sanctuary
+
+As sure as I stand on this place
+The spirit comes
+Let lightning strike and leave no trace','None');
+insert into songs values ('poets_and_slaves','Poets And Slaves','3','Capricornia','Capricornia (2002)','Produced and recorded by Warne Livesey at Festival Studios, Pyrmont, Sydney. Assisted by Evan McHugh. Mixed by Warne Livesey at 301 Studios, Alexandria, Sydney. Assisted by Nicholas Cervonaro. Mastered by Bob Ludwig at Gateway Studios, Portland, Maine.','Here comes the mechanical sun
+Working on the bones in the dry old creek bed
+Mist on the old river bend yellow box hangs like it\'s dead
+The emerald silo is rusting from the inside
+
+You want to run like the wind you\'ll never come here again
+You want a world you can save so c\'mon you poets and slaves
+
+Circus Olympia pulls into town
+Ahe dwarf and the fat man head out for beer
+There is no lion that roars to one can stand on the horse
+Tomorrow is a no show the fortune teller cries
+
+You want to go down in flames you\'re gonna crash like the waves
+You can\'t remember your name so come on you poets and slaves
+
+We got everything we need sugar and beef
+We got some good ideas
+We got the steering wheels and rolling stock too
+clouds came down low on the corn
+Meat ants are gathering like storms
+Somewhere in the quiet wild darkness a crocodile cries
+
+You gotta you gotta you gotta
+c\'mon you poets and slaves
+
+You got to arrest the decay you\'re sinking down in the bay
+You can\'t remember your name c\'mon you poets and slaves
+
+You\'ve got to count what you\'ve made
+You\'re gonna pass like the days
+Stop time and head for the stage
+
+And c\'mon you poets and slaves
+C\'mon you poets and slaves','None');
+update songs set writers = '20', orig_ver = 'Redneck Wonderland single', ver_details = 'Redneck Wonderland single (1998)
+Slim Dusty tribute album (1998)
+Capricornia (Europe 2002)', prod_details = 'Unspecified', lyrics = 'Unspecified', tab = 'None' where id_name = 'pub_with_no_beer';

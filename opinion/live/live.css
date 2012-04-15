@@ -1,0 +1,51 @@
+p  {
+	font-family : Arial;
+	font-size : 12pt;
+}
+
+ul {
+	font-family : Arial;
+	font-size : 12pt;
+}
+
+td  {
+	font-family : Arial;
+	font-size : 12pt;
+}
+
+em  {
+	font-family : Arial;
+	font-size : 12pt;
+	font-style : italic;
+	font-weight : bold;
+}
+
+h1  {
+	font-family : Arial;
+	font-size : 28pt;
+	font-style : italic;
+	font-weight : bold;
+}
+
+h3  {
+	font-family : Arial;
+	font-size : 16pt;
+}
+
+h4  {
+	font-family : Arial;
+	font-size : 14pt;
+}
+
+h6  {
+	font-family : Arial;
+	font-size : 9pt;
+}
+
+b  {
+	font-size : 12pt;
+	font-family : Arial;
+	font-weight : bolder;
+	font-style : italic;
+}
+

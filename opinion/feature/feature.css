@@ -1,0 +1,53 @@
+td  {
+	font-family : Arial;
+	font-size : 12pt;
+	color : #ffffff;
+}
+
+h1  {
+	font-family : Arial;
+	font-size : 28pt;
+	font-weight : bold;
+	color : #ffffff;
+}
+
+h3  {
+	font-family : Arial;
+	font-size : 16pt;
+	font-style : italic;
+	font-weight : normal;
+	color : #ffffff;
+}
+
+h4  {
+	font-family : Arial;
+	font-size : 14pt;
+	color : #ffffff;
+}
+
+h6  {
+	font-family : Arial;
+	font-size : 9pt;
+	color : #ffffff;
+}
+
+p  {
+	font-size : 12pt;
+	font-family : Arial;
+	color : #ffffff;
+}
+
+.a  {
+	font-style : italic;
+}
+
+.q  {
+	font-weight : bold;
+}
+
+ul  {
+	font-size : 12pt;
+	font-family : Arial;
+	color : #FFFFFF;
+}
+

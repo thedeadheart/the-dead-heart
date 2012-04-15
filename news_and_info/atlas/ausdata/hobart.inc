@@ -1,0 +1,5 @@
+<h3>Hobart</h3>
+<em>"...was taken by whites to <b>Hobart</b> where she <br>was exploited as 'Queen of the Aborigines'..."</em> - liner notes to Truganini single.<br>
+"Hobart is the largest city, chief port and capital of Tasmania. Located in the southeastern corner of the state the city ranges along steep foothills with Mt Wellington in the near background.It is Austalia's most southerly city. The British navigator George Bass explored the estuary in 1798 and was much impressed with the setting. Five years later the governor of New South Wales dispatched a lieutenant to establish a settlement at Ridson Cove. It was named Hobart Town after Robert Hobart, the secretary of state for the colonies. In 1804 the settlement was moved to the city's present site, Sullivan Cove. It was gazetted as a city in 1842 and a municipality in 1852. The municipality became part of the city in 1857." - <em>(from the Encyclopaedia Brittanica)</em><br>
+Co-ordinates: 42.53S 147.19E<br>
+Pg 166<p>
