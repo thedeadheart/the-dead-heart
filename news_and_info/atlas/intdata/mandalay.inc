@@ -1,5 +1,0 @@
-<h3>Mandalay</h3>
-<p><em>"Mountains of Burma,<br>
-The road to <b>Mandalay</b>"</em> - Mountains of Burma (Blue Sky Mining)<br>
-Mandalay was the former capital of Upper Burma. It was founded in 1857 by Mindo Min to replace Amarapura as his capital. It was the last capital of the Burmese kingdom and fell to British troops in November 1885. During World War II, the city was occupied by the Japanese and almost completely destryed, sustaining the heaviest damage during a 12-day siege in March 1945, when it was retaken by the British Army. THe song Mountains of Burma could refer to this fighting, but the line "road to Mandalay" could be a reference to the human rights abuses on the construction of the modern highway to Mandalay, on which slaves are chained up and forced to work<br>
-Co-ordinates: 22.00N 96.05E</p>

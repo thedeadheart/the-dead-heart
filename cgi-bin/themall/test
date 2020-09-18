@@ -1,3 +1,0 @@
-#!/usr/bin/perl -w
-
-`lynx -dump http://chatswood/midnight.txt > catalog`;

@@ -1,5 +1,0 @@
-<h3>Kakadu National Park</h3>
-<em>"A stick and a can and a <b>Kakadu</b> man"</em> - Gunbarrel Highway (Diesel and Dust)<br>
-Kakadu National Park is in the Northern Territory, Australia, established in 1979 and expanded in 1984 and 1987. It is located about 200 km east of Darwin. There are three main landscape regions—woodlands, which cover the largest area; rocky sandstone uplands in the south and east, rising to 450 km (280 mi) above the plains; and floodplains in the north. The park takes its name from the Aboriginal inhabitants, the Gagudju people, who trace their ancestry back at least 50,000 years. One thousand Aboriginal rock painting sites have been identified so far in the park; some of the paintings date from 35,000 years ago. Kakadu is an internationally important wetland and one of several sites in Australia inscribed on the World Heritage List.<br>
-Co-ordinates: 13.00S 132.45E<br>
-Pg 164<p>

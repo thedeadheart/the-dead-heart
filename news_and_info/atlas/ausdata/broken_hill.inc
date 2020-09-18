@@ -1,6 +1,0 @@
-<h3>Broken Hill</h3>
-<em>"...you even stole our dingo in <b>Broken Hill</b>..."</em> - Michael Lippold's liner notes from Scream in Blue - Live.<br>
-"Broken Hill is a mining city in west-central New South Wales. It lies on the eastern flank of the Main Barrier Range, 30 miles east of the South Australian border. Known as the Silver City, it is situated on one of the world's richest deposits of silver, lead and zinc ores. The site, in a hot and subarid region, was first visited in 1844 by Charles Sturt, who named the humpbacked range Broken Hill. The settlement was founded after the dicovery of lead and silver there in 1883. Mining operations were developed by the Broken Hill Proprietary Company, Ltd. formed in 1885.<br>
-Declared a municipality in 1888, Broken Hill was made a city in 1907. Broken Hill is a modern city with a university college associated with the Unviversity of New South Wales, hospitals, shops, and hotels. It is the base for a Royal Flying Doctor Service and a school of the air (which conducts school lessons via radio for outback children)." - <em>(from the Encyclopaedia Brittanica)</em><br>
-Co-ordinates: 31.57S 141.27E<br>
-Pg 166<p>
