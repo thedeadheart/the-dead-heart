@@ -21,7 +21,7 @@ A {	text-decoration : none;
 
 <tr>
 <td align="CENTER" valign="TOP" bgcolor="#5F5632" bordercolor="#DFDFBF">
-	<a href="/main_page.php"  target="_parent" class="nav">TDH</A></td>
+	<a href="/main_page.html"  target="_parent" class="nav">TDH</A></td>
 </tr>
 <tr>
 <td align="CENTER" bgcolor="#5F5632" bordercolor="#DFDFBF">

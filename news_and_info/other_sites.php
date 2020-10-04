@@ -5,7 +5,7 @@
 
 <table width=100%>
 <td valign=top width=125>
-<a href="/main_page.php"><img src="/images/nav-tdh-blue.gif" alt="The Dead Heart" width=121 height=42 border=0></a><br>
+<a href="/main_page.html"><img src="/images/nav-tdh-blue.gif" alt="The Dead Heart" width=121 height=42 border=0></a><br>
 <a href="/news_and_info/"><IMG src="/images/nav-news_and_info-blue.gif" alt="News & Info" width=121 height=42 vspace=4 border=0></A>
 </td>
 

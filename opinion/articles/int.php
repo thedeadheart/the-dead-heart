@@ -8,7 +8,7 @@
 <table width=100% border=0>
 <tr>
 <td valign=top width=125>
-	<a href="/main_page.php">
+	<a href="/main_page.html">
 	<img src="/images/nav-tdh-blue.gif" alt="The Dead Heart" width=121 height=42 border=0></A><br>
 	<a href="/opinion/">
 	<IMG src="/images/nav-opinion-blue.gif" alt="Opinion" width=121 height=42 vspace=4 border=0></A><br>
