@@ -13,7 +13,7 @@ A {	text-decoration : none;
 <table width="125" border="1" cellspacing="0" cellpadding="2" align="RIGHT" bordercolor="#ACAC59" bordercolordark="#696937">
 <tr>
 <td align="CENTER" valign="TOP" bgcolor="#5F5632" bordercolor="#DFDFBF">
-	<a href="<? echo $server_root ?>main_page.html"  target="_parent" class="nav">TDH</A></td>
+	<a href="<? echo $server_root ?>index.html"  target="_parent" class="nav">TDH</A></td>
 </tr>
 <tr>
 <td align="CENTER" bgcolor="#5F5632" bordercolor="#DFDFBF">
