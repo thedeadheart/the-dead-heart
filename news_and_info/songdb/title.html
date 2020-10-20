@@ -1,11 +1,6 @@
 <!-- MRKelly 2004 -->
 <!-- The Dead Heart http://www.deadheart.org.uk/ -->
 <!-- Song Database -->
-<?  
-    require( 'conf.inc.php' );
-    require( 'sdb.func.inc.php' );
-?>
-
 <html>
 <link href="songdb.css" rel="STYLESHEET" type="text/css">
 
@@ -32,40 +27,35 @@ A {	text-decoration : none;
 <h1>The Song Database</h1>
 
 <p><b>
-<?	
-    $varDBHandle = initDB();
-
-	/*if ($stats_on) {
-		$stat_query = "update stats set visits = visits + 1";
-		mysql_db_query($dbname, $stat_query, $dbh);
-	}*/
-
-	$varQuery = "SELECT song_name
-        FROM songs
-        ORDER BY song_name ASC";
-	$varResult = mysql_query( $varQuery, $varDBHandle);
-	if ($varResult == -1)
-    {
-		echo( "Error: $phperrmsg\n" );
-		exit( 1 );
-	}
-	$varLetter = "";
-	while( list( $song_name ) = mysql_fetch_row( $varResult ) )
-    {
-		$varNewLetter = substr( $song_name, 0, 1 );
-		if ( $varLetter != $varNewLetter )
-        {
-			$varHighLetter = strtoupper( $varNewLetter );
-			echo( "<a href=\"list.php?subInitial=$varNewLetter\" " );
-            echo( "target=\"songlist\">$varHighLetter</a>\n" );
-			$varLetter = $varNewLetter;
-		}
-	}
-
-?>
+    
+<p><b>
+    <a href="indexes/symbol.html" target="songlist">(</a>
+    <a href="indexes/a.html" target="songlist">A</a>
+    <a href="indexes/b.html" target="songlist">B</a>
+    <a href="indexes/c.html" target="songlist">C</a>
+    <a href="indexes/d.html" target="songlist">D</a>
+    <a href="indexes/e.html" target="songlist">E</a>
+    <a href="indexes/f.html" target="songlist">F</a>
+    <a href="indexes/g.html" target="songlist">G</a>
+    <a href="indexes/h.html" target="songlist">H</a>
+    <a href="indexes/i.html" target="songlist">I</a>
+    <a href="indexes/j.html" target="songlist">J</a>
+    <a href="indexes/k.html" target="songlist">K</a>
+    <a href="indexes/l.html" target="songlist">L</a>
+    <a href="indexes/m.html" target="songlist">M</a>
+    <a href="indexes/n.html" target="songlist">N</a>
+    <a href="indexes/o.html" target="songlist">O</a>
+    <a href="indexes/p.html" target="songlist">P</a>
+    <a href="indexes/q.html" target="songlist">Q</a>
+    <a href="indexes/r.html" target="songlist">R</a>
+    <a href="indexes/s.html" target="songlist">S</a>
+    <a href="indexes/t.html" target="songlist">T</a>
+    <a href="indexes/u.html" target="songlist">U</a>
+    <a href="indexes/w.html" target="songlist">W</a>
+    <a href="indexes/y.html" target="songlist">Y</a>
 
 <br>
-<a href="list_all.php" target="songlist">All Songs</a>
+<a href="list_all.html" target="songlist">All Songs</a>
  <!--&nbsp; &nbsp; <a href="search.php?subSongName=yes"
  target="songlist">Search</a>-->
  &nbsp; &nbsp; <a href="info.html" target="details">About</a>
